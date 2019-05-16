@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  HRCommonTool
+//
+//  Created by 八点半 on 2019/5/16.
+//  Copyright © 2019 CCAPP. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <UIKit/UIKit.h>
+#import "UIColor+ChangeColor.h"
+#import "UIView+directionBorder.h"
+#import "UIButton+Button.h"
+#import "UIView+Radius.h"
+#import "UIView+Extension.h"
+#import "DBTipView.h"
+#import "UILabel+DBUILabel.h"
+
+#import "CTLocalizedHelper.h"
+
+
+#define kMarginX 10
+#define kMarginY 15
+
+#define kTopMargin 10
+#define kLeadMargin 16
+
+#define kWIDTH [UIScreen mainScreen].bounds.size.width
+#define kHEIGHT [UIScreen mainScreen].bounds.size.height
+#define CTLocalizedString(key) [[CTLocalizedHelper standardHelper] stringWithKey:key]
+
+
+#define kAppUserToken @"kAppUserToken"
+
+#define kViewSeparatorBgColor [UIColor colorWithHexString:@"#ededed"]
+#define kSeperoterViewColor [UIColor colorWithHexString:@"#EDF1F6"]
+#define kTitleContentColor [UIColor colorWithHexString:@"#22323f"]
+#define kSubTitleContentColor [UIColor colorWithHexString:@"#919ba7"]
+#define kButtonBgColor [UIColor colorWithHexString:@"#006bff"]
+
+#define kKlineBgViewColor [UIColor colorWithHexString:@"#1c1f24"] //k线背景颜色
+#define kKlineTitleColor [UIColor colorWithHexString:@"#717e8f"]  //24H 颜色
+#define kKlineSubTitleColor [UIColor colorWithHexString:@"#4a5a5a"] //副标题颜色
+
+#endif /* PrefixHeader_pch */

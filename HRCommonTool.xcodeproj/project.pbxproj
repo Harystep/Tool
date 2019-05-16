@@ -15,6 +15,42 @@
 		702495BE228CFEB000BA01E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495BD228CFEB000BA01E0 /* main.m */; };
 		702495C8228CFEB000BA01E0 /* HRCommonToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495C7228CFEB000BA01E0 /* HRCommonToolTests.m */; };
 		702495D3228CFEB000BA01E0 /* HRCommonToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495D2228CFEB000BA01E0 /* HRCommonToolUITests.m */; };
+		70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495ED228CFF7900BA01E0 /* UIColor+ChangeColor.m */; };
+		70249601228CFF7900BA01E0 /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F1228CFF7900BA01E0 /* UIButton+Highlight.m */; };
+		70249602228CFF7900BA01E0 /* UIButton+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F3228CFF7900BA01E0 /* UIButton+Button.m */; };
+		70249603228CFF7900BA01E0 /* WHSNavItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F7228CFF7900BA01E0 /* WHSNavItemView.m */; };
+		70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */; };
+		70249605228CFF7900BA01E0 /* UIImage+Extense.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F9228CFF7900BA01E0 /* UIImage+Extense.m */; };
+		70249606228CFF7900BA01E0 /* UILabel+DBUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495FA228CFF7900BA01E0 /* UILabel+DBUILabel.m */; };
+		70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495FC228CFF7900BA01E0 /* UIView+Extension.m */; };
+		70249608228CFF7900BA01E0 /* UINavigationBar+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */; };
+		70249609228CFF7900BA01E0 /* UIView+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495FE228CFF7900BA01E0 /* UIView+Radius.m */; };
+		70249643228CFFA900BA01E0 /* HRNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024960D228CFFA900BA01E0 /* HRNetworkTool.m */; };
+		70249644228CFFA900BA01E0 /* CTLocalizedHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024960E228CFFA900BA01E0 /* CTLocalizedHelper.m */; };
+		70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249610228CFFA900BA01E0 /* UIView+directionBorder.m */; };
+		70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249612228CFFA900BA01E0 /* PGIndexBannerSubiew.m */; };
+		70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249613228CFFA900BA01E0 /* NewPagedFlowView.m */; };
+		70249648228CFFA900BA01E0 /* WHSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249616228CFFA900BA01E0 /* WHSAlertView.m */; };
+		70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249617228CFFA900BA01E0 /* WHSBaseNavigationController.m */; };
+		7024964A228CFFA900BA01E0 /* HRQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024961A228CFFA900BA01E0 /* HRQRViewController.m */; };
+		7024964B228CFFA900BA01E0 /* SZImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024961B228CFFA900BA01E0 /* SZImageView.m */; };
+		7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249620228CFFA900BA01E0 /* HMScannerBorder.m */; };
+		7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249622228CFFA900BA01E0 /* HMScannerMaskView.m */; };
+		7024964E228CFFA900BA01E0 /* HMScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249624228CFFA900BA01E0 /* HMScannerViewController.m */; };
+		7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249625228CFFA900BA01E0 /* HMScanner.m */; };
+		70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70249626228CFFA900BA01E0 /* HMScanner.bundle */; };
+		70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249627228CFFA900BA01E0 /* HMScanerCardViewController.m */; };
+		70249652228CFFA900BA01E0 /* HMScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249629228CFFA900BA01E0 /* HMScannerController.m */; };
+		70249653228CFFA900BA01E0 /* WHSPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024962D228CFFA900BA01E0 /* WHSPhotoImageView.m */; };
+		70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024962E228CFFA900BA01E0 /* DBCommonString.m */; };
+		70249655228CFFA900BA01E0 /* NSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249633228CFFA900BA01E0 /* NSUtil.m */; };
+		70249656228CFFA900BA01E0 /* DBModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249634228CFFA900BA01E0 /* DBModelManager.m */; };
+		70249657228CFFA900BA01E0 /* DBUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249635228CFFA900BA01E0 /* DBUserInfoModel.m */; };
+		70249658228CFFA900BA01E0 /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249636228CFFA900BA01E0 /* KeyChainStore.m */; };
+		70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249639228CFFA900BA01E0 /* HRCreatQRView.m */; };
+		7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963A228CFFA900BA01E0 /* BRBaseView.m */; };
+		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
+		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +87,78 @@
 		702495CE228CFEB000BA01E0 /* HRCommonToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRCommonToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702495D2228CFEB000BA01E0 /* HRCommonToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRCommonToolUITests.m; sourceTree = "<group>"; };
 		702495D4228CFEB000BA01E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702495E0228CFEC500BA01E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		702495EC228CFF7900BA01E0 /* WHSNavItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSNavItemView.h; sourceTree = "<group>"; };
+		702495ED228CFF7900BA01E0 /* UIColor+ChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChangeColor.m"; sourceTree = "<group>"; };
+		702495EE228CFF7900BA01E0 /* UIImage+Extense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extense.h"; sourceTree = "<group>"; };
+		702495EF228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertViewAndActionSheet.h"; sourceTree = "<group>"; };
+		702495F0228CFF7900BA01E0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		702495F1228CFF7900BA01E0 /* UIButton+Highlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Highlight.m"; sourceTree = "<group>"; };
+		702495F2228CFF7900BA01E0 /* UILabel+DBUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DBUILabel.h"; sourceTree = "<group>"; };
+		702495F3228CFF7900BA01E0 /* UIButton+Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Button.m"; sourceTree = "<group>"; };
+		702495F4228CFF7900BA01E0 /* UIView+Radius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Radius.h"; sourceTree = "<group>"; };
+		702495F5228CFF7900BA01E0 /* UINavigationBar+handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+handle.h"; sourceTree = "<group>"; };
+		702495F6228CFF7900BA01E0 /* UIColor+ChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChangeColor.h"; sourceTree = "<group>"; };
+		702495F7228CFF7900BA01E0 /* WHSNavItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSNavItemView.m; sourceTree = "<group>"; };
+		702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertViewAndActionSheet.m"; sourceTree = "<group>"; };
+		702495F9228CFF7900BA01E0 /* UIImage+Extense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extense.m"; sourceTree = "<group>"; };
+		702495FA228CFF7900BA01E0 /* UILabel+DBUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DBUILabel.m"; sourceTree = "<group>"; };
+		702495FB228CFF7900BA01E0 /* UIButton+Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Highlight.h"; sourceTree = "<group>"; };
+		702495FC228CFF7900BA01E0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+handle.m"; sourceTree = "<group>"; };
+		702495FE228CFF7900BA01E0 /* UIView+Radius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Radius.m"; sourceTree = "<group>"; };
+		702495FF228CFF7900BA01E0 /* UIButton+Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Button.h"; sourceTree = "<group>"; };
+		7024960B228CFFA900BA01E0 /* HRNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRNetworkTool.h; sourceTree = "<group>"; };
+		7024960C228CFFA900BA01E0 /* CTLocalizedHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLocalizedHelper.h; sourceTree = "<group>"; };
+		7024960D228CFFA900BA01E0 /* HRNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRNetworkTool.m; sourceTree = "<group>"; };
+		7024960E228CFFA900BA01E0 /* CTLocalizedHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLocalizedHelper.m; sourceTree = "<group>"; };
+		70249610228CFFA900BA01E0 /* UIView+directionBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+directionBorder.m"; sourceTree = "<group>"; };
+		70249612228CFFA900BA01E0 /* PGIndexBannerSubiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGIndexBannerSubiew.m; sourceTree = "<group>"; };
+		70249613228CFFA900BA01E0 /* NewPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPagedFlowView.m; sourceTree = "<group>"; };
+		70249614228CFFA900BA01E0 /* PGIndexBannerSubiew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGIndexBannerSubiew.h; sourceTree = "<group>"; };
+		70249615228CFFA900BA01E0 /* NewPagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPagedFlowView.h; sourceTree = "<group>"; };
+		70249616228CFFA900BA01E0 /* WHSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSAlertView.m; sourceTree = "<group>"; };
+		70249617228CFFA900BA01E0 /* WHSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSBaseNavigationController.m; sourceTree = "<group>"; };
+		70249618228CFFA900BA01E0 /* BRStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRStringPickerView.h; sourceTree = "<group>"; };
+		7024961A228CFFA900BA01E0 /* HRQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRQRViewController.m; sourceTree = "<group>"; };
+		7024961B228CFFA900BA01E0 /* SZImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZImageView.m; sourceTree = "<group>"; };
+		7024961C228CFFA900BA01E0 /* DBCommonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCommonString.h; sourceTree = "<group>"; };
+		7024961D228CFFA900BA01E0 /* WHSPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSPhotoImageView.h; sourceTree = "<group>"; };
+		7024961F228CFFA900BA01E0 /* HMScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanner.h; sourceTree = "<group>"; };
+		70249620228CFFA900BA01E0 /* HMScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerBorder.m; sourceTree = "<group>"; };
+		70249621228CFFA900BA01E0 /* HMScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerController.h; sourceTree = "<group>"; };
+		70249622228CFFA900BA01E0 /* HMScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerMaskView.m; sourceTree = "<group>"; };
+		70249623228CFFA900BA01E0 /* HMScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanerCardViewController.h; sourceTree = "<group>"; };
+		70249624228CFFA900BA01E0 /* HMScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerViewController.m; sourceTree = "<group>"; };
+		70249625228CFFA900BA01E0 /* HMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanner.m; sourceTree = "<group>"; };
+		70249626228CFFA900BA01E0 /* HMScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMScanner.bundle; sourceTree = "<group>"; };
+		70249627228CFFA900BA01E0 /* HMScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanerCardViewController.m; sourceTree = "<group>"; };
+		70249628228CFFA900BA01E0 /* HMScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerMaskView.h; sourceTree = "<group>"; };
+		70249629228CFFA900BA01E0 /* HMScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerController.m; sourceTree = "<group>"; };
+		7024962A228CFFA900BA01E0 /* HMScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerBorder.h; sourceTree = "<group>"; };
+		7024962B228CFFA900BA01E0 /* HMScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerViewController.h; sourceTree = "<group>"; };
+		7024962C228CFFA900BA01E0 /* HRQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRQRViewController.h; sourceTree = "<group>"; };
+		7024962D228CFFA900BA01E0 /* WHSPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSPhotoImageView.m; sourceTree = "<group>"; };
+		7024962E228CFFA900BA01E0 /* DBCommonString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCommonString.m; sourceTree = "<group>"; };
+		7024962F228CFFA900BA01E0 /* SZImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZImageView.h; sourceTree = "<group>"; };
+		70249631228CFFA900BA01E0 /* DBUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUserInfoModel.h; sourceTree = "<group>"; };
+		70249632228CFFA900BA01E0 /* KeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainStore.h; sourceTree = "<group>"; };
+		70249633228CFFA900BA01E0 /* NSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUtil.m; sourceTree = "<group>"; };
+		70249634228CFFA900BA01E0 /* DBModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBModelManager.m; sourceTree = "<group>"; };
+		70249635228CFFA900BA01E0 /* DBUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUserInfoModel.m; sourceTree = "<group>"; };
+		70249636228CFFA900BA01E0 /* KeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainStore.m; sourceTree = "<group>"; };
+		70249637228CFFA900BA01E0 /* DBModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBModelManager.h; sourceTree = "<group>"; };
+		70249638228CFFA900BA01E0 /* NSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUtil.h; sourceTree = "<group>"; };
+		70249639228CFFA900BA01E0 /* HRCreatQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCreatQRView.m; sourceTree = "<group>"; };
+		7024963A228CFFA900BA01E0 /* BRBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBaseView.m; sourceTree = "<group>"; };
+		7024963B228CFFA900BA01E0 /* DBTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTipView.h; sourceTree = "<group>"; };
+		7024963C228CFFA900BA01E0 /* UIView+directionBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+directionBorder.h"; sourceTree = "<group>"; };
+		7024963D228CFFA900BA01E0 /* BRStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRStringPickerView.m; sourceTree = "<group>"; };
+		7024963E228CFFA900BA01E0 /* WHSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSBaseNavigationController.h; sourceTree = "<group>"; };
+		7024963F228CFFA900BA01E0 /* WHSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSAlertView.h; sourceTree = "<group>"; };
+		70249640228CFFA900BA01E0 /* DBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTipView.m; sourceTree = "<group>"; };
+		70249641228CFFA900BA01E0 /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
+		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +209,9 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				7024960A228CFFA900BA01E0 /* Tool */,
+				7024960F228CFFA900BA01E0 /* ToolView */,
+				702495EB228CFF7800BA01E0 /* HRCategory */,
 				702495AE228CFEAE00BA01E0 /* AppDelegate.h */,
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
@@ -110,6 +221,7 @@
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
 				702495BC228CFEB000BA01E0 /* Info.plist */,
 				702495BD228CFEB000BA01E0 /* main.m */,
+				702495E0228CFEC500BA01E0 /* PrefixHeader.pch */,
 			);
 			path = HRCommonTool;
 			sourceTree = "<group>";
@@ -130,6 +242,130 @@
 				702495D4228CFEB000BA01E0 /* Info.plist */,
 			);
 			path = HRCommonToolUITests;
+			sourceTree = "<group>";
+		};
+		702495EB228CFF7800BA01E0 /* HRCategory */ = {
+			isa = PBXGroup;
+			children = (
+				702495EC228CFF7900BA01E0 /* WHSNavItemView.h */,
+				702495ED228CFF7900BA01E0 /* UIColor+ChangeColor.m */,
+				702495EE228CFF7900BA01E0 /* UIImage+Extense.h */,
+				702495EF228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.h */,
+				702495F0228CFF7900BA01E0 /* UIView+Extension.h */,
+				702495F1228CFF7900BA01E0 /* UIButton+Highlight.m */,
+				702495F2228CFF7900BA01E0 /* UILabel+DBUILabel.h */,
+				702495F3228CFF7900BA01E0 /* UIButton+Button.m */,
+				702495F4228CFF7900BA01E0 /* UIView+Radius.h */,
+				702495F5228CFF7900BA01E0 /* UINavigationBar+handle.h */,
+				702495F6228CFF7900BA01E0 /* UIColor+ChangeColor.h */,
+				702495F7228CFF7900BA01E0 /* WHSNavItemView.m */,
+				702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */,
+				702495F9228CFF7900BA01E0 /* UIImage+Extense.m */,
+				702495FA228CFF7900BA01E0 /* UILabel+DBUILabel.m */,
+				702495FB228CFF7900BA01E0 /* UIButton+Highlight.h */,
+				702495FC228CFF7900BA01E0 /* UIView+Extension.m */,
+				702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */,
+				702495FE228CFF7900BA01E0 /* UIView+Radius.m */,
+				702495FF228CFF7900BA01E0 /* UIButton+Button.h */,
+			);
+			path = HRCategory;
+			sourceTree = "<group>";
+		};
+		7024960A228CFFA900BA01E0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7024960B228CFFA900BA01E0 /* HRNetworkTool.h */,
+				7024960C228CFFA900BA01E0 /* CTLocalizedHelper.h */,
+				7024960D228CFFA900BA01E0 /* HRNetworkTool.m */,
+				7024960E228CFFA900BA01E0 /* CTLocalizedHelper.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7024960F228CFFA900BA01E0 /* ToolView */ = {
+			isa = PBXGroup;
+			children = (
+				70249610228CFFA900BA01E0 /* UIView+directionBorder.m */,
+				70249611228CFFA900BA01E0 /* NewPagedFlowView */,
+				70249616228CFFA900BA01E0 /* WHSAlertView.m */,
+				70249617228CFFA900BA01E0 /* WHSBaseNavigationController.m */,
+				70249618228CFFA900BA01E0 /* BRStringPickerView.h */,
+				70249619228CFFA900BA01E0 /* WHSToolVontroller */,
+				70249639228CFFA900BA01E0 /* HRCreatQRView.m */,
+				7024963A228CFFA900BA01E0 /* BRBaseView.m */,
+				7024963B228CFFA900BA01E0 /* DBTipView.h */,
+				7024963C228CFFA900BA01E0 /* UIView+directionBorder.h */,
+				7024963D228CFFA900BA01E0 /* BRStringPickerView.m */,
+				7024963E228CFFA900BA01E0 /* WHSBaseNavigationController.h */,
+				7024963F228CFFA900BA01E0 /* WHSAlertView.h */,
+				70249640228CFFA900BA01E0 /* DBTipView.m */,
+				70249641228CFFA900BA01E0 /* BRBaseView.h */,
+				70249642228CFFA900BA01E0 /* HRCreatQRView.h */,
+			);
+			path = ToolView;
+			sourceTree = "<group>";
+		};
+		70249611228CFFA900BA01E0 /* NewPagedFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				70249612228CFFA900BA01E0 /* PGIndexBannerSubiew.m */,
+				70249613228CFFA900BA01E0 /* NewPagedFlowView.m */,
+				70249614228CFFA900BA01E0 /* PGIndexBannerSubiew.h */,
+				70249615228CFFA900BA01E0 /* NewPagedFlowView.h */,
+			);
+			path = NewPagedFlowView;
+			sourceTree = "<group>";
+		};
+		70249619228CFFA900BA01E0 /* WHSToolVontroller */ = {
+			isa = PBXGroup;
+			children = (
+				7024961A228CFFA900BA01E0 /* HRQRViewController.m */,
+				7024961B228CFFA900BA01E0 /* SZImageView.m */,
+				7024961C228CFFA900BA01E0 /* DBCommonString.h */,
+				7024961D228CFFA900BA01E0 /* WHSPhotoImageView.h */,
+				7024961E228CFFA900BA01E0 /* QRCode */,
+				7024962C228CFFA900BA01E0 /* HRQRViewController.h */,
+				7024962D228CFFA900BA01E0 /* WHSPhotoImageView.m */,
+				7024962E228CFFA900BA01E0 /* DBCommonString.m */,
+				7024962F228CFFA900BA01E0 /* SZImageView.h */,
+				70249630228CFFA900BA01E0 /* HRPictureCompression */,
+			);
+			path = WHSToolVontroller;
+			sourceTree = "<group>";
+		};
+		7024961E228CFFA900BA01E0 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				7024961F228CFFA900BA01E0 /* HMScanner.h */,
+				70249620228CFFA900BA01E0 /* HMScannerBorder.m */,
+				70249621228CFFA900BA01E0 /* HMScannerController.h */,
+				70249622228CFFA900BA01E0 /* HMScannerMaskView.m */,
+				70249623228CFFA900BA01E0 /* HMScanerCardViewController.h */,
+				70249624228CFFA900BA01E0 /* HMScannerViewController.m */,
+				70249625228CFFA900BA01E0 /* HMScanner.m */,
+				70249626228CFFA900BA01E0 /* HMScanner.bundle */,
+				70249627228CFFA900BA01E0 /* HMScanerCardViewController.m */,
+				70249628228CFFA900BA01E0 /* HMScannerMaskView.h */,
+				70249629228CFFA900BA01E0 /* HMScannerController.m */,
+				7024962A228CFFA900BA01E0 /* HMScannerBorder.h */,
+				7024962B228CFFA900BA01E0 /* HMScannerViewController.h */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		70249630228CFFA900BA01E0 /* HRPictureCompression */ = {
+			isa = PBXGroup;
+			children = (
+				70249631228CFFA900BA01E0 /* DBUserInfoModel.h */,
+				70249632228CFFA900BA01E0 /* KeyChainStore.h */,
+				70249633228CFFA900BA01E0 /* NSUtil.m */,
+				70249634228CFFA900BA01E0 /* DBModelManager.m */,
+				70249635228CFFA900BA01E0 /* DBUserInfoModel.m */,
+				70249636228CFFA900BA01E0 /* KeyChainStore.m */,
+				70249637228CFFA900BA01E0 /* DBModelManager.h */,
+				70249638228CFFA900BA01E0 /* NSUtil.h */,
+			);
+			path = HRPictureCompression;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +474,7 @@
 				702495BB228CFEB000BA01E0 /* LaunchScreen.storyboard in Resources */,
 				702495B8228CFEB000BA01E0 /* Assets.xcassets in Resources */,
 				702495B6228CFEAE00BA01E0 /* Main.storyboard in Resources */,
+				70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +499,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70249644228CFFA900BA01E0 /* CTLocalizedHelper.m in Sources */,
+				70249658228CFFA900BA01E0 /* KeyChainStore.m in Sources */,
+				70249657228CFFA900BA01E0 /* DBUserInfoModel.m in Sources */,
+				70249605228CFF7900BA01E0 /* UIImage+Extense.m in Sources */,
 				702495B3228CFEAE00BA01E0 /* ViewController.m in Sources */,
+				70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */,
+				70249653228CFFA900BA01E0 /* WHSPhotoImageView.m in Sources */,
+				70249602228CFF7900BA01E0 /* UIButton+Button.m in Sources */,
+				70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */,
+				7024964A228CFFA900BA01E0 /* HRQRViewController.m in Sources */,
+				7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */,
+				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
+				70249606228CFF7900BA01E0 /* UILabel+DBUILabel.m in Sources */,
+				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
+				70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */,
+				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
+				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
+				70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */,
+				7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */,
+				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
+				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
+				70249601228CFF7900BA01E0 /* UIButton+Highlight.m in Sources */,
+				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
+				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
+				70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */,
+				70249603228CFF7900BA01E0 /* WHSNavItemView.m in Sources */,
+				70249648228CFFA900BA01E0 /* WHSAlertView.m in Sources */,
+				7024964B228CFFA900BA01E0 /* SZImageView.m in Sources */,
+				70249652228CFFA900BA01E0 /* HMScannerController.m in Sources */,
+				7024964E228CFFA900BA01E0 /* HMScannerViewController.m in Sources */,
+				70249609228CFF7900BA01E0 /* UIView+Radius.m in Sources */,
+				70249643228CFFA900BA01E0 /* HRNetworkTool.m in Sources */,
+				70249608228CFF7900BA01E0 /* UINavigationBar+handle.m in Sources */,
 				702495BE228CFEB000BA01E0 /* main.m in Sources */,
+				70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */,
+				70249656228CFFA900BA01E0 /* DBModelManager.m in Sources */,
+				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
 				702495B0228CFEAE00BA01E0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +709,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8WLF255VX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +728,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8WLF255VX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
