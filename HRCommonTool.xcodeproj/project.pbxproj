@@ -16,7 +16,6 @@
 		702495C8228CFEB000BA01E0 /* HRCommonToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495C7228CFEB000BA01E0 /* HRCommonToolTests.m */; };
 		702495D3228CFEB000BA01E0 /* HRCommonToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495D2228CFEB000BA01E0 /* HRCommonToolUITests.m */; };
 		70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495ED228CFF7900BA01E0 /* UIColor+ChangeColor.m */; };
-		70249601228CFF7900BA01E0 /* UIButton+Highlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F1228CFF7900BA01E0 /* UIButton+Highlight.m */; };
 		70249602228CFF7900BA01E0 /* UIButton+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F3228CFF7900BA01E0 /* UIButton+Button.m */; };
 		70249603228CFF7900BA01E0 /* WHSNavItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F7228CFF7900BA01E0 /* WHSNavItemView.m */; };
 		70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */; };
@@ -51,6 +50,7 @@
 		7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963A228CFFA900BA01E0 /* BRBaseView.m */; };
 		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
+		CE8A169B22E0459F00233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169A22E0459F00233869 /* HRModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +93,6 @@
 		702495EE228CFF7900BA01E0 /* UIImage+Extense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extense.h"; sourceTree = "<group>"; };
 		702495EF228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertViewAndActionSheet.h"; sourceTree = "<group>"; };
 		702495F0228CFF7900BA01E0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		702495F1228CFF7900BA01E0 /* UIButton+Highlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Highlight.m"; sourceTree = "<group>"; };
 		702495F2228CFF7900BA01E0 /* UILabel+DBUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DBUILabel.h"; sourceTree = "<group>"; };
 		702495F3228CFF7900BA01E0 /* UIButton+Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Button.m"; sourceTree = "<group>"; };
 		702495F4228CFF7900BA01E0 /* UIView+Radius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Radius.h"; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 		702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertViewAndActionSheet.m"; sourceTree = "<group>"; };
 		702495F9228CFF7900BA01E0 /* UIImage+Extense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extense.m"; sourceTree = "<group>"; };
 		702495FA228CFF7900BA01E0 /* UILabel+DBUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DBUILabel.m"; sourceTree = "<group>"; };
-		702495FB228CFF7900BA01E0 /* UIButton+Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Highlight.h"; sourceTree = "<group>"; };
 		702495FC228CFF7900BA01E0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+handle.m"; sourceTree = "<group>"; };
 		702495FE228CFF7900BA01E0 /* UIView+Radius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Radius.m"; sourceTree = "<group>"; };
@@ -159,6 +157,8 @@
 		70249640228CFFA900BA01E0 /* DBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTipView.m; sourceTree = "<group>"; };
 		70249641228CFFA900BA01E0 /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
+		CE8A169922E0459F00233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
+		CE8A169A22E0459F00233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +216,8 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
+				CE8A169922E0459F00233869 /* HRModel.h */,
+				CE8A169A22E0459F00233869 /* HRModel.m */,
 				702495B4228CFEAE00BA01E0 /* Main.storyboard */,
 				702495B7228CFEB000BA01E0 /* Assets.xcassets */,
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
@@ -252,7 +254,6 @@
 				702495EE228CFF7900BA01E0 /* UIImage+Extense.h */,
 				702495EF228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.h */,
 				702495F0228CFF7900BA01E0 /* UIView+Extension.h */,
-				702495F1228CFF7900BA01E0 /* UIButton+Highlight.m */,
 				702495F2228CFF7900BA01E0 /* UILabel+DBUILabel.h */,
 				702495F3228CFF7900BA01E0 /* UIButton+Button.m */,
 				702495F4228CFF7900BA01E0 /* UIView+Radius.h */,
@@ -262,7 +263,6 @@
 				702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */,
 				702495F9228CFF7900BA01E0 /* UIImage+Extense.m */,
 				702495FA228CFF7900BA01E0 /* UILabel+DBUILabel.m */,
-				702495FB228CFF7900BA01E0 /* UIButton+Highlight.h */,
 				702495FC228CFF7900BA01E0 /* UIView+Extension.m */,
 				702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */,
 				702495FE228CFF7900BA01E0 /* UIView+Radius.m */,
@@ -502,6 +502,7 @@
 				70249644228CFFA900BA01E0 /* CTLocalizedHelper.m in Sources */,
 				70249658228CFFA900BA01E0 /* KeyChainStore.m in Sources */,
 				70249657228CFFA900BA01E0 /* DBUserInfoModel.m in Sources */,
+				CE8A169B22E0459F00233869 /* HRModel.m in Sources */,
 				70249605228CFF7900BA01E0 /* UIImage+Extense.m in Sources */,
 				702495B3228CFEAE00BA01E0 /* ViewController.m in Sources */,
 				70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */,
@@ -520,7 +521,6 @@
 				7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */,
 				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
 				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
-				70249601228CFF7900BA01E0 /* UIButton+Highlight.m in Sources */,
 				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
 				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
 				70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */,
@@ -708,7 +708,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8WLF255VX;
+				DEVELOPMENT_TEAM = 9DBJYL6PR9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
@@ -727,7 +727,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8WLF255VX;
+				DEVELOPMENT_TEAM = 9DBJYL6PR9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
