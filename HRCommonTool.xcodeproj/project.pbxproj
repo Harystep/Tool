@@ -51,6 +51,7 @@
 		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
 		CE8A169E22E04A3300233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169D22E04A3300233869 /* HRModel.m */; };
+		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +160,8 @@
 		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
 		CE8A169C22E04A3300233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
 		CE8A169D22E04A3300233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
+		CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCommonUtils.m; sourceTree = "<group>"; };
+		CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +288,8 @@
 		7024960F228CFFA900BA01E0 /* ToolView */ = {
 			isa = PBXGroup;
 			children = (
+				CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */,
+				CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */,
 				70249610228CFFA900BA01E0 /* UIView+directionBorder.m */,
 				70249611228CFFA900BA01E0 /* NewPagedFlowView */,
 				70249616228CFFA900BA01E0 /* WHSAlertView.m */,
@@ -535,6 +540,7 @@
 				702495BE228CFEB000BA01E0 /* main.m in Sources */,
 				70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */,
 				70249656228CFFA900BA01E0 /* DBModelManager.m in Sources */,
+				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,
 				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
 				702495B0228CFEAE00BA01E0 /* AppDelegate.m in Sources */,
 			);
