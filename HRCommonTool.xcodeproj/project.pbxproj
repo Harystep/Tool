@@ -52,8 +52,12 @@
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
 		CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A21822F44018008FC6FF /* YZXPieGraphView.m */; };
 		CE8A169E22E04A3300233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169D22E04A3300233869 /* HRModel.m */; };
+<<<<<<< HEAD
 		CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */; };
+=======
+		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
+>>>>>>> f8f69b377af4838163c8faea3973ed2f3fece9ac
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,10 +168,15 @@
 		CE87A21822F44018008FC6FF /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
 		CE8A169C22E04A3300233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
 		CE8A169D22E04A3300233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CEAC99BC22F01FC3003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
 		CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRCommonUtils.m; sourceTree = "<group>"; };
 		CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HREntenseButton.m; sourceTree = "<group>"; };
 		CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HREntenseButton.h; sourceTree = "<group>"; };
+=======
+		CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCommonUtils.m; sourceTree = "<group>"; };
+		CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
+>>>>>>> f8f69b377af4838163c8faea3973ed2f3fece9ac
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,9 +303,14 @@
 		7024960F228CFFA900BA01E0 /* ToolView */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				CE87A21622F44018008FC6FF /* YZXPieGraphView */,
 				CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */,
 				CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */,
+=======
+				CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */,
+				CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */,
+>>>>>>> f8f69b377af4838163c8faea3973ed2f3fece9ac
 				70249610228CFFA900BA01E0 /* UIView+directionBorder.m */,
 				70249611228CFFA900BA01E0 /* NewPagedFlowView */,
 				70249616228CFFA900BA01E0 /* WHSAlertView.m */,
@@ -560,7 +574,11 @@
 				702495BE228CFEB000BA01E0 /* main.m in Sources */,
 				70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */,
 				70249656228CFFA900BA01E0 /* DBModelManager.m in Sources */,
+<<<<<<< HEAD
 				CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */,
+=======
+				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,
+>>>>>>> f8f69b377af4838163c8faea3973ed2f3fece9ac
 				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
 				702495B0228CFEAE00BA01E0 /* AppDelegate.m in Sources */,
 			);
