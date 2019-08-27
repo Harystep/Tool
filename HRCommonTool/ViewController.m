@@ -32,6 +32,8 @@
 
 @property (strong, nonatomic) YZXPieGraphView *pieGraphView;
 
+@property (strong, nonatomic) UITextField *tf;
+
 @end
 
 @implementation ViewController
@@ -39,17 +41,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
+    
     UIView *view = [[UIView alloc] init];
     view.frame = CGRectMake(100, 100, 200, 200);
     view.backgroundColor = [UIColor redColor];
     [self.view addSubview:view];
     
     HREntenseButton *btn = [[HREntenseButton alloc] init];
-    btn.frame = CGRectMake(50, 50, 10, 10);
+    btn.frame = CGRectMake(50, 500, 50, 50);
     btn.backgroundColor = [UIColor blueColor];
     [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
-    [view addSubview:btn];
+    [self.view addSubview:btn];
     
     NSArray *valueMutarr= @[];
     NSArray *percentmut = @[];
@@ -68,10 +70,24 @@
     ////        }
     [self.view addSubview:_pieGraphView];
     
+    
+    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, 200, 300, 40)];
+    tf.backgroundColor = [UIColor lightGrayColor];
+    self.tf = tf;
+    tf.textColor = [UIColor blackColor];
+    [self.view addSubview:tf];
+    
 }
 
 - (void)click {
-    NSLog(@"come here");
+    NSString *content = self.tf.text;
+//    NSString *result = @"^(?![0-9]+$)(?![a-z]+$)(?![A-Z]+$)(?!([^(0-9a-zA-Z)])+$).{6,}$";
+    NSString *passWordRegex = @"^(?![\d]+$)(?![a-zA-Z]+$)(?!^.*[\u4E00-\u9FA5].*$)(?![^\da-zA-Z]+$).{6,20}$";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", passWordRegex];
+    BOOL isMatch = [pred evaluateWithObject:content];
+    if (isMatch) {
+        NSLog(@"success··");
+    }
 }
 
 @end
