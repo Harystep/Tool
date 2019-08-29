@@ -98,7 +98,8 @@
 
 
 - (void)testMergeCode {
-    NSLog(@"切换分支");
+    self.age = @"10";
+    NSLog(@"切换分支%@", self.age);
 }
 
 @end
