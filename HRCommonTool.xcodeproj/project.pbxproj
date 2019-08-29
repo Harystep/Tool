@@ -50,12 +50,16 @@
 		7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963A228CFFA900BA01E0 /* BRBaseView.m */; };
 		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
+
 		CE6B4F2E2314C85900494AC2 /* HRVenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B4F2D2314C85900494AC2 /* HRVenderTool.m */; };
 		CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A21822F44018008FC6FF /* YZXPieGraphView.m */; };
 		CE8A169E22E04A3300233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169D22E04A3300233869 /* HRModel.m */; };
 		CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */; };
+
+		CE8A169B22E0459F00233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169A22E0459F00233869 /* HRModel.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +166,8 @@
 		70249640228CFFA900BA01E0 /* DBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTipView.m; sourceTree = "<group>"; };
 		70249641228CFFA900BA01E0 /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
+
+
 		CE6B4F2C2314C85900494AC2 /* HRVenderTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRVenderTool.h; sourceTree = "<group>"; };
 		CE6B4F2D2314C85900494AC2 /* HRVenderTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRVenderTool.m; sourceTree = "<group>"; };
 		CE87A21722F44018008FC6FF /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
@@ -174,6 +180,10 @@
 		CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
 		CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HREntenseButton.m; sourceTree = "<group>"; };
 		CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HREntenseButton.h; sourceTree = "<group>"; };
+
+		CE8A169922E0459F00233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
+		CE8A169A22E0459F00233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,8 +241,13 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
+
 				CE8A169C22E04A3300233869 /* HRModel.h */,
 				CE8A169D22E04A3300233869 /* HRModel.m */,
+
+				CE8A169922E0459F00233869 /* HRModel.h */,
+				CE8A169A22E0459F00233869 /* HRModel.m */,
+
 				702495B4228CFEAE00BA01E0 /* Main.storyboard */,
 				702495B7228CFEB000BA01E0 /* Assets.xcassets */,
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
@@ -535,7 +550,11 @@
 				70249644228CFFA900BA01E0 /* CTLocalizedHelper.m in Sources */,
 				70249658228CFFA900BA01E0 /* KeyChainStore.m in Sources */,
 				70249657228CFFA900BA01E0 /* DBUserInfoModel.m in Sources */,
+
 				CE8A169E22E04A3300233869 /* HRModel.m in Sources */,
+
+				CE8A169B22E0459F00233869 /* HRModel.m in Sources */,
+
 				70249605228CFF7900BA01E0 /* UIImage+Extense.m in Sources */,
 				702495B3228CFEAE00BA01E0 /* ViewController.m in Sources */,
 				70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */,

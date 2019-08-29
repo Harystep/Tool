@@ -77,6 +77,10 @@
     tf.textColor = [UIColor blackColor];
     [self.view addSubview:tf];
     
+
+    NSLog(@"%@", __FUNCTION__);
+    NSLog(@"hahahha");
+
 }
 
 - (void)click {
