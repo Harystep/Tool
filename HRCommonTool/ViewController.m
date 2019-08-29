@@ -96,4 +96,9 @@
     }
 }
 
+
+- (void)testMergeCode {
+    NSLog(@"切换分支");
+}
+
 @end
