@@ -77,6 +77,10 @@
     tf.textColor = [UIColor blackColor];
     [self.view addSubview:tf];
     
+
+    NSLog(@"%@", __FUNCTION__);
+    NSLog(@"hahahha");
+
 }
 
 - (void)click {
@@ -87,7 +91,14 @@
     BOOL isMatch = [pred evaluateWithObject:content];
     if (isMatch) {
         NSLog(@"success··");
+    } else {
+        NSLog(@"fail··");
     }
+}
+
+
+- (void)testMergeCode {
+    NSLog(@"切换分支");
 }
 
 @end
