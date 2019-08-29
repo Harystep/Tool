@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (copy, nonatomic) NSString *age;
 
 @end
 
