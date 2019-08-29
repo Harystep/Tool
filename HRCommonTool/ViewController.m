@@ -87,6 +87,8 @@
     BOOL isMatch = [pred evaluateWithObject:content];
     if (isMatch) {
         NSLog(@"success··");
+    } else {
+        NSLog(@"fail··");
     }
 }
 
