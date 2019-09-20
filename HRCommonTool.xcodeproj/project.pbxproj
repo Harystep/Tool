@@ -50,16 +50,13 @@
 		7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963A228CFFA900BA01E0 /* BRBaseView.m */; };
 		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
-
 		CE6B4F2E2314C85900494AC2 /* HRVenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B4F2D2314C85900494AC2 /* HRVenderTool.m */; };
 		CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A21822F44018008FC6FF /* YZXPieGraphView.m */; };
+		CE8A169B22E0459F00233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169A22E0459F00233869 /* HRModel.m */; };
 		CE8A169E22E04A3300233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169D22E04A3300233869 /* HRModel.m */; };
 		CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */; };
-
-		CE8A169B22E0459F00233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169A22E0459F00233869 /* HRModel.m */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,12 +163,12 @@
 		70249640228CFFA900BA01E0 /* DBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTipView.m; sourceTree = "<group>"; };
 		70249641228CFFA900BA01E0 /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
-
-
 		CE6B4F2C2314C85900494AC2 /* HRVenderTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRVenderTool.h; sourceTree = "<group>"; };
 		CE6B4F2D2314C85900494AC2 /* HRVenderTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRVenderTool.m; sourceTree = "<group>"; };
 		CE87A21722F44018008FC6FF /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
 		CE87A21822F44018008FC6FF /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
+		CE8A169922E0459F00233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
+		CE8A169A22E0459F00233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
 		CE8A169C22E04A3300233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
 		CE8A169D22E04A3300233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
 		CEAC99BC22F01FC3003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
@@ -180,10 +177,6 @@
 		CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
 		CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HREntenseButton.m; sourceTree = "<group>"; };
 		CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HREntenseButton.h; sourceTree = "<group>"; };
-
-		CE8A169922E0459F00233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
-		CE8A169A22E0459F00233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,13 +234,10 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
-
 				CE8A169C22E04A3300233869 /* HRModel.h */,
 				CE8A169D22E04A3300233869 /* HRModel.m */,
-
 				CE8A169922E0459F00233869 /* HRModel.h */,
 				CE8A169A22E0459F00233869 /* HRModel.m */,
-
 				702495B4228CFEAE00BA01E0 /* Main.storyboard */,
 				702495B7228CFEB000BA01E0 /* Assets.xcassets */,
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
@@ -279,24 +269,24 @@
 		702495EB228CFF7800BA01E0 /* HRCategory */ = {
 			isa = PBXGroup;
 			children = (
-				702495EC228CFF7900BA01E0 /* WHSNavItemView.h */,
+				702495FF228CFF7900BA01E0 /* UIButton+Button.h */,
+				702495F3228CFF7900BA01E0 /* UIButton+Button.m */,
+				702495F6228CFF7900BA01E0 /* UIColor+ChangeColor.h */,
 				702495ED228CFF7900BA01E0 /* UIColor+ChangeColor.m */,
 				702495EE228CFF7900BA01E0 /* UIImage+Extense.h */,
-				702495EF228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.h */,
-				702495F0228CFF7900BA01E0 /* UIView+Extension.h */,
-				702495F2228CFF7900BA01E0 /* UILabel+DBUILabel.h */,
-				702495F3228CFF7900BA01E0 /* UIButton+Button.m */,
-				702495F4228CFF7900BA01E0 /* UIView+Radius.h */,
-				702495F5228CFF7900BA01E0 /* UINavigationBar+handle.h */,
-				702495F6228CFF7900BA01E0 /* UIColor+ChangeColor.h */,
-				702495F7228CFF7900BA01E0 /* WHSNavItemView.m */,
-				702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */,
 				702495F9228CFF7900BA01E0 /* UIImage+Extense.m */,
+				702495F2228CFF7900BA01E0 /* UILabel+DBUILabel.h */,
 				702495FA228CFF7900BA01E0 /* UILabel+DBUILabel.m */,
-				702495FC228CFF7900BA01E0 /* UIView+Extension.m */,
+				702495F5228CFF7900BA01E0 /* UINavigationBar+handle.h */,
 				702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */,
+				702495F0228CFF7900BA01E0 /* UIView+Extension.h */,
+				702495FC228CFF7900BA01E0 /* UIView+Extension.m */,
+				702495F4228CFF7900BA01E0 /* UIView+Radius.h */,
 				702495FE228CFF7900BA01E0 /* UIView+Radius.m */,
-				702495FF228CFF7900BA01E0 /* UIButton+Button.h */,
+				702495EF228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.h */,
+				702495F8228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m */,
+				702495EC228CFF7900BA01E0 /* WHSNavItemView.h */,
+				702495F7228CFF7900BA01E0 /* WHSNavItemView.m */,
 			);
 			path = HRCategory;
 			sourceTree = "<group>";
@@ -317,27 +307,27 @@
 		7024960F228CFFA900BA01E0 /* ToolView */ = {
 			isa = PBXGroup;
 			children = (
-				CE87A21622F44018008FC6FF /* YZXPieGraphView */,
-				CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */,
-				CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */,
+				70249641228CFFA900BA01E0 /* BRBaseView.h */,
+				7024963A228CFFA900BA01E0 /* BRBaseView.m */,
+				70249618228CFFA900BA01E0 /* BRStringPickerView.h */,
+				7024963D228CFFA900BA01E0 /* BRStringPickerView.m */,
+				7024963B228CFFA900BA01E0 /* DBTipView.h */,
+				70249640228CFFA900BA01E0 /* DBTipView.m */,
 				CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */,
 				CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */,
-				70249610228CFFA900BA01E0 /* UIView+directionBorder.m */,
-				70249611228CFFA900BA01E0 /* NewPagedFlowView */,
-				70249616228CFFA900BA01E0 /* WHSAlertView.m */,
-				70249617228CFFA900BA01E0 /* WHSBaseNavigationController.m */,
-				70249618228CFFA900BA01E0 /* BRStringPickerView.h */,
-				70249619228CFFA900BA01E0 /* WHSToolVontroller */,
-				70249639228CFFA900BA01E0 /* HRCreatQRView.m */,
-				7024963A228CFFA900BA01E0 /* BRBaseView.m */,
-				7024963B228CFFA900BA01E0 /* DBTipView.h */,
-				7024963C228CFFA900BA01E0 /* UIView+directionBorder.h */,
-				7024963D228CFFA900BA01E0 /* BRStringPickerView.m */,
-				7024963E228CFFA900BA01E0 /* WHSBaseNavigationController.h */,
-				7024963F228CFFA900BA01E0 /* WHSAlertView.h */,
-				70249640228CFFA900BA01E0 /* DBTipView.m */,
-				70249641228CFFA900BA01E0 /* BRBaseView.h */,
 				70249642228CFFA900BA01E0 /* HRCreatQRView.h */,
+				70249639228CFFA900BA01E0 /* HRCreatQRView.m */,
+				CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */,
+				CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */,
+				70249611228CFFA900BA01E0 /* NewPagedFlowView */,
+				7024963C228CFFA900BA01E0 /* UIView+directionBorder.h */,
+				70249610228CFFA900BA01E0 /* UIView+directionBorder.m */,
+				7024963F228CFFA900BA01E0 /* WHSAlertView.h */,
+				70249616228CFFA900BA01E0 /* WHSAlertView.m */,
+				7024963E228CFFA900BA01E0 /* WHSBaseNavigationController.h */,
+				70249617228CFFA900BA01E0 /* WHSBaseNavigationController.m */,
+				70249619228CFFA900BA01E0 /* WHSToolVontroller */,
+				CE87A21622F44018008FC6FF /* YZXPieGraphView */,
 				CEAC99BC22F01FC3003DBFE3 /* HRCommonUtils.h */,
 				CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */,
 			);
@@ -358,16 +348,16 @@
 		70249619228CFFA900BA01E0 /* WHSToolVontroller */ = {
 			isa = PBXGroup;
 			children = (
-				7024961A228CFFA900BA01E0 /* HRQRViewController.m */,
-				7024961B228CFFA900BA01E0 /* SZImageView.m */,
 				7024961C228CFFA900BA01E0 /* DBCommonString.h */,
-				7024961D228CFFA900BA01E0 /* WHSPhotoImageView.h */,
-				7024961E228CFFA900BA01E0 /* QRCode */,
-				7024962C228CFFA900BA01E0 /* HRQRViewController.h */,
-				7024962D228CFFA900BA01E0 /* WHSPhotoImageView.m */,
 				7024962E228CFFA900BA01E0 /* DBCommonString.m */,
-				7024962F228CFFA900BA01E0 /* SZImageView.h */,
 				70249630228CFFA900BA01E0 /* HRPictureCompression */,
+				7024962C228CFFA900BA01E0 /* HRQRViewController.h */,
+				7024961A228CFFA900BA01E0 /* HRQRViewController.m */,
+				7024961E228CFFA900BA01E0 /* QRCode */,
+				7024962F228CFFA900BA01E0 /* SZImageView.h */,
+				7024961B228CFFA900BA01E0 /* SZImageView.m */,
+				7024961D228CFFA900BA01E0 /* WHSPhotoImageView.h */,
+				7024962D228CFFA900BA01E0 /* WHSPhotoImageView.m */,
 			);
 			path = WHSToolVontroller;
 			sourceTree = "<group>";
@@ -550,11 +540,8 @@
 				70249644228CFFA900BA01E0 /* CTLocalizedHelper.m in Sources */,
 				70249658228CFFA900BA01E0 /* KeyChainStore.m in Sources */,
 				70249657228CFFA900BA01E0 /* DBUserInfoModel.m in Sources */,
-
 				CE8A169E22E04A3300233869 /* HRModel.m in Sources */,
-
 				CE8A169B22E0459F00233869 /* HRModel.m in Sources */,
-
 				70249605228CFF7900BA01E0 /* UIImage+Extense.m in Sources */,
 				702495B3228CFEAE00BA01E0 /* ViewController.m in Sources */,
 				70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */,
