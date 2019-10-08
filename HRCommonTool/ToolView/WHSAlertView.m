@@ -31,7 +31,7 @@
     titleL.frame = CGRectMake(0, 0, self.width, 60);
     titleL.textColor = kTitleContentColor;
     titleL.font = [UIFont systemFontOfSize:15];
-    titleL.text = CTLocalizedString(@"安全设置更改后，24小时内无法提币");
+    titleL.text = @"安全设置更改后";
     titleL.textAlignment = NSTextAlignmentCenter;
     titleL.lineBreakMode = NSLineBreakByCharWrapping;
     titleL.numberOfLines = 0;
@@ -48,10 +48,10 @@
         opBtn.tag = i;
         opBtn.titleLabel.font = [UIFont systemFontOfSize:15];
         if (i == 0) {
-            [opBtn setTitle:CTLocalizedString(@"取消") forState:UIControlStateNormal];
+            [opBtn setTitle:@"取消" forState:UIControlStateNormal];
             [opBtn setTitleColor:kSubTitleContentColor forState:UIControlStateNormal];
         } else {
-            [opBtn setTitle:CTLocalizedString(@"确定") forState:UIControlStateNormal];
+            [opBtn setTitle:@"确定" forState:UIControlStateNormal];
             [opBtn setTitleColor:kButtonBgColor forState:UIControlStateNormal];
         }
         opBtn.frame = CGRectMake(i * (btnW + 1), CGRectGetMaxY(sepView.frame), btnW, 45);

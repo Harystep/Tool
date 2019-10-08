@@ -78,7 +78,6 @@
     [self.view addSubview:tf];
     
 
-    NSLog(@"%@", __FUNCTION__);
     NSLog(@"hahahha");
 
 }
@@ -93,6 +92,7 @@
         NSLog(@"success··");
     } else {
         NSLog(@"fail··");
+        [MBProgressHUD wj_showPlainText:@"大家好!!" view:self.view];
     }
 }
 

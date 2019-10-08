@@ -39,9 +39,9 @@
 - (void)editPortrait {
     UIActionSheet *choiceSheet = [[UIActionSheet alloc] initWithTitle:nil
                                                              delegate:self
-                                                    cancelButtonTitle:CTLocalizedString(@"取消")
+                                                    cancelButtonTitle:@"取消"
                                                destructiveButtonTitle:nil
-                                                    otherButtonTitles:CTLocalizedString(@"拍照"), CTLocalizedString(@"从相册中选取"), nil];
+                                                    otherButtonTitles:@"拍照", @"从相册中选取", nil];
     [choiceSheet showInView:self.viewImageController.view];
 }
 
@@ -89,7 +89,7 @@
                 [self.viewImageController  presentViewController:picker animated:YES completion:nil];
             } else {
                 
-                UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"" message:CTLocalizedString(@"应用相册限受限,请在设置中启用") delegate:self cancelButtonTitle:CTLocalizedString(@"取消") otherButtonTitles:nil];
+                UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"" message:@"应用相册限受限,请在设置中启用" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:nil];
                 [alertV show];
                 return;
             }
@@ -105,7 +105,7 @@
                 
                 if ([typeStr isEqualToString:@"0"]) {
                     
-                    UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"" message:CTLocalizedString(@"应用相机限受限,请在设置中启用") delegate:self cancelButtonTitle:CTLocalizedString(@"取消") otherButtonTitles:nil];
+                    UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"" message:@"应用相机限受限,请在设置中启用" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:nil];
                     [alertV show];
                     
                 }

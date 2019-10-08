@@ -18,8 +18,7 @@
 #import "UIView+Extension.h"
 #import "DBTipView.h"
 #import "UILabel+DBUILabel.h"
-
-#import "CTLocalizedHelper.h"
+#import "MBProgressHUD+WJExtension.h"
 
 
 #define kMarginX 10
@@ -32,6 +31,7 @@
 #define kHEIGHT [UIScreen mainScreen].bounds.size.height
 #define CTLocalizedString(key) [[CTLocalizedHelper standardHelper] stringWithKey:key]
 
+#define kFontSize(font) [UIFont systemFontOfSize:font]
 
 #define kAppUserToken @"kAppUserToken"
 

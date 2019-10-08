@@ -24,8 +24,6 @@
 		70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495FC228CFF7900BA01E0 /* UIView+Extension.m */; };
 		70249608228CFF7900BA01E0 /* UINavigationBar+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */; };
 		70249609228CFF7900BA01E0 /* UIView+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495FE228CFF7900BA01E0 /* UIView+Radius.m */; };
-		70249643228CFFA900BA01E0 /* HRNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024960D228CFFA900BA01E0 /* HRNetworkTool.m */; };
-		70249644228CFFA900BA01E0 /* CTLocalizedHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024960E228CFFA900BA01E0 /* CTLocalizedHelper.m */; };
 		70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249610228CFFA900BA01E0 /* UIView+directionBorder.m */; };
 		70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249612228CFFA900BA01E0 /* PGIndexBannerSubiew.m */; };
 		70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249613228CFFA900BA01E0 /* NewPagedFlowView.m */; };
@@ -50,60 +48,15 @@
 		7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963A228CFFA900BA01E0 /* BRBaseView.m */; };
 		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
-		CE6B4F2E2314C85900494AC2 /* HRVenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B4F2D2314C85900494AC2 /* HRVenderTool.m */; };
 		CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A21822F44018008FC6FF /* YZXPieGraphView.m */; };
-		CE8A169B22E0459F00233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169A22E0459F00233869 /* HRModel.m */; };
-		CE8A169E22E04A3300233869 /* HRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A169D22E04A3300233869 /* HRModel.m */; };
 		CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */; };
-		CEEEC37D2334921100C5FD4B /* HCNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC30B2334921000C5FD4B /* HCNetworkTool.m */; };
-		CEEEC37E2334921100C5FD4B /* HRCommonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC30E2334921000C5FD4B /* HRCommonRequest.m */; };
-		CEEEC37F2334921100C5FD4B /* HCConcernPartnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3132334921000C5FD4B /* HCConcernPartnerViewController.m */; };
-		CEEEC3802334921100C5FD4B /* HCConcernPartnerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3152334921000C5FD4B /* HCConcernPartnerModel.m */; };
-		CEEEC3812334921100C5FD4B /* HCConcernPartnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEEC3192334921000C5FD4B /* HCConcernPartnerCell.xib */; };
-		CEEEC3822334921100C5FD4B /* HCConcernPartnerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC31A2334921000C5FD4B /* HCConcernPartnerCell.m */; };
-		CEEEC3832334921100C5FD4B /* HCActiveCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC31D2334921000C5FD4B /* HCActiveCodeViewController.m */; };
-		CEEEC3842334921100C5FD4B /* HCShopSelectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC31F2334921000C5FD4B /* HCShopSelectListViewController.m */; };
-		CEEEC3852334921100C5FD4B /* HCActiveCodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3222334921000C5FD4B /* HCActiveCodeListViewController.m */; };
-		CEEEC3862334921100C5FD4B /* HCActiveCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3262334921000C5FD4B /* HCActiveCodeModel.m */; };
-		CEEEC3872334921100C5FD4B /* HCShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3272334921000C5FD4B /* HCShopModel.m */; };
-		CEEEC3882334921100C5FD4B /* HCShopSelectDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3292334921000C5FD4B /* HCShopSelectDownView.m */; };
-		CEEEC3892334921100C5FD4B /* HCSimpleSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC32A2334921000C5FD4B /* HCSimpleSearchView.m */; };
-		CEEEC38A2334921100C5FD4B /* HCActiveCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3302334921000C5FD4B /* HCActiveCodeCell.m */; };
-		CEEEC38B2334921100C5FD4B /* HCShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3312334921000C5FD4B /* HCShopCell.m */; };
-		CEEEC38C2334921100C5FD4B /* HCAlertCreateCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3322334921000C5FD4B /* HCAlertCreateCodeView.m */; };
-		CEEEC38D2334921100C5FD4B /* UIColor+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3342334921000C5FD4B /* UIColor+ChangeColor.m */; };
-		CEEEC38E2334921100C5FD4B /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3362334921000C5FD4B /* UIViewController+Extend.m */; };
-		CEEEC38F2334921100C5FD4B /* UIButton+TitleWithImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3372334921000C5FD4B /* UIButton+TitleWithImage.m */; };
-		CEEEC3902334921100C5FD4B /* UIButton+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3392334921000C5FD4B /* UIButton+Button.m */; };
-		CEEEC3912334921100C5FD4B /* UILabel+HRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC33B2334921000C5FD4B /* UILabel+HRExtend.m */; };
-		CEEEC3922334921100C5FD4B /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC33E2334921000C5FD4B /* UIImage+Scale.m */; };
-		CEEEC3932334921100C5FD4B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3402334921000C5FD4B /* UIView+Extension.m */; };
-		CEEEC3942334921100C5FD4B /* UIView+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3422334921000C5FD4B /* UIView+Radius.m */; };
-		CEEEC3952334921100C5FD4B /* HRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3452334921000C5FD4B /* HRBaseViewController.m */; };
-		CEEEC3962334921100C5FD4B /* HRBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3482334921000C5FD4B /* HRBaseModel.m */; };
-		CEEEC3972334921100C5FD4B /* HCConcernMarchantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC34D2334921000C5FD4B /* HCConcernMarchantViewController.m */; };
-		CEEEC3982334921100C5FD4B /* HCConcernMarchantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC34F2334921000C5FD4B /* HCConcernMarchantModel.m */; };
-		CEEEC3992334921100C5FD4B /* HCConcernMarchantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3522334921000C5FD4B /* HCConcernMarchantCell.m */; };
-		CEEEC39A2334921100C5FD4B /* HCConcernMarchantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEEC3532334921000C5FD4B /* HCConcernMarchantCell.xib */; };
-		CEEEC39B2334921100C5FD4B /* HRProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3572334921000C5FD4B /* HRProgressView.m */; };
-		CEEEC39C2334921100C5FD4B /* UIView+HCExtense.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3592334921000C5FD4B /* UIView+HCExtense.m */; };
-		CEEEC39D2334921100C5FD4B /* HCProfitChartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC35B2334921000C5FD4B /* HCProfitChartLineView.m */; };
-		CEEEC39E2334921100C5FD4B /* HCDateSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC35D2334921000C5FD4B /* HCDateSelectorView.m */; };
-		CEEEC39F2334921100C5FD4B /* HCPullDownSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC35E2334921000C5FD4B /* HCPullDownSelectView.m */; };
-		CEEEC3A02334921100C5FD4B /* HCUserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC35F2334921000C5FD4B /* HCUserDefaultsManager.m */; };
-		CEEEC3A12334921100C5FD4B /* HCMarchantLossScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3652334921000C5FD4B /* HCMarchantLossScrollViewController.m */; };
-		CEEEC3A22334921100C5FD4B /* HCMarchantThreeLossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3662334921000C5FD4B /* HCMarchantThreeLossViewController.m */; };
-		CEEEC3A32334921100C5FD4B /* HCMarchantTwoLossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3682334921000C5FD4B /* HCMarchantTwoLossViewController.m */; };
-		CEEEC3A42334921100C5FD4B /* HCMarchantLossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3692334921000C5FD4B /* HCMarchantLossViewController.m */; };
-		CEEEC3A52334921100C5FD4B /* HCMarchantMoreLossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC36A2334921000C5FD4B /* HCMarchantMoreLossViewController.m */; };
-		CEEEC3A62334921100C5FD4B /* HCMarchantOneLossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC36D2334921000C5FD4B /* HCMarchantOneLossViewController.m */; };
-		CEEEC3A72334921100C5FD4B /* HCMarchantLossModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3732334921000C5FD4B /* HCMarchantLossModel.m */; };
-		CEEEC3A82334921100C5FD4B /* HCMarchantLossCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3752334921100C5FD4B /* HCMarchantLossCell.m */; };
-		CEEEC3A92334921100C5FD4B /* HCMarchantLossCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEEC3772334921100C5FD4B /* HCMarchantLossCell.xib */; };
-		CEEEC3AA2334921100C5FD4B /* HRVenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC3792334921100C5FD4B /* HRVenderTool.m */; };
-		CEEEC3AB2334921100C5FD4B /* HCAlertTransInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC37C2334921100C5FD4B /* HCAlertTransInfoView.m */; };
+		CEC09AAE234C1C5F008E2FCE /* WJSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA5234C1C5E008E2FCE /* WJSuccessView.m */; };
+		CEC09AAF234C1C5F008E2FCE /* MBProgressHUD+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA6234C1C5E008E2FCE /* MBProgressHUD+WJExtension.m */; };
+		CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA7234C1C5E008E2FCE /* MBProgressHUD.m */; };
+		CEC09AB1234C1C5F008E2FCE /* WJColouredRibbonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA8234C1C5E008E2FCE /* WJColouredRibbonAnimation.m */; };
+		CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEC09AAB234C1C5E008E2FCE /* MBProgressExtension.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,10 +112,6 @@
 		702495FD228CFF7900BA01E0 /* UINavigationBar+handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+handle.m"; sourceTree = "<group>"; };
 		702495FE228CFF7900BA01E0 /* UIView+Radius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Radius.m"; sourceTree = "<group>"; };
 		702495FF228CFF7900BA01E0 /* UIButton+Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Button.h"; sourceTree = "<group>"; };
-		7024960B228CFFA900BA01E0 /* HRNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRNetworkTool.h; sourceTree = "<group>"; };
-		7024960C228CFFA900BA01E0 /* CTLocalizedHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLocalizedHelper.h; sourceTree = "<group>"; };
-		7024960D228CFFA900BA01E0 /* HRNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRNetworkTool.m; sourceTree = "<group>"; };
-		7024960E228CFFA900BA01E0 /* CTLocalizedHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLocalizedHelper.m; sourceTree = "<group>"; };
 		70249610228CFFA900BA01E0 /* UIView+directionBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+directionBorder.m"; sourceTree = "<group>"; };
 		70249612228CFFA900BA01E0 /* PGIndexBannerSubiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGIndexBannerSubiew.m; sourceTree = "<group>"; };
 		70249613228CFFA900BA01E0 /* NewPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPagedFlowView.m; sourceTree = "<group>"; };
@@ -210,112 +159,23 @@
 		70249640228CFFA900BA01E0 /* DBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTipView.m; sourceTree = "<group>"; };
 		70249641228CFFA900BA01E0 /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
-		CE6B4F2C2314C85900494AC2 /* HRVenderTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRVenderTool.h; sourceTree = "<group>"; };
-		CE6B4F2D2314C85900494AC2 /* HRVenderTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRVenderTool.m; sourceTree = "<group>"; };
 		CE87A21722F44018008FC6FF /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
 		CE87A21822F44018008FC6FF /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
-		CE8A169922E0459F00233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
-		CE8A169A22E0459F00233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
-		CE8A169C22E04A3300233869 /* HRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRModel.h; sourceTree = "<group>"; };
-		CE8A169D22E04A3300233869 /* HRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRModel.m; sourceTree = "<group>"; };
 		CEAC99BC22F01FC3003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
 		CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRCommonUtils.m; sourceTree = "<group>"; };
 		CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCommonUtils.m; sourceTree = "<group>"; };
 		CEAC99C022F0211E003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
 		CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HREntenseButton.m; sourceTree = "<group>"; };
 		CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HREntenseButton.h; sourceTree = "<group>"; };
-		CEEEC30B2334921000C5FD4B /* HCNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNetworkTool.m; sourceTree = "<group>"; };
-		CEEEC30C2334921000C5FD4B /* HRCommonRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCommonRequest.h; sourceTree = "<group>"; };
-		CEEEC30D2334921000C5FD4B /* HCNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNetworkTool.h; sourceTree = "<group>"; };
-		CEEEC30E2334921000C5FD4B /* HRCommonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCommonRequest.m; sourceTree = "<group>"; };
-		CEEEC30F2334921000C5FD4B /* HRModuleURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRModuleURL.h; sourceTree = "<group>"; };
-		CEEEC3122334921000C5FD4B /* HCConcernPartnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCConcernPartnerViewController.h; sourceTree = "<group>"; };
-		CEEEC3132334921000C5FD4B /* HCConcernPartnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCConcernPartnerViewController.m; sourceTree = "<group>"; };
-		CEEEC3152334921000C5FD4B /* HCConcernPartnerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCConcernPartnerModel.m; sourceTree = "<group>"; };
-		CEEEC3162334921000C5FD4B /* HCConcernPartnerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCConcernPartnerModel.h; sourceTree = "<group>"; };
-		CEEEC3182334921000C5FD4B /* HCConcernPartnerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCConcernPartnerCell.h; sourceTree = "<group>"; };
-		CEEEC3192334921000C5FD4B /* HCConcernPartnerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCConcernPartnerCell.xib; sourceTree = "<group>"; };
-		CEEEC31A2334921000C5FD4B /* HCConcernPartnerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCConcernPartnerCell.m; sourceTree = "<group>"; };
-		CEEEC31D2334921000C5FD4B /* HCActiveCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCActiveCodeViewController.m; sourceTree = "<group>"; };
-		CEEEC31E2334921000C5FD4B /* HCActiveCodeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCActiveCodeListViewController.h; sourceTree = "<group>"; };
-		CEEEC31F2334921000C5FD4B /* HCShopSelectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShopSelectListViewController.m; sourceTree = "<group>"; };
-		CEEEC3202334921000C5FD4B /* HCActiveCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCActiveCodeViewController.h; sourceTree = "<group>"; };
-		CEEEC3212334921000C5FD4B /* HCShopSelectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShopSelectListViewController.h; sourceTree = "<group>"; };
-		CEEEC3222334921000C5FD4B /* HCActiveCodeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCActiveCodeListViewController.m; sourceTree = "<group>"; };
-		CEEEC3242334921000C5FD4B /* HCActiveCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCActiveCodeModel.h; sourceTree = "<group>"; };
-		CEEEC3252334921000C5FD4B /* HCShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShopModel.h; sourceTree = "<group>"; };
-		CEEEC3262334921000C5FD4B /* HCActiveCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCActiveCodeModel.m; sourceTree = "<group>"; };
-		CEEEC3272334921000C5FD4B /* HCShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShopModel.m; sourceTree = "<group>"; };
-		CEEEC3292334921000C5FD4B /* HCShopSelectDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShopSelectDownView.m; sourceTree = "<group>"; };
-		CEEEC32A2334921000C5FD4B /* HCSimpleSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSimpleSearchView.m; sourceTree = "<group>"; };
-		CEEEC32B2334921000C5FD4B /* HCActiveCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCActiveCodeCell.h; sourceTree = "<group>"; };
-		CEEEC32C2334921000C5FD4B /* HCAlertCreateCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAlertCreateCodeView.h; sourceTree = "<group>"; };
-		CEEEC32D2334921000C5FD4B /* HCShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShopCell.h; sourceTree = "<group>"; };
-		CEEEC32E2334921000C5FD4B /* HCSimpleSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSimpleSearchView.h; sourceTree = "<group>"; };
-		CEEEC32F2334921000C5FD4B /* HCShopSelectDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShopSelectDownView.h; sourceTree = "<group>"; };
-		CEEEC3302334921000C5FD4B /* HCActiveCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCActiveCodeCell.m; sourceTree = "<group>"; };
-		CEEEC3312334921000C5FD4B /* HCShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShopCell.m; sourceTree = "<group>"; };
-		CEEEC3322334921000C5FD4B /* HCAlertCreateCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCAlertCreateCodeView.m; sourceTree = "<group>"; };
-		CEEEC3342334921000C5FD4B /* UIColor+ChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChangeColor.m"; sourceTree = "<group>"; };
-		CEEEC3352334921000C5FD4B /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
-		CEEEC3362334921000C5FD4B /* UIViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extend.m"; sourceTree = "<group>"; };
-		CEEEC3372334921000C5FD4B /* UIButton+TitleWithImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleWithImage.m"; sourceTree = "<group>"; };
-		CEEEC3382334921000C5FD4B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		CEEEC3392334921000C5FD4B /* UIButton+Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Button.m"; sourceTree = "<group>"; };
-		CEEEC33A2334921000C5FD4B /* UIView+Radius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Radius.h"; sourceTree = "<group>"; };
-		CEEEC33B2334921000C5FD4B /* UILabel+HRExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HRExtend.m"; sourceTree = "<group>"; };
-		CEEEC33C2334921000C5FD4B /* UIColor+ChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChangeColor.h"; sourceTree = "<group>"; };
-		CEEEC33D2334921000C5FD4B /* UIButton+TitleWithImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleWithImage.h"; sourceTree = "<group>"; };
-		CEEEC33E2334921000C5FD4B /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
-		CEEEC33F2334921000C5FD4B /* UIViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
-		CEEEC3402334921000C5FD4B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		CEEEC3412334921000C5FD4B /* UILabel+HRExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HRExtend.h"; sourceTree = "<group>"; };
-		CEEEC3422334921000C5FD4B /* UIView+Radius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Radius.m"; sourceTree = "<group>"; };
-		CEEEC3432334921000C5FD4B /* UIButton+Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Button.h"; sourceTree = "<group>"; };
-		CEEEC3452334921000C5FD4B /* HRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBaseViewController.m; sourceTree = "<group>"; };
-		CEEEC3462334921000C5FD4B /* HRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBaseViewController.h; sourceTree = "<group>"; };
-		CEEEC3482334921000C5FD4B /* HRBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBaseModel.m; sourceTree = "<group>"; };
-		CEEEC3492334921000C5FD4B /* HRBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBaseModel.h; sourceTree = "<group>"; };
-		CEEEC34C2334921000C5FD4B /* HCConcernMarchantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCConcernMarchantViewController.h; sourceTree = "<group>"; };
-		CEEEC34D2334921000C5FD4B /* HCConcernMarchantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCConcernMarchantViewController.m; sourceTree = "<group>"; };
-		CEEEC34F2334921000C5FD4B /* HCConcernMarchantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCConcernMarchantModel.m; sourceTree = "<group>"; };
-		CEEEC3502334921000C5FD4B /* HCConcernMarchantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCConcernMarchantModel.h; sourceTree = "<group>"; };
-		CEEEC3522334921000C5FD4B /* HCConcernMarchantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCConcernMarchantCell.m; sourceTree = "<group>"; };
-		CEEEC3532334921000C5FD4B /* HCConcernMarchantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCConcernMarchantCell.xib; sourceTree = "<group>"; };
-		CEEEC3542334921000C5FD4B /* HCConcernMarchantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCConcernMarchantCell.h; sourceTree = "<group>"; };
-		CEEEC3562334921000C5FD4B /* HCDateSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDateSelectorView.h; sourceTree = "<group>"; };
-		CEEEC3572334921000C5FD4B /* HRProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRProgressView.m; sourceTree = "<group>"; };
-		CEEEC3582334921000C5FD4B /* HCUserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCUserDefaultsManager.h; sourceTree = "<group>"; };
-		CEEEC3592334921000C5FD4B /* UIView+HCExtense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HCExtense.m"; sourceTree = "<group>"; };
-		CEEEC35A2334921000C5FD4B /* HCPullDownSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPullDownSelectView.h; sourceTree = "<group>"; };
-		CEEEC35B2334921000C5FD4B /* HCProfitChartLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCProfitChartLineView.m; sourceTree = "<group>"; };
-		CEEEC35C2334921000C5FD4B /* HRProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRProgressView.h; sourceTree = "<group>"; };
-		CEEEC35D2334921000C5FD4B /* HCDateSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDateSelectorView.m; sourceTree = "<group>"; };
-		CEEEC35E2334921000C5FD4B /* HCPullDownSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPullDownSelectView.m; sourceTree = "<group>"; };
-		CEEEC35F2334921000C5FD4B /* HCUserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCUserDefaultsManager.m; sourceTree = "<group>"; };
-		CEEEC3602334921000C5FD4B /* UIView+HCExtense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HCExtense.h"; sourceTree = "<group>"; };
-		CEEEC3612334921000C5FD4B /* HCProfitChartLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCProfitChartLineView.h; sourceTree = "<group>"; };
-		CEEEC3652334921000C5FD4B /* HCMarchantLossScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantLossScrollViewController.m; sourceTree = "<group>"; };
-		CEEEC3662334921000C5FD4B /* HCMarchantThreeLossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantThreeLossViewController.m; sourceTree = "<group>"; };
-		CEEEC3672334921000C5FD4B /* HCMarchantOneLossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantOneLossViewController.h; sourceTree = "<group>"; };
-		CEEEC3682334921000C5FD4B /* HCMarchantTwoLossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantTwoLossViewController.m; sourceTree = "<group>"; };
-		CEEEC3692334921000C5FD4B /* HCMarchantLossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantLossViewController.m; sourceTree = "<group>"; };
-		CEEEC36A2334921000C5FD4B /* HCMarchantMoreLossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantMoreLossViewController.m; sourceTree = "<group>"; };
-		CEEEC36B2334921000C5FD4B /* HCMarchantThreeLossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantThreeLossViewController.h; sourceTree = "<group>"; };
-		CEEEC36C2334921000C5FD4B /* HCMarchantLossScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantLossScrollViewController.h; sourceTree = "<group>"; };
-		CEEEC36D2334921000C5FD4B /* HCMarchantOneLossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantOneLossViewController.m; sourceTree = "<group>"; };
-		CEEEC36E2334921000C5FD4B /* HCMarchantTwoLossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantTwoLossViewController.h; sourceTree = "<group>"; };
-		CEEEC36F2334921000C5FD4B /* HCMarchantMoreLossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantMoreLossViewController.h; sourceTree = "<group>"; };
-		CEEEC3702334921000C5FD4B /* HCMarchantLossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantLossViewController.h; sourceTree = "<group>"; };
-		CEEEC3722334921000C5FD4B /* HCMarchantLossModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantLossModel.h; sourceTree = "<group>"; };
-		CEEEC3732334921000C5FD4B /* HCMarchantLossModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantLossModel.m; sourceTree = "<group>"; };
-		CEEEC3752334921100C5FD4B /* HCMarchantLossCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMarchantLossCell.m; sourceTree = "<group>"; };
-		CEEEC3762334921100C5FD4B /* HCMarchantLossCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMarchantLossCell.h; sourceTree = "<group>"; };
-		CEEEC3772334921100C5FD4B /* HCMarchantLossCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCMarchantLossCell.xib; sourceTree = "<group>"; };
-		CEEEC3792334921100C5FD4B /* HRVenderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRVenderTool.m; sourceTree = "<group>"; };
-		CEEEC37A2334921100C5FD4B /* HCAlertTransInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAlertTransInfoView.h; sourceTree = "<group>"; };
-		CEEEC37B2334921100C5FD4B /* HRVenderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRVenderTool.h; sourceTree = "<group>"; };
-		CEEEC37C2334921100C5FD4B /* HCAlertTransInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCAlertTransInfoView.m; sourceTree = "<group>"; };
+		CEC09AA5234C1C5E008E2FCE /* WJSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSuccessView.m; sourceTree = "<group>"; };
+		CEC09AA6234C1C5E008E2FCE /* MBProgressHUD+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WJExtension.m"; sourceTree = "<group>"; };
+		CEC09AA7234C1C5E008E2FCE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CEC09AA8234C1C5E008E2FCE /* WJColouredRibbonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJColouredRibbonAnimation.m; sourceTree = "<group>"; };
+		CEC09AA9234C1C5E008E2FCE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CEC09AAA234C1C5E008E2FCE /* MBProgressHUD+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WJExtension.h"; sourceTree = "<group>"; };
+		CEC09AAB234C1C5E008E2FCE /* MBProgressExtension.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressExtension.bundle; sourceTree = "<group>"; };
+		CEC09AAC234C1C5E008E2FCE /* WJSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSuccessView.h; sourceTree = "<group>"; };
+		CEC09AAD234C1C5E008E2FCE /* WJColouredRibbonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJColouredRibbonAnimation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,10 +234,6 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
-				CE8A169C22E04A3300233869 /* HRModel.h */,
-				CE8A169D22E04A3300233869 /* HRModel.m */,
-				CE8A169922E0459F00233869 /* HRModel.h */,
-				CE8A169A22E0459F00233869 /* HRModel.m */,
 				702495B4228CFEAE00BA01E0 /* Main.storyboard */,
 				702495B7228CFEB000BA01E0 /* Assets.xcassets */,
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
@@ -434,12 +290,6 @@
 		7024960A228CFFA900BA01E0 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				CE6B4F2C2314C85900494AC2 /* HRVenderTool.h */,
-				CE6B4F2D2314C85900494AC2 /* HRVenderTool.m */,
-				7024960B228CFFA900BA01E0 /* HRNetworkTool.h */,
-				7024960C228CFFA900BA01E0 /* CTLocalizedHelper.h */,
-				7024960D228CFFA900BA01E0 /* HRNetworkTool.m */,
-				7024960E228CFFA900BA01E0 /* CTLocalizedHelper.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -459,6 +309,7 @@
 				70249639228CFFA900BA01E0 /* HRCreatQRView.m */,
 				CEAC99C722F047F6003DBFE3 /* HREntenseButton.h */,
 				CEAC99C622F047F5003DBFE3 /* HREntenseButton.m */,
+				CEC09AA4234C1C5E008E2FCE /* MBProgressHUD+WJExtension */,
 				70249611228CFFA900BA01E0 /* NewPagedFlowView */,
 				7024963C228CFFA900BA01E0 /* UIView+directionBorder.h */,
 				70249610228CFFA900BA01E0 /* UIView+directionBorder.m */,
@@ -546,295 +397,27 @@
 			path = YZXPieGraphView;
 			sourceTree = "<group>";
 		};
+		CEC09AA4234C1C5E008E2FCE /* MBProgressHUD+WJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CEC09AAB234C1C5E008E2FCE /* MBProgressExtension.bundle */,
+				CEC09AA9234C1C5E008E2FCE /* MBProgressHUD.h */,
+				CEC09AA7234C1C5E008E2FCE /* MBProgressHUD.m */,
+				CEC09AAA234C1C5E008E2FCE /* MBProgressHUD+WJExtension.h */,
+				CEC09AA6234C1C5E008E2FCE /* MBProgressHUD+WJExtension.m */,
+				CEC09AAD234C1C5E008E2FCE /* WJColouredRibbonAnimation.h */,
+				CEC09AA8234C1C5E008E2FCE /* WJColouredRibbonAnimation.m */,
+				CEC09AAC234C1C5E008E2FCE /* WJSuccessView.h */,
+				CEC09AA5234C1C5E008E2FCE /* WJSuccessView.m */,
+			);
+			path = "MBProgressHUD+WJExtension";
+			sourceTree = "<group>";
+		};
 		CEEEC3082334921000C5FD4B /* Vender */ = {
 			isa = PBXGroup;
 			children = (
-				CEEEC3092334921000C5FD4B /* HRModule */,
-				CEEEC3622334921000C5FD4B /* Category */,
-				CEEEC3632334921000C5FD4B /* MarchantLoss */,
-				CEEEC3782334921100C5FD4B /* Tool */,
 			);
 			path = Vender;
-			sourceTree = "<group>";
-		};
-		CEEEC3092334921000C5FD4B /* HRModule */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC30A2334921000C5FD4B /* NetTool */,
-				CEEEC3102334921000C5FD4B /* ConcernPartner */,
-				CEEEC31B2334921000C5FD4B /* ActivationCode */,
-				CEEEC3332334921000C5FD4B /* Category */,
-				CEEEC3442334921000C5FD4B /* BaseViewController */,
-				CEEEC3472334921000C5FD4B /* BaseModel */,
-				CEEEC34A2334921000C5FD4B /* ConcernMarchant */,
-				CEEEC3552334921000C5FD4B /* Tool */,
-			);
-			path = HRModule;
-			sourceTree = "<group>";
-		};
-		CEEEC30A2334921000C5FD4B /* NetTool */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC30B2334921000C5FD4B /* HCNetworkTool.m */,
-				CEEEC30C2334921000C5FD4B /* HRCommonRequest.h */,
-				CEEEC30D2334921000C5FD4B /* HCNetworkTool.h */,
-				CEEEC30E2334921000C5FD4B /* HRCommonRequest.m */,
-				CEEEC30F2334921000C5FD4B /* HRModuleURL.h */,
-			);
-			path = NetTool;
-			sourceTree = "<group>";
-		};
-		CEEEC3102334921000C5FD4B /* ConcernPartner */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3112334921000C5FD4B /* Controller */,
-				CEEEC3142334921000C5FD4B /* Model */,
-				CEEEC3172334921000C5FD4B /* View */,
-			);
-			path = ConcernPartner;
-			sourceTree = "<group>";
-		};
-		CEEEC3112334921000C5FD4B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3122334921000C5FD4B /* HCConcernPartnerViewController.h */,
-				CEEEC3132334921000C5FD4B /* HCConcernPartnerViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CEEEC3142334921000C5FD4B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3152334921000C5FD4B /* HCConcernPartnerModel.m */,
-				CEEEC3162334921000C5FD4B /* HCConcernPartnerModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CEEEC3172334921000C5FD4B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3182334921000C5FD4B /* HCConcernPartnerCell.h */,
-				CEEEC3192334921000C5FD4B /* HCConcernPartnerCell.xib */,
-				CEEEC31A2334921000C5FD4B /* HCConcernPartnerCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CEEEC31B2334921000C5FD4B /* ActivationCode */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC31C2334921000C5FD4B /* Controller */,
-				CEEEC3232334921000C5FD4B /* Model */,
-				CEEEC3282334921000C5FD4B /* View */,
-			);
-			path = ActivationCode;
-			sourceTree = "<group>";
-		};
-		CEEEC31C2334921000C5FD4B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC31D2334921000C5FD4B /* HCActiveCodeViewController.m */,
-				CEEEC31E2334921000C5FD4B /* HCActiveCodeListViewController.h */,
-				CEEEC31F2334921000C5FD4B /* HCShopSelectListViewController.m */,
-				CEEEC3202334921000C5FD4B /* HCActiveCodeViewController.h */,
-				CEEEC3212334921000C5FD4B /* HCShopSelectListViewController.h */,
-				CEEEC3222334921000C5FD4B /* HCActiveCodeListViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CEEEC3232334921000C5FD4B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3242334921000C5FD4B /* HCActiveCodeModel.h */,
-				CEEEC3252334921000C5FD4B /* HCShopModel.h */,
-				CEEEC3262334921000C5FD4B /* HCActiveCodeModel.m */,
-				CEEEC3272334921000C5FD4B /* HCShopModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CEEEC3282334921000C5FD4B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3292334921000C5FD4B /* HCShopSelectDownView.m */,
-				CEEEC32A2334921000C5FD4B /* HCSimpleSearchView.m */,
-				CEEEC32B2334921000C5FD4B /* HCActiveCodeCell.h */,
-				CEEEC32C2334921000C5FD4B /* HCAlertCreateCodeView.h */,
-				CEEEC32D2334921000C5FD4B /* HCShopCell.h */,
-				CEEEC32E2334921000C5FD4B /* HCSimpleSearchView.h */,
-				CEEEC32F2334921000C5FD4B /* HCShopSelectDownView.h */,
-				CEEEC3302334921000C5FD4B /* HCActiveCodeCell.m */,
-				CEEEC3312334921000C5FD4B /* HCShopCell.m */,
-				CEEEC3322334921000C5FD4B /* HCAlertCreateCodeView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CEEEC3332334921000C5FD4B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3342334921000C5FD4B /* UIColor+ChangeColor.m */,
-				CEEEC3352334921000C5FD4B /* UIImage+Scale.h */,
-				CEEEC3362334921000C5FD4B /* UIViewController+Extend.m */,
-				CEEEC3372334921000C5FD4B /* UIButton+TitleWithImage.m */,
-				CEEEC3382334921000C5FD4B /* UIView+Extension.h */,
-				CEEEC3392334921000C5FD4B /* UIButton+Button.m */,
-				CEEEC33A2334921000C5FD4B /* UIView+Radius.h */,
-				CEEEC33B2334921000C5FD4B /* UILabel+HRExtend.m */,
-				CEEEC33C2334921000C5FD4B /* UIColor+ChangeColor.h */,
-				CEEEC33D2334921000C5FD4B /* UIButton+TitleWithImage.h */,
-				CEEEC33E2334921000C5FD4B /* UIImage+Scale.m */,
-				CEEEC33F2334921000C5FD4B /* UIViewController+Extend.h */,
-				CEEEC3402334921000C5FD4B /* UIView+Extension.m */,
-				CEEEC3412334921000C5FD4B /* UILabel+HRExtend.h */,
-				CEEEC3422334921000C5FD4B /* UIView+Radius.m */,
-				CEEEC3432334921000C5FD4B /* UIButton+Button.h */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		CEEEC3442334921000C5FD4B /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3452334921000C5FD4B /* HRBaseViewController.m */,
-				CEEEC3462334921000C5FD4B /* HRBaseViewController.h */,
-			);
-			path = BaseViewController;
-			sourceTree = "<group>";
-		};
-		CEEEC3472334921000C5FD4B /* BaseModel */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3482334921000C5FD4B /* HRBaseModel.m */,
-				CEEEC3492334921000C5FD4B /* HRBaseModel.h */,
-			);
-			path = BaseModel;
-			sourceTree = "<group>";
-		};
-		CEEEC34A2334921000C5FD4B /* ConcernMarchant */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC34B2334921000C5FD4B /* Controller */,
-				CEEEC34E2334921000C5FD4B /* Model */,
-				CEEEC3512334921000C5FD4B /* View */,
-			);
-			path = ConcernMarchant;
-			sourceTree = "<group>";
-		};
-		CEEEC34B2334921000C5FD4B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC34C2334921000C5FD4B /* HCConcernMarchantViewController.h */,
-				CEEEC34D2334921000C5FD4B /* HCConcernMarchantViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CEEEC34E2334921000C5FD4B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC34F2334921000C5FD4B /* HCConcernMarchantModel.m */,
-				CEEEC3502334921000C5FD4B /* HCConcernMarchantModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CEEEC3512334921000C5FD4B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3522334921000C5FD4B /* HCConcernMarchantCell.m */,
-				CEEEC3532334921000C5FD4B /* HCConcernMarchantCell.xib */,
-				CEEEC3542334921000C5FD4B /* HCConcernMarchantCell.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CEEEC3552334921000C5FD4B /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3562334921000C5FD4B /* HCDateSelectorView.h */,
-				CEEEC3572334921000C5FD4B /* HRProgressView.m */,
-				CEEEC3582334921000C5FD4B /* HCUserDefaultsManager.h */,
-				CEEEC3592334921000C5FD4B /* UIView+HCExtense.m */,
-				CEEEC35A2334921000C5FD4B /* HCPullDownSelectView.h */,
-				CEEEC35B2334921000C5FD4B /* HCProfitChartLineView.m */,
-				CEEEC35C2334921000C5FD4B /* HRProgressView.h */,
-				CEEEC35D2334921000C5FD4B /* HCDateSelectorView.m */,
-				CEEEC35E2334921000C5FD4B /* HCPullDownSelectView.m */,
-				CEEEC35F2334921000C5FD4B /* HCUserDefaultsManager.m */,
-				CEEEC3602334921000C5FD4B /* UIView+HCExtense.h */,
-				CEEEC3612334921000C5FD4B /* HCProfitChartLineView.h */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		CEEEC3622334921000C5FD4B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		CEEEC3632334921000C5FD4B /* MarchantLoss */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3642334921000C5FD4B /* Controller */,
-				CEEEC3712334921000C5FD4B /* Model */,
-				CEEEC3742334921000C5FD4B /* View */,
-			);
-			path = MarchantLoss;
-			sourceTree = "<group>";
-		};
-		CEEEC3642334921000C5FD4B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3652334921000C5FD4B /* HCMarchantLossScrollViewController.m */,
-				CEEEC3662334921000C5FD4B /* HCMarchantThreeLossViewController.m */,
-				CEEEC3672334921000C5FD4B /* HCMarchantOneLossViewController.h */,
-				CEEEC3682334921000C5FD4B /* HCMarchantTwoLossViewController.m */,
-				CEEEC3692334921000C5FD4B /* HCMarchantLossViewController.m */,
-				CEEEC36A2334921000C5FD4B /* HCMarchantMoreLossViewController.m */,
-				CEEEC36B2334921000C5FD4B /* HCMarchantThreeLossViewController.h */,
-				CEEEC36C2334921000C5FD4B /* HCMarchantLossScrollViewController.h */,
-				CEEEC36D2334921000C5FD4B /* HCMarchantOneLossViewController.m */,
-				CEEEC36E2334921000C5FD4B /* HCMarchantTwoLossViewController.h */,
-				CEEEC36F2334921000C5FD4B /* HCMarchantMoreLossViewController.h */,
-				CEEEC3702334921000C5FD4B /* HCMarchantLossViewController.h */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CEEEC3712334921000C5FD4B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3722334921000C5FD4B /* HCMarchantLossModel.h */,
-				CEEEC3732334921000C5FD4B /* HCMarchantLossModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CEEEC3742334921000C5FD4B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3752334921100C5FD4B /* HCMarchantLossCell.m */,
-				CEEEC3762334921100C5FD4B /* HCMarchantLossCell.h */,
-				CEEEC3772334921100C5FD4B /* HCMarchantLossCell.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CEEEC3782334921100C5FD4B /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				CEEEC3792334921100C5FD4B /* HRVenderTool.m */,
-				CEEEC37A2334921100C5FD4B /* HCAlertTransInfoView.h */,
-				CEEEC37B2334921100C5FD4B /* HRVenderTool.h */,
-				CEEEC37C2334921100C5FD4B /* HCAlertTransInfoView.m */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -943,10 +526,8 @@
 				702495BB228CFEB000BA01E0 /* LaunchScreen.storyboard in Resources */,
 				702495B8228CFEB000BA01E0 /* Assets.xcassets in Resources */,
 				702495B6228CFEAE00BA01E0 /* Main.storyboard in Resources */,
-				CEEEC3812334921100C5FD4B /* HCConcernPartnerCell.xib in Resources */,
-				CEEEC3A92334921100C5FD4B /* HCMarchantLossCell.xib in Resources */,
+				CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */,
 				70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */,
-				CEEEC39A2334921100C5FD4B /* HCConcernMarchantCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,94 +552,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEEC37F2334921100C5FD4B /* HCConcernPartnerViewController.m in Sources */,
-				70249644228CFFA900BA01E0 /* CTLocalizedHelper.m in Sources */,
-				CEEEC3802334921100C5FD4B /* HCConcernPartnerModel.m in Sources */,
 				70249658228CFFA900BA01E0 /* KeyChainStore.m in Sources */,
 				70249657228CFFA900BA01E0 /* DBUserInfoModel.m in Sources */,
-				CE8A169E22E04A3300233869 /* HRModel.m in Sources */,
-				CEEEC38A2334921100C5FD4B /* HCActiveCodeCell.m in Sources */,
-				CEEEC3862334921100C5FD4B /* HCActiveCodeModel.m in Sources */,
-				CE8A169B22E0459F00233869 /* HRModel.m in Sources */,
 				70249605228CFF7900BA01E0 /* UIImage+Extense.m in Sources */,
 				702495B3228CFEAE00BA01E0 /* ViewController.m in Sources */,
-				CEEEC3A02334921100C5FD4B /* HCUserDefaultsManager.m in Sources */,
 				70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */,
-				CEEEC3982334921100C5FD4B /* HCConcernMarchantModel.m in Sources */,
-				CEEEC3822334921100C5FD4B /* HCConcernPartnerCell.m in Sources */,
-				CEEEC37D2334921100C5FD4B /* HCNetworkTool.m in Sources */,
 				70249653228CFFA900BA01E0 /* WHSPhotoImageView.m in Sources */,
-				CEEEC3A62334921100C5FD4B /* HCMarchantOneLossViewController.m in Sources */,
 				70249602228CFF7900BA01E0 /* UIButton+Button.m in Sources */,
 				70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */,
-				CEEEC3952334921100C5FD4B /* HRBaseViewController.m in Sources */,
 				7024964A228CFFA900BA01E0 /* HRQRViewController.m in Sources */,
-				CEEEC3852334921100C5FD4B /* HCActiveCodeListViewController.m in Sources */,
-				CEEEC39B2334921100C5FD4B /* HRProgressView.m in Sources */,
-				CEEEC3A12334921100C5FD4B /* HCMarchantLossScrollViewController.m in Sources */,
 				7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */,
-				CEEEC37E2334921100C5FD4B /* HRCommonRequest.m in Sources */,
-				CEEEC3872334921100C5FD4B /* HCShopModel.m in Sources */,
-				CEEEC38F2334921100C5FD4B /* UIButton+TitleWithImage.m in Sources */,
-				CEEEC3A42334921100C5FD4B /* HCMarchantLossViewController.m in Sources */,
-				CEEEC39D2334921100C5FD4B /* HCProfitChartLineView.m in Sources */,
-				CEEEC3972334921100C5FD4B /* HCConcernMarchantViewController.m in Sources */,
+				CEC09AAE234C1C5F008E2FCE /* WJSuccessView.m in Sources */,
 				CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */,
-				CEEEC3992334921100C5FD4B /* HCConcernMarchantCell.m in Sources */,
-				CEEEC3932334921100C5FD4B /* UIView+Extension.m in Sources */,
-				CEEEC3912334921100C5FD4B /* UILabel+HRExtend.m in Sources */,
 				CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */,
-				CEEEC38B2334921100C5FD4B /* HCShopCell.m in Sources */,
 				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+DBUILabel.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
-				CEEEC3A22334921100C5FD4B /* HCMarchantThreeLossViewController.m in Sources */,
 				70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */,
-				CEEEC3AA2334921100C5FD4B /* HRVenderTool.m in Sources */,
 				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
-				CEEEC39C2334921100C5FD4B /* UIView+HCExtense.m in Sources */,
-				CE6B4F2E2314C85900494AC2 /* HRVenderTool.m in Sources */,
-				CEEEC3942334921100C5FD4B /* UIView+Radius.m in Sources */,
+				CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
-				CEEEC39F2334921100C5FD4B /* HCPullDownSelectView.m in Sources */,
 				70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */,
 				7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */,
 				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
 				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
-				CEEEC3882334921100C5FD4B /* HCShopSelectDownView.m in Sources */,
 				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
 				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
-				CEEEC3922334921100C5FD4B /* UIImage+Scale.m in Sources */,
-				CEEEC3A82334921100C5FD4B /* HCMarchantLossCell.m in Sources */,
+				CEC09AAF234C1C5F008E2FCE /* MBProgressHUD+WJExtension.m in Sources */,
 				70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */,
-				CEEEC3A72334921100C5FD4B /* HCMarchantLossModel.m in Sources */,
-				CEEEC39E2334921100C5FD4B /* HCDateSelectorView.m in Sources */,
-				CEEEC3832334921100C5FD4B /* HCActiveCodeViewController.m in Sources */,
-				CEEEC38D2334921100C5FD4B /* UIColor+ChangeColor.m in Sources */,
+				CEC09AB1234C1C5F008E2FCE /* WJColouredRibbonAnimation.m in Sources */,
 				70249603228CFF7900BA01E0 /* WHSNavItemView.m in Sources */,
 				70249648228CFFA900BA01E0 /* WHSAlertView.m in Sources */,
-				CEEEC3962334921100C5FD4B /* HRBaseModel.m in Sources */,
-				CEEEC3AB2334921100C5FD4B /* HCAlertTransInfoView.m in Sources */,
 				7024964B228CFFA900BA01E0 /* SZImageView.m in Sources */,
 				70249652228CFFA900BA01E0 /* HMScannerController.m in Sources */,
 				7024964E228CFFA900BA01E0 /* HMScannerViewController.m in Sources */,
 				70249609228CFF7900BA01E0 /* UIView+Radius.m in Sources */,
-				CEEEC3902334921100C5FD4B /* UIButton+Button.m in Sources */,
-				CEEEC3892334921100C5FD4B /* HCSimpleSearchView.m in Sources */,
-				70249643228CFFA900BA01E0 /* HRNetworkTool.m in Sources */,
 				70249608228CFF7900BA01E0 /* UINavigationBar+handle.m in Sources */,
 				702495BE228CFEB000BA01E0 /* main.m in Sources */,
-				CEEEC3A32334921100C5FD4B /* HCMarchantTwoLossViewController.m in Sources */,
-				CEEEC3A52334921100C5FD4B /* HCMarchantMoreLossViewController.m in Sources */,
 				70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */,
 				70249656228CFFA900BA01E0 /* DBModelManager.m in Sources */,
 				CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */,
 				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,
 				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
-				CEEEC38E2334921100C5FD4B /* UIViewController+Extend.m in Sources */,
 				702495B0228CFEAE00BA01E0 /* AppDelegate.m in Sources */,
-				CEEEC3842334921100C5FD4B /* HCShopSelectListViewController.m in Sources */,
-				CEEEC38C2334921100C5FD4B /* HCAlertCreateCodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1235,6 +771,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1256,6 +793,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
