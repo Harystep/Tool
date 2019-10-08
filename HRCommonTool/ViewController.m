@@ -24,6 +24,7 @@
 #import "ViewController.h"
 #import "HREntenseButton.h"
 #import "YZXPieGraphView.h"
+#import "HRProgressHub.h"
 
 #define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -94,7 +95,9 @@
         NSLog(@"fail··");
 //        [MBProgressHUD wj_showPlainText:@"大家好!!" view:self.view];
     }
-    [[MBProgressController sharedInstance] showTipsOnlyText:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshi" AndDelay:1.0];
+//    [[MBProgressController sharedInstance] showTipsOnlyText:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshi" AndDelay:1.0];
+    
+    [[HRProgressHub sharedInstance] showTextMsg:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshiihfshaiufshihfshaiufshihfshaiufshi"];
 }
 
 
