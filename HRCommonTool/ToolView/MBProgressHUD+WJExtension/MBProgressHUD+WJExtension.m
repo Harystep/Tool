@@ -1,10 +1,4 @@
-//
-//  MBProgressHUD+WJExtension.m
-//  WJTool
-//
-//  Created by 陈威杰 on 2017/6/2.
-//  Copyright © 2017年 ChenWeiJie. All rights reserved.
-//
+
 
 #import "MBProgressHUD+WJExtension.h"
 

@@ -57,6 +57,7 @@
 		CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA7234C1C5E008E2FCE /* MBProgressHUD.m */; };
 		CEC09AB1234C1C5F008E2FCE /* WJColouredRibbonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA8234C1C5E008E2FCE /* WJColouredRibbonAnimation.m */; };
 		CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEC09AAB234C1C5E008E2FCE /* MBProgressExtension.bundle */; };
+		CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB4234C25DD008E2FCE /* MBProgressController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +177,8 @@
 		CEC09AAB234C1C5E008E2FCE /* MBProgressExtension.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressExtension.bundle; sourceTree = "<group>"; };
 		CEC09AAC234C1C5E008E2FCE /* WJSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSuccessView.h; sourceTree = "<group>"; };
 		CEC09AAD234C1C5E008E2FCE /* WJColouredRibbonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJColouredRibbonAnimation.h; sourceTree = "<group>"; };
+		CEC09AB3234C25DD008E2FCE /* MBProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressController.h; sourceTree = "<group>"; };
+		CEC09AB4234C25DD008E2FCE /* MBProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +403,8 @@
 		CEC09AA4234C1C5E008E2FCE /* MBProgressHUD+WJExtension */ = {
 			isa = PBXGroup;
 			children = (
+				CEC09AB3234C25DD008E2FCE /* MBProgressController.h */,
+				CEC09AB4234C25DD008E2FCE /* MBProgressController.m */,
 				CEC09AAB234C1C5E008E2FCE /* MBProgressExtension.bundle */,
 				CEC09AA9234C1C5E008E2FCE /* MBProgressHUD.h */,
 				CEC09AA7234C1C5E008E2FCE /* MBProgressHUD.m */,
@@ -577,6 +582,7 @@
 				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
 				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
 				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
+				CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */,
 				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
 				CEC09AAF234C1C5F008E2FCE /* MBProgressHUD+WJExtension.m in Sources */,
 				70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */,

@@ -1,13 +1,4 @@
-//
-//  WJSuccessView.h
-//  WJTool
-//
-//  Created by 陈威杰 on 2017/6/3.
-//  Copyright © 2017年 ChenWeiJie. All rights reserved.
-//
-//----------------------------------------------------
-//              打勾、打叉动画
-//----------------------------------------------------
+
 
 #import <UIKit/UIKit.h>
 

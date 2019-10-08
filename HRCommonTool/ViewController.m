@@ -92,8 +92,9 @@
         NSLog(@"success··");
     } else {
         NSLog(@"fail··");
-        [MBProgressHUD wj_showPlainText:@"大家好!!" view:self.view];
+//        [MBProgressHUD wj_showPlainText:@"大家好!!" view:self.view];
     }
+    [[MBProgressController sharedInstance] showTipsOnlyText:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshi" AndDelay:1.0];
 }
 
 
