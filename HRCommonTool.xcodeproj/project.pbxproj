@@ -59,6 +59,7 @@
 		CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEC09AAB234C1C5E008E2FCE /* MBProgressExtension.bundle */; };
 		CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB4234C25DD008E2FCE /* MBProgressController.m */; };
 		CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */; };
+		CECF7CDB234D926E00DA2A3B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +183,8 @@
 		CEC09AB4234C25DD008E2FCE /* MBProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressController.m; sourceTree = "<group>"; };
 		CEC09AB6234C27AA008E2FCE /* HRProgressHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRProgressHub.h; sourceTree = "<group>"; };
 		CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRProgressHub.m; sourceTree = "<group>"; };
+		CECF7CD9234D926E00DA2A3B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +299,8 @@
 		7024960A228CFFA900BA01E0 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				CECF7CD9234D926E00DA2A3B /* UIImage+Resize.h */,
+				CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -585,6 +590,7 @@
 				70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */,
 				7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */,
 				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
+				CECF7CDB234D926E00DA2A3B /* UIImage+Resize.m in Sources */,
 				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
 				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
 				CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */,

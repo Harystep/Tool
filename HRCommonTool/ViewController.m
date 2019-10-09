@@ -98,6 +98,11 @@
 //    [[MBProgressController sharedInstance] showTipsOnlyText:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshi" AndDelay:1.0];
     
     [[HRProgressHub sharedInstance] showTextMsg:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshiihfshaiufshihfshaiufshihfshaiufshi"];
+    
+    
+    NSString *timeTmp = [self dateConversionTimeStamp:[NSDate date]];
+    NSLog(@"%@", timeTmp);
+    
 }
 
 
@@ -105,5 +110,12 @@
     self.age = @"10";
     NSLog(@"切换分支%@", self.age);
 }
+
+-(NSString *)dateConversionTimeStamp:(NSDate *)date
+{
+    NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[date timeIntervalSince1970]*1000];
+    return timeSp;
+}
+
 
 @end
