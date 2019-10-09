@@ -60,6 +60,10 @@
 		CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB4234C25DD008E2FCE /* MBProgressController.m */; };
 		CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */; };
 		CECF7CDB234D926E00DA2A3B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */; };
+		CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE3234DCCB000DA2A3B /* YHRepairRecordCenterView.m */; };
+		CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */; };
+		CECF7CE9234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */; };
+		CECF7CEB234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +189,12 @@
 		CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRProgressHub.m; sourceTree = "<group>"; };
 		CECF7CD9234D926E00DA2A3B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		CECF7CE2234DCCB000DA2A3B /* YHRepairRecordCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRepairRecordCenterView.h; sourceTree = "<group>"; };
+		CECF7CE3234DCCB000DA2A3B /* YHRepairRecordCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRepairRecordCenterView.m; sourceTree = "<group>"; };
+		CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHRepairRecordCenterView.xib; sourceTree = "<group>"; };
+		CECF7CE7234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRepairRecordSubInfoView.h; sourceTree = "<group>"; };
+		CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRepairRecordSubInfoView.m; sourceTree = "<group>"; };
+		CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHRepairRecordSubInfoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +245,7 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CECF7CDF234DC70700DA2A3B /* View */,
 				CEEEC3082334921000C5FD4B /* Vender */,
 				7024960A228CFFA900BA01E0 /* Tool */,
 				7024960F228CFFA900BA01E0 /* ToolView */,
@@ -428,6 +439,19 @@
 			path = "MBProgressHUD+WJExtension";
 			sourceTree = "<group>";
 		};
+		CECF7CDF234DC70700DA2A3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CECF7CE2234DCCB000DA2A3B /* YHRepairRecordCenterView.h */,
+				CECF7CE3234DCCB000DA2A3B /* YHRepairRecordCenterView.m */,
+				CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */,
+				CECF7CE7234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.h */,
+				CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */,
+				CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CEEEC3082334921000C5FD4B /* Vender */ = {
 			isa = PBXGroup;
 			children = (
@@ -543,6 +567,8 @@
 				702495B6228CFEAE00BA01E0 /* Main.storyboard in Resources */,
 				CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */,
 				70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */,
+				CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */,
+				CECF7CEB234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +609,7 @@
 				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+DBUILabel.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
+				CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */,
 				70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */,
 				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
 				CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */,
@@ -608,6 +635,7 @@
 				702495BE228CFEB000BA01E0 /* main.m in Sources */,
 				70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */,
 				70249656228CFFA900BA01E0 /* DBModelManager.m in Sources */,
+				CECF7CE9234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m in Sources */,
 				CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */,
 				CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */,
 				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,

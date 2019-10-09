@@ -25,6 +25,8 @@
 #import "HREntenseButton.h"
 #import "YZXPieGraphView.h"
 #import "HRProgressHub.h"
+#import "YHRepairRecordSubInfoView.h"
+#import "YHRepairRecordCenterView.h"
 
 #define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -35,10 +37,30 @@
 
 @property (strong, nonatomic) UITextField *tf;
 
+@property (strong, nonatomic) YHRepairRecordCenterView *centerView;
+
+@property (strong, nonatomic) YHRepairRecordSubInfoView *subView;
+
 @end
 
 @implementation ViewController
 
+
+- (YHRepairRecordSubInfoView *)subView {
+    if (_subView == nil) {
+        _subView = [[NSBundle mainBundle] loadNibNamed:@"YHRepairRecordSubInfoView" owner:self options:nil].firstObject;
+        
+    }
+    return _subView;
+}
+
+- (YHRepairRecordCenterView *)centerView {
+    if (_centerView == nil) {
+        _centerView = [[NSBundle mainBundle] loadNibNamed:@"YHRepairRecordCenterView" owner:self options:nil].firstObject;
+        
+    }
+    return _centerView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -69,18 +91,24 @@
     _pieGraphView.hideAnnotation = YES;  //是否隐藏注释(可不设置)
     _pieGraphView.circleCenter = CGPointMake(200, 80); // 圆的中心点(可不设置)
     ////        }
-    [self.view addSubview:_pieGraphView];
+//    [self.view addSubview:_pieGraphView];
     
     
     UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, 200, 300, 40)];
     tf.backgroundColor = [UIColor lightGrayColor];
     self.tf = tf;
     tf.textColor = [UIColor blackColor];
-    [self.view addSubview:tf];
     
-
-    NSLog(@"hahahha");
-
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    
+    [self.subView setCornerRadius:10];
+    [self.view addSubview:self.subView];
+    self.subView.frame = CGRectMake(16, 100, kWIDTH - 16 * 2, 250);
+    
+    [self.centerView setCornerRadius:10];
+    [self.view addSubview:self.centerView];
+    self.centerView.frame = CGRectMake(16, CGRectGetMaxY(self.subView.frame), kWIDTH - 16 * 2, 250);
+    
 }
 
 - (void)click {
