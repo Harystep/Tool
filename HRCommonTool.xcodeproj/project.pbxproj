@@ -233,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				CEEEC3082334921000C5FD4B /* Vender */,
-				7024960A228CFFA900BA01E0 /* Tool */,
 				7024960F228CFFA900BA01E0 /* ToolView */,
 				702495EB228CFF7800BA01E0 /* HRCategory */,
 				702495AE228CFEAE00BA01E0 /* AppDelegate.h */,
@@ -291,13 +290,6 @@
 				702495F7228CFF7900BA01E0 /* WHSNavItemView.m */,
 			);
 			path = HRCategory;
-			sourceTree = "<group>";
-		};
-		7024960A228CFFA900BA01E0 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		7024960F228CFFA900BA01E0 /* ToolView */ = {
