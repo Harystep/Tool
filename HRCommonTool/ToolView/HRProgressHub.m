@@ -68,4 +68,5 @@ static HRProgressHub *_instance;
     return postJobSize;
 }
 
+
 @end
