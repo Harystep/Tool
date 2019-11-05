@@ -316,7 +316,6 @@
 				CECE5D1E236BE03D005BC497 /* TypeView */,
 				CECF7CDF234DC70700DA2A3B /* View */,
 				CEEEC3082334921000C5FD4B /* Vender */,
-				7024960A228CFFA900BA01E0 /* Tool */,
 				7024960F228CFFA900BA01E0 /* ToolView */,
 				702495EB228CFF7800BA01E0 /* HRCategory */,
 				702495AE228CFEAE00BA01E0 /* AppDelegate.h */,
@@ -385,6 +384,8 @@
 			path = HRCategory;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
 		7024960A228CFFA900BA01E0 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,6 +395,7 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+>>>>>>> 5606d0ce2d1e0a2a218766267f31b13e50794a09
 		7024960F228CFFA900BA01E0 /* ToolView */ = {
 			isa = PBXGroup;
 			children = (
