@@ -48,8 +48,8 @@ static HRProgressHub *_instance;
     titleL.text = content;
     [_instance addSubview:titleL];
     dispatch_async(dispatch_get_main_queue(), ^{
-        titleL.frame = CGRectMake((kWidth - kMarX * 2 - contentSize.width - 4)/2.0, 5, contentSize.width + 4, contentSize.height + 4);
-        _instance.frame = CGRectMake(kMarX, (kHeight - contentSize.height - 14) / 2.0, kWidth - kMarX * 2, contentSize.height + 14);
+        titleL.frame = CGRectMake((kWidth - (contentSize.width + 4 + 10)) / 2.0, 5, contentSize.width + 4, contentSize.height + 4);
+        _instance.frame = CGRectMake((kWidth - (contentSize.width + 4 + 10)) / 2.0, (kHeight - contentSize.height - 14) / 2.0, contentSize.width + 4 + 10, contentSize.height + 14);
     });
     
     UIWindow *win = [UIApplication sharedApplication].keyWindow;

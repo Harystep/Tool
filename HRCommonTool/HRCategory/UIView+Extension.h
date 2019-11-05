@@ -26,4 +26,20 @@
 
 /** 尺寸 */
 @property(nonatomic, assign)CGSize size;
+
+
+- (UIView *)createViewOnTargetView:(UIView *)targetView withFrame:(CGRect)rect;
+
+- (UILabel *)createLabelOnTargetView:(UIView *)targetView withFrame:(CGRect)rect;
+
+- (UIImageView *)createImageViewOnTargetView:(UIView *)targetView withFrame:(CGRect)rect;
+
+- (UIButton *)createButtonOnTargetView:(UIView *)targetView withFrame:(CGRect)rect;
+
+- (UIScrollView *)createScrollViewOnTargetView:(UIView *)targetView withFrame:(CGRect)rect;
+
+- (UITableView *)createTableViewOnTargetView:(UIView *)targetView withFrame:(CGRect)rect;
+
+- (UITextField *)createTextFieldOnTargetView:(UIView *)targetView withFrame:(CGRect)rect withPlaceholder:(NSString *)placeholder;
+
 @end

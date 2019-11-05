@@ -17,9 +17,10 @@
 #import "UIView+Radius.h"
 #import "UIView+Extension.h"
 #import "DBTipView.h"
-#import "UILabel+DBUILabel.h"
+#import "UILabel+Extend.h"
 #import "MBProgressHUD+WJExtension.h"
 #import "MBProgressController.h"
+#import "UIColor+ChangeColor.h"
 
 
 #define kMarginX 10
@@ -28,14 +29,23 @@
 #define kTopMargin 10
 #define kLeadMargin 16
 
+#define kHRMarginX 16.0
+#define kHRMarginY 10.0
+
 #define kWIDTH [UIScreen mainScreen].bounds.size.width
 #define kHEIGHT [UIScreen mainScreen].bounds.size.height
 #define CTLocalizedString(key) [[CTLocalizedHelper standardHelper] stringWithKey:key]
 
 #define kFontSize(font) [UIFont systemFontOfSize:font]
+#define kColorHex(Hex) [UIColor colorWithHexString:Hex]
 
 #define kAppUserToken @"kAppUserToken"
 
+#define kImageName(name) [UIImage imageNamed:name]
+
+#define kViewBgColor [UIColor colorWithHexString:@"#F7F6FA"]
+#define kViewSepColor [UIColor colorWithHexString:@"#F7F6FA"]
+#define kViewWhiteColor [UIColor colorWithHexString:@"#ffffff"]
 #define kViewSeparatorBgColor [UIColor colorWithHexString:@"#ededed"]
 #define kSeperoterViewColor [UIColor colorWithHexString:@"#EDF1F6"]
 #define kTitleContentColor [UIColor colorWithHexString:@"#22323f"]
