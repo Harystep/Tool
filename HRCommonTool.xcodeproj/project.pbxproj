@@ -49,6 +49,11 @@
 		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
 		CE3504972371450000D1864A /* UIColor+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3504962371450000D1864A /* UIColor+ChangeColor.m */; };
+		CE5CCC742394A9470030269D /* XLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC6E2394A9470030269D /* XLVideoPlayer.m */; };
+		CE5CCC752394A9470030269D /* XLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC712394A9470030269D /* XLSlider.m */; };
+		CE5CCC762394A9470030269D /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE5CCC722394A9470030269D /* ImageResources.bundle */; };
+		CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */; };
+		CE5CCC7C2394AAED0030269D /* HCVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC7A2394AAED0030269D /* HCVideoItem.m */; };
 		CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A21822F44018008FC6FF /* YZXPieGraphView.m */; };
 		CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
@@ -83,7 +88,6 @@
 		CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB4234C25DD008E2FCE /* MBProgressController.m */; };
 		CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */; };
 		CECE5D23236BE0B0005BC497 /* HRSimpleTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE5D22236BE0B0005BC497 /* HRSimpleTypeView.m */; };
-		CECF7CDB234D926E00DA2A3B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */; };
 		CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE3234DCCB000DA2A3B /* YHRepairRecordCenterView.m */; };
 		CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */; };
 		CECF7CE9234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */; };
@@ -192,6 +196,15 @@
 		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
 		CE350495237144FF00D1864A /* UIColor+ChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChangeColor.h"; path = "../../../jiutongfuwu-ios/HczyJtb/Main/Function/HczyUserMVC/HRModule/Category/UIColor+ChangeColor.h"; sourceTree = "<group>"; };
 		CE3504962371450000D1864A /* UIColor+ChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChangeColor.m"; path = "../../../jiutongfuwu-ios/HczyJtb/Main/Function/HczyUserMVC/HRModule/Category/UIColor+ChangeColor.m"; sourceTree = "<group>"; };
+		CE5CCC6E2394A9470030269D /* XLVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVideoPlayer.m; sourceTree = "<group>"; };
+		CE5CCC702394A9470030269D /* XLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlider.h; sourceTree = "<group>"; };
+		CE5CCC712394A9470030269D /* XLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlider.m; sourceTree = "<group>"; };
+		CE5CCC722394A9470030269D /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		CE5CCC732394A9470030269D /* XLVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVideoPlayer.h; sourceTree = "<group>"; };
+		CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRVideoPlayerViewController.h; sourceTree = "<group>"; };
+		CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRVideoPlayerViewController.m; sourceTree = "<group>"; };
+		CE5CCC7A2394AAED0030269D /* HCVideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCVideoItem.m; sourceTree = "<group>"; };
+		CE5CCC7B2394AAED0030269D /* HCVideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCVideoItem.h; sourceTree = "<group>"; };
 		CE87A21722F44018008FC6FF /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
 		CE87A21822F44018008FC6FF /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
 		CEAC99BC22F01FC3003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
@@ -255,8 +268,6 @@
 		CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRProgressHub.m; sourceTree = "<group>"; };
 		CECE5D21236BE0B0005BC497 /* HRSimpleTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRSimpleTypeView.h; sourceTree = "<group>"; };
 		CECE5D22236BE0B0005BC497 /* HRSimpleTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRSimpleTypeView.m; sourceTree = "<group>"; };
-		CECF7CD9234D926E00DA2A3B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		CECF7CE2234DCCB000DA2A3B /* YHRepairRecordCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRepairRecordCenterView.h; sourceTree = "<group>"; };
 		CECF7CE3234DCCB000DA2A3B /* YHRepairRecordCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRepairRecordCenterView.m; sourceTree = "<group>"; };
 		CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHRepairRecordCenterView.xib; sourceTree = "<group>"; };
@@ -297,6 +308,7 @@
 				702495C6228CFEB000BA01E0 /* HRCommonToolTests */,
 				702495D1228CFEB000BA01E0 /* HRCommonToolUITests */,
 				702495AC228CFEAE00BA01E0 /* Products */,
+				CEDB8980237D588E004C1515 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -313,6 +325,7 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CE5CCC6D2394A9460030269D /* VideoPlayer */,
 				CECE5D1E236BE03D005BC497 /* TypeView */,
 				CECF7CDF234DC70700DA2A3B /* View */,
 				CEEEC3082334921000C5FD4B /* Vender */,
@@ -322,6 +335,10 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
+				CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */,
+				CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */,
+				CE5CCC7B2394AAED0030269D /* HCVideoItem.h */,
+				CE5CCC7A2394AAED0030269D /* HCVideoItem.m */,
 				CEBB8DEB234F193E00D3C079 /* 221570693548.jpg */,
 				CEBB8DE7234F186D00D3C079 /* 1570693338102654.mp4 */,
 				CEBB8DE5234F186500D3C079 /* 1570693318726046.mp4 */,
@@ -384,18 +401,6 @@
 			path = HRCategory;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
-		7024960A228CFFA900BA01E0 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				CECF7CD9234D926E00DA2A3B /* UIImage+Resize.h */,
-				CECF7CDA234D926E00DA2A3B /* UIImage+Resize.m */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
->>>>>>> 5606d0ce2d1e0a2a218766267f31b13e50794a09
 		7024960F228CFFA900BA01E0 /* ToolView */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +495,26 @@
 				70249638228CFFA900BA01E0 /* NSUtil.h */,
 			);
 			path = HRPictureCompression;
+			sourceTree = "<group>";
+		};
+		CE5CCC6D2394A9460030269D /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE5CCC722394A9470030269D /* ImageResources.bundle */,
+				CE5CCC6F2394A9470030269D /* Slider */,
+				CE5CCC732394A9470030269D /* XLVideoPlayer.h */,
+				CE5CCC6E2394A9470030269D /* XLVideoPlayer.m */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		CE5CCC6F2394A9470030269D /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				CE5CCC702394A9470030269D /* XLSlider.h */,
+				CE5CCC712394A9470030269D /* XLSlider.m */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 		CE87A21622F44018008FC6FF /* YZXPieGraphView */ = {
@@ -595,6 +620,13 @@
 				CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CEDB8980237D588E004C1515 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		CEEEC3082334921000C5FD4B /* Vender */ = {
@@ -717,6 +749,7 @@
 				CEBB8DAB234ED3D800D3C079 /* small.mp4 in Resources */,
 				70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */,
 				CEBB8DE4234F17E600D3C079 /* 1570693205151393.mp4 in Resources */,
+				CE5CCC762394A9470030269D /* ImageResources.bundle in Resources */,
 				CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */,
 				CEBB8DEC234F193E00D3C079 /* 221570693548.jpg in Resources */,
 				CEBB8DE8234F186D00D3C079 /* 1570693338102654.mp4 in Resources */,
@@ -763,6 +796,7 @@
 				CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */,
 				CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */,
 				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
+				CE5CCC742394A9470030269D /* XLVideoPlayer.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+Extend.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
 				CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */,
@@ -770,6 +804,7 @@
 				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
 				CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
+				CE5CCC752394A9470030269D /* XLSlider.m in Sources */,
 				CEBB8D98234EBECD00D3C079 /* UIRefreshControl+AFNetworking.m in Sources */,
 				CEBB8D9C234EBECD00D3C079 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */,
@@ -778,11 +813,11 @@
 				CEBB8D9D234EBECD00D3C079 /* UIWebView+AFNetworking.m in Sources */,
 				CEBB8DA5234EBECD00D3C079 /* AFSecurityPolicy.m in Sources */,
 				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
-				CECF7CDB234D926E00DA2A3B /* UIImage+Resize.m in Sources */,
 				CEBB8D9A234EBECD00D3C079 /* UIImageView+AFNetworking.m in Sources */,
 				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
 				CEBB8DA4234EBECD00D3C079 /* AFNetworkReachabilityManager.m in Sources */,
 				CEBB8DA3234EBECD00D3C079 /* AFURLRequestSerialization.m in Sources */,
+				CE5CCC7C2394AAED0030269D /* HCVideoItem.m in Sources */,
 				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
 				CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */,
 				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
@@ -809,6 +844,7 @@
 				CECF7CE9234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m in Sources */,
 				CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */,
 				CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */,
+				CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */,
 				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,
 				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
 				702495B0228CFEAE00BA01E0 /* AppDelegate.m in Sources */,

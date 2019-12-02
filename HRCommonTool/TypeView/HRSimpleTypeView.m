@@ -8,6 +8,10 @@
 
 @property (strong, nonatomic) UITextField *targetF;
 
+@property (strong, nonatomic) UILabel *subLabelTitleL;
+
+@property (strong, nonatomic) UILabel *subFieldTitleL;
+
 @end
 
 @implementation HRSimpleTypeView
@@ -37,15 +41,15 @@
 }
 #pragma mark -- 文本显示框
 - (void)createViewTypeWithText {
-    
+    [self createSubViewsOnTargetView:self withTitle:@"" isArrow:NO withPlaceholder:@""];
 }
 #pragma mark -- 文本输入框
 - (void)createViewTypeWithField {
-    
+    [self createSubViewsOnTargetView:self withTitle:@"" withPlaceholder:@""];
 }
 #pragma mark -- 文本选择框
 - (void)createViewTypeWithTextAndArrow {
-    
+    [self createSubViewsOnTargetView:self withTitle:@"" isArrow:YES withPlaceholder:@""];
 }
 #pragma mark -- 创建视图+文本框
 - (void)createSubViewsOnTargetView:(UIView *)targetView withTitle:(NSString *)title withPlaceholder:(NSString *)placeholder {
@@ -53,6 +57,7 @@
     sepView.backgroundColor = kViewSepColor;
     
     UILabel *titleL = [self createLabelOnTargetView:targetView withFrame:CGRectMake(kHRMarginX, 0, 110, targetView.height - 1)];
+    self.subLabelTitleL = titleL;
     [titleL setLabelTextColor:kColorHex(@"#333333") text:title withFont:15];
     
     UITextField *inputF = [self createTextFieldOnTargetView:targetView withFrame:CGRectMake(CGRectGetMaxX(titleL.frame), 0, targetView.width - CGRectGetMaxX(titleL.frame) - kHRMarginX, targetView.height - 1) withPlaceholder:placeholder];
@@ -69,6 +74,7 @@
     sepView.backgroundColor = kViewSepColor;
     
     UILabel *titleL = [self createLabelOnTargetView:targetView withFrame:CGRectMake(kHRMarginX, 0, 110, targetView.height - 1)];
+    self.subFieldTitleL = titleL;
     [titleL setLabelTextColor:kColorHex(@"#333333") text:title withFont:15];
     
     UIImageView *arrowIv = [[UIImageView alloc] initWithImage:kImageName(@"icon-v5_moreArrow")];
@@ -87,13 +93,36 @@
     selectL.numberOfLines = 0;
     self.targetL = selectL;
     selectL.lineBreakMode = NSLineBreakByCharWrapping;
-    [selectL addGestureRecognizer:tapGes];
     if (arrowIv) {
-        selectL.userInteractionEnabled = YES;
+        [self addGestureRecognizer:tapGes];        
     } else {
-        selectL.userInteractionEnabled = NO;
+        
     }
 }
+
+- (void)setTargetTag:(NSInteger)targetTag {
+    _targetTag = targetTag;
+    self.tag = targetTag;
+}
+
+- (void)setSubTitleStr:(NSString *)subTitleStr {
+    _subTitleStr = subTitleStr;
+    if (self.targetF != nil) {
+        self.subFieldTitleL.text = subTitleStr;
+    } else {
+        self.subLabelTitleL.text = subTitleStr;
+    }
+}
+
+- (void)setAlertPlaceholder:(NSString *)alertPlaceholder {
+    _alertPlaceholder = alertPlaceholder;
+    if (self.targetF != nil) {
+        self.targetF.placeholder = alertPlaceholder;
+    } else {
+        self.targetL.text = alertPlaceholder;
+    }
+}
+
 #pragma mark -- 点击选择手势
 - (void)selectChangeTypeOperate:(UITapGestureRecognizer *)tap {
     

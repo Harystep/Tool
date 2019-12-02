@@ -30,6 +30,7 @@
 #import "YHRepairRecordCenterView.h"
 #import "AFNetworking.h"
 #import "BRStringPickerView.h"
+#import "HRVideoPlayerViewController.h"
 
 #define CompressionVideoPaht [NSHomeDirectory() stringByAppendingFormat:@"/Documents/CompressionVideoField"]
 
@@ -70,10 +71,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
     UIView *view = [[UIView alloc] init];
     view.frame = CGRectMake(100, 100, 200, 200);
-//    view.backgroundColor = [UIColor redColor];
+    view.backgroundColor = [UIColor whiteColor];
+    view.layer.shadowColor = [UIColor blackColor].CGColor;
+    view.layer.shadowOpacity = 0.1f;
+    view.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);
+    view.layer.shadowRadius = 5.0f;
+    view.layer.masksToBounds = NO;
+    //正常矩形
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:view.bounds];
+    view.layer.shadowPath = path.CGPath;
     [self.view addSubview:view];
+    
     
     HREntenseButton *btn = [[HREntenseButton alloc] init];
     btn.tag = 1;
@@ -85,37 +97,42 @@
     UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, 200, 300, 40)];
     tf.backgroundColor = [UIColor lightGrayColor];
     self.tf = tf;
-    tf.textColor = [UIColor blackColor];
-    
-    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    tf.textColor = [UIColor blackColor];    
     
 
     HREntenseButton *btn1 = [[HREntenseButton alloc] init];
     btn1.tag = 2;
-    btn1.frame = CGRectMake(200, 500, 50, 50);
-    btn1.backgroundColor = [UIColor redColor];
+    btn1.frame = CGRectMake(200, 500, 100, 30);
+    btn1.backgroundColor = [UIColor lightGrayColor];
     [btn1 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
+    
+    btn1.layer.borderWidth = 1.0;
+    btn1.layer.borderColor = [UIColor redColor].CGColor;
+    [btn1 setCornerRadius:15];
     
 }
 
 - (void)click:(UIButton *)sender {
-    [[HRProgressHub sharedInstance] showTextMsg:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshiihfshaiufshihfshaiufshihfshaiufshi"];
- 
-//    [self uploadFileWithPic:@"image/jpeg"];
-    if (sender.tag == 1) {
-        [self uploadFileWithPic:@"image/jpg"];
-    } else {
-        [self uploadFileWithVideo:@"video/mp4"];
-    }
+//    [[HRProgressHub sharedInstance] showTextMsg:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshiihfshaiufshihfshaiufshihfshaiufshi"];
+//
+////    [self uploadFileWithPic:@"image/jpeg"];
+//    if (sender.tag == 1) {
+//        [self uploadFileWithPic:@"image/jpg"];
+//    } else {
+//        [self uploadFileWithVideo:@"video/mp4"];
+//    }
+//
+//    NSArray *titleArr = @[@"123", @"456"];
+//    [BRStringPickerView showStringPickerWithTitle:@"" dataSource:titleArr defaultSelValue:titleArr.lastObject isAutoSelect:NO resultBlock:^(id selectValue) {
+//        NSLog(@"%@", selectValue);
+//    } cancelBlcok:^{
+//
+//    }];
     
-    NSArray *titleArr = @[@"123", @"456"];
-    [BRStringPickerView showStringPickerWithTitle:@"" dataSource:titleArr defaultSelValue:titleArr.lastObject isAutoSelect:NO resultBlock:^(id selectValue) {
-        NSLog(@"%@", selectValue);
-    } cancelBlcok:^{
-        
-    }];
-    
+    HRVideoPlayerViewController *videoVc = [[HRVideoPlayerViewController alloc] init];
+    [self presentViewController:videoVc animated:YES completion:nil];
+                                            
 }
 
 - (void)uploadFileWithPic:(NSString *)type {

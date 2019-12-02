@@ -13,6 +13,9 @@ typedef enum {
 
 @property (assign, nonatomic) NSInteger targetTag;
 
+@property (copy, nonatomic) NSString *alertPlaceholder;
+
+@property (copy, nonatomic) NSString *subTitleStr;
 
 - (instancetype)initWithFrame:(CGRect)frame withStyle:(HRSimpleViewType)type;
 
