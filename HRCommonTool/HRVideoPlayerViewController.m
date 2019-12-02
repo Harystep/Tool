@@ -23,7 +23,6 @@
  */
 
 #import "HRVideoPlayerViewController.h"
-#import "HCVideoItem.h"
 #import "XLVideoPlayer.h"
 #import <AVKit/AVKit.h>
 

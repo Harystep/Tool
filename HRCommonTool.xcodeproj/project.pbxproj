@@ -53,7 +53,6 @@
 		CE5CCC752394A9470030269D /* XLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC712394A9470030269D /* XLSlider.m */; };
 		CE5CCC762394A9470030269D /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE5CCC722394A9470030269D /* ImageResources.bundle */; };
 		CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */; };
-		CE5CCC7C2394AAED0030269D /* HCVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC7A2394AAED0030269D /* HCVideoItem.m */; };
 		CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A21822F44018008FC6FF /* YZXPieGraphView.m */; };
 		CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
@@ -203,8 +202,6 @@
 		CE5CCC732394A9470030269D /* XLVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVideoPlayer.h; sourceTree = "<group>"; };
 		CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRVideoPlayerViewController.h; sourceTree = "<group>"; };
 		CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRVideoPlayerViewController.m; sourceTree = "<group>"; };
-		CE5CCC7A2394AAED0030269D /* HCVideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCVideoItem.m; sourceTree = "<group>"; };
-		CE5CCC7B2394AAED0030269D /* HCVideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCVideoItem.h; sourceTree = "<group>"; };
 		CE87A21722F44018008FC6FF /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
 		CE87A21822F44018008FC6FF /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
 		CEAC99BC22F01FC3003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
@@ -337,8 +334,6 @@
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
 				CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */,
 				CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */,
-				CE5CCC7B2394AAED0030269D /* HCVideoItem.h */,
-				CE5CCC7A2394AAED0030269D /* HCVideoItem.m */,
 				CEBB8DEB234F193E00D3C079 /* 221570693548.jpg */,
 				CEBB8DE7234F186D00D3C079 /* 1570693338102654.mp4 */,
 				CEBB8DE5234F186500D3C079 /* 1570693318726046.mp4 */,
@@ -817,7 +812,6 @@
 				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
 				CEBB8DA4234EBECD00D3C079 /* AFNetworkReachabilityManager.m in Sources */,
 				CEBB8DA3234EBECD00D3C079 /* AFURLRequestSerialization.m in Sources */,
-				CE5CCC7C2394AAED0030269D /* HCVideoItem.m in Sources */,
 				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
 				CEC09AB5234C25DE008E2FCE /* MBProgressController.m in Sources */,
 				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
