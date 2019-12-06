@@ -1,26 +1,4 @@
-/*
- self.playVideoView.frame = CGRectMake(0, 0, SCREEN_WIDTH,SCREEN_WIDTH*(11.0 / 16.0));
- [self.scrollView addSubview:self.playVideoView];
- 
- self.player = [[XLVideoPlayer alloc] init];
- MJWeakSelf;
- self.player.fullXScreenBlock = ^{
- weakSelf.player.frame = CGRectMake(0, 0, SCREEN_WIDTH,SCREEN_WIDTH*(11.0 / 16.0));
- [weakSelf.playVideoView addSubview:weakSelf.player];
- };
- 
- if (![WorkToolClass judgeIsEmptyWithString:video_url]) {
- self.videoUrl = video_url;
- }else{
- //默认给一个宣传视频
- self.videoUrl = video_url;
- }
- 
- self.player.videoUrl = self.videoUrl;
- [self.player playPause];
- self.player.frame = CGRectMake(0, 0, SCREEN_WIDTH,SCREEN_WIDTH*(11.0 / 16.0));
- [self.playVideoView addSubview:self.player];
- */
+
 
 #import "HRVideoPlayerViewController.h"
 #import "XLVideoPlayer.h"

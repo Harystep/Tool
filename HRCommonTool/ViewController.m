@@ -31,6 +31,7 @@
 #import "AFNetworking.h"
 #import "BRStringPickerView.h"
 #import "HRVideoPlayerViewController.h"
+#import "HRFunctionViewController.h"
 
 #define CompressionVideoPaht [NSHomeDirectory() stringByAppendingFormat:@"/Documents/CompressionVideoField"]
 
@@ -114,25 +115,36 @@
 }
 
 - (void)click:(UIButton *)sender {
-//    [[HRProgressHub sharedInstance] showTextMsg:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshiihfshaiufshihfshaiufshihfshaiufshi"];
-//
-////    [self uploadFileWithPic:@"image/jpeg"];
-//    if (sender.tag == 1) {
-//        [self uploadFileWithPic:@"image/jpg"];
-//    } else {
-//        [self uploadFileWithVideo:@"video/mp4"];
-//    }
-//
-//    NSArray *titleArr = @[@"123", @"456"];
-//    [BRStringPickerView showStringPickerWithTitle:@"" dataSource:titleArr defaultSelValue:titleArr.lastObject isAutoSelect:NO resultBlock:^(id selectValue) {
-//        NSLog(@"%@", selectValue);
-//    } cancelBlcok:^{
-//
-//    }];
-    
+
+    [self jumpFunctionView];
+}
+
+- (void)jumpFunctionView {
+    HRFunctionViewController *function = [[HRFunctionViewController alloc] init];
+    [self presentViewController:function animated:YES completion:nil];
+}
+
+- (void)jumpVideoView {
     HRVideoPlayerViewController *videoVc = [[HRVideoPlayerViewController alloc] init];
     [self presentViewController:videoVc animated:YES completion:nil];
-                                            
+}
+
+- (void)addAlertViewOperate:(UIButton *)sender {
+    [[HRProgressHub sharedInstance] showTextMsg:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshiihfshaiufshihfshaiufshihfshaiufshi"];
+
+//    [self uploadFileWithPic:@"image/jpeg"];
+    if (sender.tag == 1) {
+        [self uploadFileWithPic:@"image/jpg"];
+    } else {
+        [self uploadFileWithVideo:@"video/mp4"];
+    }
+
+    NSArray *titleArr = @[@"123", @"456"];
+    [BRStringPickerView showStringPickerWithTitle:@"" dataSource:titleArr defaultSelValue:titleArr.lastObject isAutoSelect:NO resultBlock:^(id selectValue) {
+        NSLog(@"%@", selectValue);
+    } cancelBlcok:^{
+
+    }];
 }
 
 - (void)uploadFileWithPic:(NSString *)type {

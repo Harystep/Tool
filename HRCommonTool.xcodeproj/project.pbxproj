@@ -53,6 +53,12 @@
 		CE5CCC752394A9470030269D /* XLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC712394A9470030269D /* XLSlider.m */; };
 		CE5CCC762394A9470030269D /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE5CCC722394A9470030269D /* ImageResources.bundle */; };
 		CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */; };
+		CE8264E2239A3415008A533C /* HRFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E1239A3415008A533C /* HRFunctionViewController.m */; };
+		CE8264E5239A3937008A533C /* HRTopRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E3239A3937008A533C /* HRTopRotateView.m */; };
+		CE8264E8239A4976008A533C /* HRFunctionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E7239A4976008A533C /* HRFunctionItemView.m */; };
+		CE8264EB239A4C53008A533C /* HREmergencySimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264EA239A4C53008A533C /* HREmergencySimpleView.m */; };
+		CE8264EE239A4C82008A533C /* HRSecuritySimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264ED239A4C82008A533C /* HRSecuritySimpleView.m */; };
+		CE8264F1239A52DC008A533C /* HRFunctionSimpleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264F0239A52DC008A533C /* HRFunctionSimpleViewCell.m */; };
 		CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A21822F44018008FC6FF /* YZXPieGraphView.m */; };
 		CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BD22F01FC3003DBFE3 /* HRCommonUtils.m */; };
 		CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC99BF22F0211E003DBFE3 /* HRCommonUtils.m */; };
@@ -202,6 +208,18 @@
 		CE5CCC732394A9470030269D /* XLVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVideoPlayer.h; sourceTree = "<group>"; };
 		CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRVideoPlayerViewController.h; sourceTree = "<group>"; };
 		CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRVideoPlayerViewController.m; sourceTree = "<group>"; };
+		CE8264E0239A3415008A533C /* HRFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRFunctionViewController.h; sourceTree = "<group>"; };
+		CE8264E1239A3415008A533C /* HRFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRFunctionViewController.m; sourceTree = "<group>"; };
+		CE8264E3239A3937008A533C /* HRTopRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTopRotateView.m; sourceTree = "<group>"; };
+		CE8264E4239A3937008A533C /* HRTopRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRTopRotateView.h; sourceTree = "<group>"; };
+		CE8264E6239A4976008A533C /* HRFunctionItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRFunctionItemView.h; sourceTree = "<group>"; };
+		CE8264E7239A4976008A533C /* HRFunctionItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRFunctionItemView.m; sourceTree = "<group>"; };
+		CE8264E9239A4C53008A533C /* HREmergencySimpleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HREmergencySimpleView.h; sourceTree = "<group>"; };
+		CE8264EA239A4C53008A533C /* HREmergencySimpleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HREmergencySimpleView.m; sourceTree = "<group>"; };
+		CE8264EC239A4C82008A533C /* HRSecuritySimpleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRSecuritySimpleView.h; sourceTree = "<group>"; };
+		CE8264ED239A4C82008A533C /* HRSecuritySimpleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRSecuritySimpleView.m; sourceTree = "<group>"; };
+		CE8264EF239A52DC008A533C /* HRFunctionSimpleViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRFunctionSimpleViewCell.h; sourceTree = "<group>"; };
+		CE8264F0239A52DC008A533C /* HRFunctionSimpleViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRFunctionSimpleViewCell.m; sourceTree = "<group>"; };
 		CE87A21722F44018008FC6FF /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
 		CE87A21822F44018008FC6FF /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
 		CEAC99BC22F01FC3003DBFE3 /* HRCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCommonUtils.h; sourceTree = "<group>"; };
@@ -334,6 +352,18 @@
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
 				CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */,
 				CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */,
+				CE8264E0239A3415008A533C /* HRFunctionViewController.h */,
+				CE8264E1239A3415008A533C /* HRFunctionViewController.m */,
+				CE8264E6239A4976008A533C /* HRFunctionItemView.h */,
+				CE8264E7239A4976008A533C /* HRFunctionItemView.m */,
+				CE8264E4239A3937008A533C /* HRTopRotateView.h */,
+				CE8264E3239A3937008A533C /* HRTopRotateView.m */,
+				CE8264E9239A4C53008A533C /* HREmergencySimpleView.h */,
+				CE8264EA239A4C53008A533C /* HREmergencySimpleView.m */,
+				CE8264EC239A4C82008A533C /* HRSecuritySimpleView.h */,
+				CE8264ED239A4C82008A533C /* HRSecuritySimpleView.m */,
+				CE8264EF239A52DC008A533C /* HRFunctionSimpleViewCell.h */,
+				CE8264F0239A52DC008A533C /* HRFunctionSimpleViewCell.m */,
 				CEBB8DEB234F193E00D3C079 /* 221570693548.jpg */,
 				CEBB8DE7234F186D00D3C079 /* 1570693338102654.mp4 */,
 				CEBB8DE5234F186500D3C079 /* 1570693318726046.mp4 */,
@@ -777,11 +807,13 @@
 			files = (
 				70249658228CFFA900BA01E0 /* KeyChainStore.m in Sources */,
 				70249657228CFFA900BA01E0 /* DBUserInfoModel.m in Sources */,
+				CE8264EB239A4C53008A533C /* HREmergencySimpleView.m in Sources */,
 				70249605228CFF7900BA01E0 /* UIImage+Extense.m in Sources */,
 				702495B3228CFEAE00BA01E0 /* ViewController.m in Sources */,
 				70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */,
 				70249653228CFFA900BA01E0 /* WHSPhotoImageView.m in Sources */,
 				70249602228CFF7900BA01E0 /* UIButton+Button.m in Sources */,
+				CE8264EE239A4C82008A533C /* HRSecuritySimpleView.m in Sources */,
 				CEBB8D97234EBECD00D3C079 /* UIProgressView+AFNetworking.m in Sources */,
 				70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */,
 				7024964A228CFFA900BA01E0 /* HRQRViewController.m in Sources */,
@@ -794,11 +826,13 @@
 				CE5CCC742394A9470030269D /* XLVideoPlayer.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+Extend.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
+				CE8264E5239A3937008A533C /* HRTopRotateView.m in Sources */,
 				CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */,
 				70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */,
 				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
 				CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
+				CE8264F1239A52DC008A533C /* HRFunctionSimpleViewCell.m in Sources */,
 				CE5CCC752394A9470030269D /* XLSlider.m in Sources */,
 				CEBB8D98234EBECD00D3C079 /* UIRefreshControl+AFNetworking.m in Sources */,
 				CEBB8D9C234EBECD00D3C079 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -819,7 +853,9 @@
 				70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */,
 				CEC09AB1234C1C5F008E2FCE /* WJColouredRibbonAnimation.m in Sources */,
 				70249603228CFF7900BA01E0 /* WHSNavItemView.m in Sources */,
+				CE8264E2239A3415008A533C /* HRFunctionViewController.m in Sources */,
 				CEBB8DA1234EBECD00D3C079 /* AFHTTPSessionManager.m in Sources */,
+				CE8264E8239A4976008A533C /* HRFunctionItemView.m in Sources */,
 				70249648228CFFA900BA01E0 /* WHSAlertView.m in Sources */,
 				7024964B228CFFA900BA01E0 /* SZImageView.m in Sources */,
 				70249652228CFFA900BA01E0 /* HMScannerController.m in Sources */,

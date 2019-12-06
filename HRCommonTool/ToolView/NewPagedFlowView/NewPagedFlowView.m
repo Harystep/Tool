@@ -41,8 +41,9 @@ static NSString *subviewClassName;
     self.pageCount = 0;
     self.isOpenAutoScroll = YES;
     self.isCarousel = YES;
-    self.leftRightMargin = 20;
-    self.topBottomMargin = 30;
+    //设置渐变效果
+    self.leftRightMargin = 0.0;
+    self.topBottomMargin = 0.0;
     _currentPageIndex = 0;
     
     _minimumPageAlpha = 1.0;
