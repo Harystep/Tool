@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,6 +53,16 @@
 		CE5CCC752394A9470030269D /* XLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC712394A9470030269D /* XLSlider.m */; };
 		CE5CCC762394A9470030269D /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE5CCC722394A9470030269D /* ImageResources.bundle */; };
 		CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */; };
+		CE8081E6239E327000DF64EE /* BMKShowMapPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081E5239E327000DF64EE /* BMKShowMapPage.m */; };
+		CE8081E8239E32E500DF64EE /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8081E7239E32E500DF64EE /* BMKLocationKit.framework */; };
+		CE8081FA239E39F400DF64EE /* HCDecimalNumberTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081EB239E39F300DF64EE /* HCDecimalNumberTool.m */; };
+		CE8081FB239E39F400DF64EE /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081EE239E39F300DF64EE /* MBProgressHUD+Add.m */; };
+		CE8081FC239E39F400DF64EE /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081EF239E39F300DF64EE /* MBProgressHUD+NJ.m */; };
+		CE8081FD239E39F400DF64EE /* HBRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE8081F5239E39F400DF64EE /* HBRouter.plist */; };
+		CE8081FE239E39F400DF64EE /* UIResponder+HBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081F7239E39F400DF64EE /* UIResponder+HBRouter.m */; };
+		CE8081FF239E39F400DF64EE /* HBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081F8239E39F400DF64EE /* HBRouter.m */; };
+		CE808200239E39F400DF64EE /* HCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081F9239E39F400DF64EE /* HCRouter.m */; };
+		CE808203239E3A1B00DF64EE /* HRNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE808201239E3A1A00DF64EE /* HRNetworkTool.m */; };
 		CE8264E2239A3415008A533C /* HRFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E1239A3415008A533C /* HRFunctionViewController.m */; };
 		CE8264E5239A3937008A533C /* HRTopRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E3239A3937008A533C /* HRTopRotateView.m */; };
 		CE8264E8239A4976008A533C /* HRFunctionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E7239A4976008A533C /* HRFunctionItemView.m */; };
@@ -93,6 +103,7 @@
 		CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */; };
 		CECF7CE9234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */; };
 		CECF7CEB234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */; };
+		E9D086660FC8B08648B713DF /* libPods-HRCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0BAAA92354811311BCD02 /* libPods-HRCommonTool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +124,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BB0BAAA92354811311BCD02 /* libPods-HRCommonTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HRCommonTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		702495AB228CFEAE00BA01E0 /* HRCommonTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRCommonTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702495AE228CFEAE00BA01E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		702495AF228CFEAE00BA01E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -204,6 +216,24 @@
 		CE5CCC732394A9470030269D /* XLVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLVideoPlayer.h; sourceTree = "<group>"; };
 		CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRVideoPlayerViewController.h; sourceTree = "<group>"; };
 		CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRVideoPlayerViewController.m; sourceTree = "<group>"; };
+		CE8081E4239E327000DF64EE /* BMKShowMapPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKShowMapPage.h; sourceTree = "<group>"; };
+		CE8081E5239E327000DF64EE /* BMKShowMapPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKShowMapPage.m; sourceTree = "<group>"; };
+		CE8081E7239E32E500DF64EE /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
+		CE8081EB239E39F300DF64EE /* HCDecimalNumberTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDecimalNumberTool.m; sourceTree = "<group>"; };
+		CE8081EC239E39F300DF64EE /* HCDecimalNumberTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDecimalNumberTool.h; sourceTree = "<group>"; };
+		CE8081EE239E39F300DF64EE /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		CE8081EF239E39F300DF64EE /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		CE8081F0239E39F300DF64EE /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		CE8081F1239E39F300DF64EE /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		CE8081F3239E39F400DF64EE /* HBRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBRouter.h; sourceTree = "<group>"; };
+		CE8081F4239E39F400DF64EE /* UIResponder+HBRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+HBRouter.h"; sourceTree = "<group>"; };
+		CE8081F5239E39F400DF64EE /* HBRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HBRouter.plist; sourceTree = "<group>"; };
+		CE8081F6239E39F400DF64EE /* HCRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCRouter.h; sourceTree = "<group>"; };
+		CE8081F7239E39F400DF64EE /* UIResponder+HBRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+HBRouter.m"; sourceTree = "<group>"; };
+		CE8081F8239E39F400DF64EE /* HBRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBRouter.m; sourceTree = "<group>"; };
+		CE8081F9239E39F400DF64EE /* HCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCRouter.m; sourceTree = "<group>"; };
+		CE808201239E3A1A00DF64EE /* HRNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRNetworkTool.m; sourceTree = "<group>"; };
+		CE808202239E3A1B00DF64EE /* HRNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRNetworkTool.h; sourceTree = "<group>"; };
 		CE8264E0239A3415008A533C /* HRFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRFunctionViewController.h; sourceTree = "<group>"; };
 		CE8264E1239A3415008A533C /* HRFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRFunctionViewController.m; sourceTree = "<group>"; };
 		CE8264E3239A3937008A533C /* HRTopRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTopRotateView.m; sourceTree = "<group>"; };
@@ -281,6 +311,8 @@
 		CECF7CE7234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRepairRecordSubInfoView.h; sourceTree = "<group>"; };
 		CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRepairRecordSubInfoView.m; sourceTree = "<group>"; };
 		CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHRepairRecordSubInfoView.xib; sourceTree = "<group>"; };
+		DD642F71EC5EAB0916E61A3A /* Pods-HRCommonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.release.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.release.xcconfig"; sourceTree = "<group>"; };
+		EFB65FA40862C3F1BD04CF6F /* Pods-HRCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.debug.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +320,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D086660FC8B08648B713DF /* libPods-HRCommonTool.a in Frameworks */,
+				CE8081E8239E32E500DF64EE /* BMKLocationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +342,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21D73FEB4C4E9939FBE758F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0BAAA92354811311BCD02 /* libPods-HRCommonTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		702495A2228CFEAE00BA01E0 = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +358,8 @@
 				702495D1228CFEB000BA01E0 /* HRCommonToolUITests */,
 				702495AC228CFEAE00BA01E0 /* Products */,
 				CEDB8980237D588E004C1515 /* Recovered References */,
+				E523DEB80BC6ED7E623E1BD9 /* Pods */,
+				21D73FEB4C4E9939FBE758F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -332,6 +376,8 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CE8081E9239E396100DF64EE /* Public */,
+				CE90ABA4239E2C6100053407 /* MapModule */,
 				CE90ABA3239E213800053407 /* Source */,
 				CE90ABA2239E210E00053407 /* Subject */,
 				CE5CCC6D2394A9460030269D /* VideoPlayer */,
@@ -515,6 +561,52 @@
 			path = Slider;
 			sourceTree = "<group>";
 		};
+		CE8081E9239E396100DF64EE /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				CE8081EA239E39F300DF64EE /* DecimalNumber */,
+				CE8081ED239E39F300DF64EE /* Progress */,
+				CE8081F2239E39F400DF64EE /* Router */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		CE8081EA239E39F300DF64EE /* DecimalNumber */ = {
+			isa = PBXGroup;
+			children = (
+				CE8081EC239E39F300DF64EE /* HCDecimalNumberTool.h */,
+				CE8081EB239E39F300DF64EE /* HCDecimalNumberTool.m */,
+				CE808202239E3A1B00DF64EE /* HRNetworkTool.h */,
+				CE808201239E3A1A00DF64EE /* HRNetworkTool.m */,
+			);
+			path = DecimalNumber;
+			sourceTree = "<group>";
+		};
+		CE8081ED239E39F300DF64EE /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				CE8081F0239E39F300DF64EE /* MBProgressHUD+Add.h */,
+				CE8081EE239E39F300DF64EE /* MBProgressHUD+Add.m */,
+				CE8081F1239E39F300DF64EE /* MBProgressHUD+NJ.h */,
+				CE8081EF239E39F300DF64EE /* MBProgressHUD+NJ.m */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		CE8081F2239E39F400DF64EE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CE8081F3239E39F400DF64EE /* HBRouter.h */,
+				CE8081F4239E39F400DF64EE /* UIResponder+HBRouter.h */,
+				CE8081F5239E39F400DF64EE /* HBRouter.plist */,
+				CE8081F6239E39F400DF64EE /* HCRouter.h */,
+				CE8081F7239E39F400DF64EE /* UIResponder+HBRouter.m */,
+				CE8081F8239E39F400DF64EE /* HBRouter.m */,
+				CE8081F9239E39F400DF64EE /* HCRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		CE87A21622F44018008FC6FF /* YZXPieGraphView */ = {
 			isa = PBXGroup;
 			children = (
@@ -553,6 +645,16 @@
 				CEBB8DA8234ED2DE00D3C079 /* big.mp4 */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		CE90ABA4239E2C6100053407 /* MapModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE8081E7239E32E500DF64EE /* BMKLocationKit.framework */,
+				CE8081E4239E327000DF64EE /* BMKShowMapPage.h */,
+				CE8081E5239E327000DF64EE /* BMKShowMapPage.m */,
+			);
+			path = MapModule;
 			sourceTree = "<group>";
 		};
 		CEBB8D73234EBECD00D3C079 /* AFNetworking */ = {
@@ -666,6 +768,15 @@
 			path = Vender;
 			sourceTree = "<group>";
 		};
+		E523DEB80BC6ED7E623E1BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFB65FA40862C3F1BD04CF6F /* Pods-HRCommonTool.debug.xcconfig */,
+				DD642F71EC5EAB0916E61A3A /* Pods-HRCommonTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -673,9 +784,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 702495D7228CFEB000BA01E0 /* Build configuration list for PBXNativeTarget "HRCommonTool" */;
 			buildPhases = (
+				DAEBB6F26477785259DD068C /* [CP] Check Pods Manifest.lock */,
 				702495A7228CFEAE00BA01E0 /* Sources */,
 				702495A8228CFEAE00BA01E0 /* Frameworks */,
 				702495A9228CFEAE00BA01E0 /* Resources */,
+				EC782CCBD66F7492353B33BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -777,6 +890,7 @@
 				CEBB8DAB234ED3D800D3C079 /* small.mp4 in Resources */,
 				70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */,
 				CE5CCC762394A9470030269D /* ImageResources.bundle in Resources */,
+				CE8081FD239E39F400DF64EE /* HBRouter.plist in Resources */,
 				CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */,
 				CEBB8DEC234F193E00D3C079 /* 123.jpg in Resources */,
 				CECF7CEB234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib in Resources */,
@@ -799,6 +913,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAEBB6F26477785259DD068C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HRCommonTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC782CCBD66F7492353B33BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		702495A7228CFEAE00BA01E0 /* Sources */ = {
@@ -830,11 +986,15 @@
 				CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */,
 				70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */,
 				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
+				CE8081FE239E39F400DF64EE /* UIResponder+HBRouter.m in Sources */,
 				CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				CE8264F1239A52DC008A533C /* HRFunctionSimpleViewCell.m in Sources */,
 				CE5CCC752394A9470030269D /* XLSlider.m in Sources */,
+				CE8081FA239E39F400DF64EE /* HCDecimalNumberTool.m in Sources */,
+				CE8081FC239E39F400DF64EE /* MBProgressHUD+NJ.m in Sources */,
 				CEBB8D98234EBECD00D3C079 /* UIRefreshControl+AFNetworking.m in Sources */,
+				CE808200239E39F400DF64EE /* HCRouter.m in Sources */,
 				CEBB8D9C234EBECD00D3C079 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */,
 				CE3504972371450000D1864A /* UIColor+ChangeColor.m in Sources */,
@@ -859,6 +1019,7 @@
 				70249648228CFFA900BA01E0 /* WHSAlertView.m in Sources */,
 				7024964B228CFFA900BA01E0 /* SZImageView.m in Sources */,
 				70249652228CFFA900BA01E0 /* HMScannerController.m in Sources */,
+				CE8081FB239E39F400DF64EE /* MBProgressHUD+Add.m in Sources */,
 				CECE5D23236BE0B0005BC497 /* HRSimpleTypeView.m in Sources */,
 				7024964E228CFFA900BA01E0 /* HMScannerViewController.m in Sources */,
 				70249609228CFF7900BA01E0 /* UIView+Radius.m in Sources */,
@@ -871,9 +1032,12 @@
 				70249646228CFFA900BA01E0 /* PGIndexBannerSubiew.m in Sources */,
 				70249656228CFFA900BA01E0 /* DBModelManager.m in Sources */,
 				CEBB8D9F234EBECD00D3C079 /* AFImageDownloader.m in Sources */,
+				CE8081FF239E39F400DF64EE /* HBRouter.m in Sources */,
 				CECF7CE9234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m in Sources */,
 				CEAC99BE22F01FC3003DBFE3 /* HRCommonUtils.m in Sources */,
 				CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */,
+				CE808203239E3A1B00DF64EE /* HRNetworkTool.m in Sources */,
+				CE8081E6239E327000DF64EE /* BMKShowMapPage.m in Sources */,
 				CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */,
 				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,
 				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
@@ -1046,12 +1210,17 @@
 		};
 		702495D8228CFEB000BA01E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB65FA40862C3F1BD04CF6F /* Pods-HRCommonTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DBJYL6PR9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRCommonTool/MapModule",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
@@ -1071,12 +1240,17 @@
 		};
 		702495D9228CFEB000BA01E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD642F71EC5EAB0916E61A3A /* Pods-HRCommonTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DBJYL6PR9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRCommonTool/MapModule",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;

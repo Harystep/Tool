@@ -32,6 +32,7 @@
 #import "BRStringPickerView.h"
 #import "HRVideoPlayerViewController.h"
 #import "HRFunctionViewController.h"
+#import "BMKShowMapPage.h"
 
 #define CompressionVideoPaht [NSHomeDirectory() stringByAppendingFormat:@"/Documents/CompressionVideoField"]
 
@@ -90,7 +91,7 @@
     [btn setCornerRadius:5];
     [self.view addSubview:btn];
 }
-
+#pragma mark -- 添加按钮边框颜色
 - (void)setButtonBorderColorOperate {
     HREntenseButton *btn1 = [[HREntenseButton alloc] init];
     btn1.tag = 2;
@@ -99,9 +100,9 @@
     [btn1 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
     btn1.layer.borderWidth = 1.0;
-    btn1.layer.borderColor = [UIColor redColor].CGColor;
+    btn1.layer.borderColor = [UIColor orangeColor].CGColor;
     [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [btn1 setTitle:@"哈哈哈哈哈 我先进了" forState:UIControlStateNormal];
+    [btn1 setTitle:@"低调一点 我先进了" forState:UIControlStateNormal];
     [btn1 setCornerRadius:20];
 }
 
@@ -126,7 +127,10 @@
         case 1://跳转功能视图
         {
             [[HRProgressHub sharedInstance] showTextMsg:@"你怎么还是这么调皮"];
-            
+            BMKShowMapPage *page = [[BMKShowMapPage alloc] init];
+            page.title = @"地图";
+//            [self.navigationController pushViewController:page animated:YES];
+            [self presentViewController:page animated:YES completion:nil];
         }
             break;
         case 2:
