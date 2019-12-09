@@ -20,7 +20,6 @@
 #import "UILabel+Extend.h"
 #import "MBProgressHUD+WJExtension.h"
 #import "MBProgressController.h"
-#import "UIColor+ChangeColor.h"
 
 
 #define kMarginX 10

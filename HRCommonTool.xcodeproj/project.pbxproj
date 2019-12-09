@@ -332,6 +332,8 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CE90ABA3239E213800053407 /* Source */,
+				CE90ABA2239E210E00053407 /* Subject */,
 				CE5CCC6D2394A9460030269D /* VideoPlayer */,
 				CECE5D1E236BE03D005BC497 /* TypeView */,
 				CECF7CDF234DC70700DA2A3B /* View */,
@@ -342,23 +344,6 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
-				CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */,
-				CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */,
-				CE8264E0239A3415008A533C /* HRFunctionViewController.h */,
-				CE8264E1239A3415008A533C /* HRFunctionViewController.m */,
-				CE8264E6239A4976008A533C /* HRFunctionItemView.h */,
-				CE8264E7239A4976008A533C /* HRFunctionItemView.m */,
-				CE8264E4239A3937008A533C /* HRTopRotateView.h */,
-				CE8264E3239A3937008A533C /* HRTopRotateView.m */,
-				CE8264E9239A4C53008A533C /* HREmergencySimpleView.h */,
-				CE8264EA239A4C53008A533C /* HREmergencySimpleView.m */,
-				CE8264EC239A4C82008A533C /* HRSecuritySimpleView.h */,
-				CE8264ED239A4C82008A533C /* HRSecuritySimpleView.m */,
-				CE8264EF239A52DC008A533C /* HRFunctionSimpleViewCell.h */,
-				CE8264F0239A52DC008A533C /* HRFunctionSimpleViewCell.m */,
-				CEBB8DEB234F193E00D3C079 /* 123.jpg */,
-				CEBB8DAA234ED3D800D3C079 /* small.mp4 */,
-				CEBB8DA8234ED2DE00D3C079 /* big.mp4 */,
 				702495B4228CFEAE00BA01E0 /* Main.storyboard */,
 				702495B7228CFEB000BA01E0 /* Assets.xcassets */,
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
@@ -537,6 +522,37 @@
 				CE87A21822F44018008FC6FF /* YZXPieGraphView.m */,
 			);
 			path = YZXPieGraphView;
+			sourceTree = "<group>";
+		};
+		CE90ABA2239E210E00053407 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				CE5CCC772394A9BC0030269D /* HRVideoPlayerViewController.h */,
+				CE5CCC782394A9BC0030269D /* HRVideoPlayerViewController.m */,
+				CE8264E0239A3415008A533C /* HRFunctionViewController.h */,
+				CE8264E1239A3415008A533C /* HRFunctionViewController.m */,
+				CE8264E6239A4976008A533C /* HRFunctionItemView.h */,
+				CE8264E7239A4976008A533C /* HRFunctionItemView.m */,
+				CE8264E4239A3937008A533C /* HRTopRotateView.h */,
+				CE8264E3239A3937008A533C /* HRTopRotateView.m */,
+				CE8264E9239A4C53008A533C /* HREmergencySimpleView.h */,
+				CE8264EA239A4C53008A533C /* HREmergencySimpleView.m */,
+				CE8264EC239A4C82008A533C /* HRSecuritySimpleView.h */,
+				CE8264ED239A4C82008A533C /* HRSecuritySimpleView.m */,
+				CE8264EF239A52DC008A533C /* HRFunctionSimpleViewCell.h */,
+				CE8264F0239A52DC008A533C /* HRFunctionSimpleViewCell.m */,
+			);
+			path = Subject;
+			sourceTree = "<group>";
+		};
+		CE90ABA3239E213800053407 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB8DEB234F193E00D3C079 /* 123.jpg */,
+				CEBB8DAA234ED3D800D3C079 /* small.mp4 */,
+				CEBB8DA8234ED2DE00D3C079 /* big.mp4 */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		CEBB8D73234EBECD00D3C079 /* AFNetworking */ = {
