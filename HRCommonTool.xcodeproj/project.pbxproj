@@ -80,11 +80,7 @@
 		CEBB8DA5234EBECD00D3C079 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB8D95234EBECD00D3C079 /* AFSecurityPolicy.m */; };
 		CEBB8DA9234ED2DF00D3C079 /* big.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DA8234ED2DE00D3C079 /* big.mp4 */; };
 		CEBB8DAB234ED3D800D3C079 /* small.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DAA234ED3D800D3C079 /* small.mp4 */; };
-		CEBB8DE2234F01A400D3C079 /* 1570687507024042.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DE1234F01A400D3C079 /* 1570687507024042.mp4 */; };
-		CEBB8DE4234F17E600D3C079 /* 1570693205151393.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DE3234F17E500D3C079 /* 1570693205151393.mp4 */; };
-		CEBB8DE6234F186600D3C079 /* 1570693318726046.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DE5234F186500D3C079 /* 1570693318726046.mp4 */; };
-		CEBB8DE8234F186D00D3C079 /* 1570693338102654.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DE7234F186D00D3C079 /* 1570693338102654.mp4 */; };
-		CEBB8DEC234F193E00D3C079 /* 221570693548.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DEB234F193E00D3C079 /* 221570693548.jpg */; };
+		CEBB8DEC234F193E00D3C079 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DEB234F193E00D3C079 /* 123.jpg */; };
 		CEC09AAE234C1C5F008E2FCE /* WJSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA5234C1C5E008E2FCE /* WJSuccessView.m */; };
 		CEC09AAF234C1C5F008E2FCE /* MBProgressHUD+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA6234C1C5E008E2FCE /* MBProgressHUD+WJExtension.m */; };
 		CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AA7234C1C5E008E2FCE /* MBProgressHUD.m */; };
@@ -263,11 +259,7 @@
 		CEBB8D96234EBECD00D3C079 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		CEBB8DA8234ED2DE00D3C079 /* big.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = big.mp4; sourceTree = "<group>"; };
 		CEBB8DAA234ED3D800D3C079 /* small.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = small.mp4; sourceTree = "<group>"; };
-		CEBB8DE1234F01A400D3C079 /* 1570687507024042.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1570687507024042.mp4; sourceTree = "<group>"; };
-		CEBB8DE3234F17E500D3C079 /* 1570693205151393.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1570693205151393.mp4; sourceTree = "<group>"; };
-		CEBB8DE5234F186500D3C079 /* 1570693318726046.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1570693318726046.mp4; sourceTree = "<group>"; };
-		CEBB8DE7234F186D00D3C079 /* 1570693338102654.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1570693338102654.mp4; sourceTree = "<group>"; };
-		CEBB8DEB234F193E00D3C079 /* 221570693548.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 221570693548.jpg; sourceTree = "<group>"; };
+		CEBB8DEB234F193E00D3C079 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
 		CEC09AA5234C1C5E008E2FCE /* WJSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSuccessView.m; sourceTree = "<group>"; };
 		CEC09AA6234C1C5E008E2FCE /* MBProgressHUD+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WJExtension.m"; sourceTree = "<group>"; };
 		CEC09AA7234C1C5E008E2FCE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
@@ -364,11 +356,7 @@
 				CE8264ED239A4C82008A533C /* HRSecuritySimpleView.m */,
 				CE8264EF239A52DC008A533C /* HRFunctionSimpleViewCell.h */,
 				CE8264F0239A52DC008A533C /* HRFunctionSimpleViewCell.m */,
-				CEBB8DEB234F193E00D3C079 /* 221570693548.jpg */,
-				CEBB8DE7234F186D00D3C079 /* 1570693338102654.mp4 */,
-				CEBB8DE5234F186500D3C079 /* 1570693318726046.mp4 */,
-				CEBB8DE3234F17E500D3C079 /* 1570693205151393.mp4 */,
-				CEBB8DE1234F01A400D3C079 /* 1570687507024042.mp4 */,
+				CEBB8DEB234F193E00D3C079 /* 123.jpg */,
 				CEBB8DAA234ED3D800D3C079 /* small.mp4 */,
 				CEBB8DA8234ED2DE00D3C079 /* big.mp4 */,
 				702495B4228CFEAE00BA01E0 /* Main.storyboard */,
@@ -769,18 +757,14 @@
 				702495BB228CFEB000BA01E0 /* LaunchScreen.storyboard in Resources */,
 				702495B8228CFEB000BA01E0 /* Assets.xcassets in Resources */,
 				702495B6228CFEAE00BA01E0 /* Main.storyboard in Resources */,
-				CEBB8DE6234F186600D3C079 /* 1570693318726046.mp4 in Resources */,
 				CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */,
 				CEBB8DAB234ED3D800D3C079 /* small.mp4 in Resources */,
 				70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */,
-				CEBB8DE4234F17E600D3C079 /* 1570693205151393.mp4 in Resources */,
 				CE5CCC762394A9470030269D /* ImageResources.bundle in Resources */,
 				CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */,
-				CEBB8DEC234F193E00D3C079 /* 221570693548.jpg in Resources */,
-				CEBB8DE8234F186D00D3C079 /* 1570693338102654.mp4 in Resources */,
+				CEBB8DEC234F193E00D3C079 /* 123.jpg in Resources */,
 				CECF7CEB234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib in Resources */,
 				CEBB8DA9234ED2DF00D3C079 /* big.mp4 in Resources */,
-				CEBB8DE2234F01A400D3C079 /* 1570687507024042.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
