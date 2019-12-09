@@ -74,6 +74,39 @@
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     
+    [self addButtonOperate];
+    
+    [self setButtonBorderColorOperate];
+}
+#pragma mark -- 添加按钮
+- (void)addButtonOperate {
+    HREntenseButton *btn = [[HREntenseButton alloc] init];
+    btn.tag = 1;
+    btn.frame = CGRectMake(kHRMarginX, 100, kWIDTH - kHRMarginX * 2, 50);
+    btn.backgroundColor = [UIColor whiteColor];
+    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitle:@"不要点我" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setCornerRadius:5];
+    [self.view addSubview:btn];
+}
+
+- (void)setButtonBorderColorOperate {
+    HREntenseButton *btn1 = [[HREntenseButton alloc] init];
+    btn1.tag = 2;
+    btn1.frame = CGRectMake(kHRMarginX, 200, kWIDTH - 2 * kHRMarginX, 40);
+    btn1.backgroundColor = [UIColor lightGrayColor];
+    [btn1 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn1];
+    btn1.layer.borderWidth = 1.0;
+    btn1.layer.borderColor = [UIColor redColor].CGColor;
+    [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btn1 setTitle:@"哈哈哈哈哈 我先进了" forState:UIControlStateNormal];
+    [btn1 setCornerRadius:20];
+}
+
+#pragma mark -- 添加阴影视图
+- (void)addShadowView {
     UIView *view = [[UIView alloc] init];
     view.frame = CGRectMake(100, 100, 200, 200);
     view.backgroundColor = [UIColor whiteColor];
@@ -86,37 +119,25 @@
     UIBezierPath *path = [UIBezierPath bezierPathWithRect:view.bounds];
     view.layer.shadowPath = path.CGPath;
     [self.view addSubview:view];
-    
-    
-    HREntenseButton *btn = [[HREntenseButton alloc] init];
-    btn.tag = 1;
-    btn.frame = CGRectMake(50, 500, 50, 50);
-    btn.backgroundColor = [UIColor blueColor];
-    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
-    
-    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, 200, 300, 40)];
-    tf.backgroundColor = [UIColor lightGrayColor];
-    self.tf = tf;
-    tf.textColor = [UIColor blackColor];    
-    
-
-    HREntenseButton *btn1 = [[HREntenseButton alloc] init];
-    btn1.tag = 2;
-    btn1.frame = CGRectMake(200, 500, 100, 30);
-    btn1.backgroundColor = [UIColor lightGrayColor];
-    [btn1 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn1];
-    
-    btn1.layer.borderWidth = 1.0;
-    btn1.layer.borderColor = [UIColor redColor].CGColor;
-    [btn1 setCornerRadius:15];
-    
 }
-
+#pragma mark -- 跳转视图
 - (void)click:(UIButton *)sender {
-
-    [self jumpFunctionView];
+    switch (sender.tag) {
+        case 1://跳转功能视图
+        {
+            [[HRProgressHub sharedInstance] showTextMsg:@"你怎么还是这么调皮"];
+            
+        }
+            break;
+        case 2:
+        {
+            [self jumpFunctionView];
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)jumpFunctionView {
@@ -150,7 +171,7 @@
 - (void)uploadFileWithPic:(NSString *)type {
     UIImage *image1 = [UIImage imageNamed:@"all"];
     NSData *data2 = UIImageJPEGRepresentation(image1, 1);
-    NSString *fileStr = [[NSBundle mainBundle] pathForResource:@"221570693548.jpg" ofType:nil];
+    NSString *fileStr = [[NSBundle mainBundle] pathForResource:@"123.jpg" ofType:nil];
     NSData *data = [NSData dataWithContentsOfFile:fileStr];
     [self uploadFile:data withType:type];
 //    [self uploadFile:data2];
