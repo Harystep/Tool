@@ -33,7 +33,7 @@
     scView.frame = CGRectMake(0, 0, kWIDTH, kHEIGHT);
     [self.view addSubview:scView];
     
-    HRTopRotateView *topView = [[HRTopRotateView alloc] initWithFrame:CGRectMake(0, 64, kWIDTH, 280)];
+    HRTopRotateView *topView = [[HRTopRotateView alloc] initWithFrame:CGRectMake(0, 0, kWIDTH, 280)];
     [self.scView addSubview:topView];
     topView.bannerArr = self.bannarArr;
     
@@ -44,19 +44,8 @@
     
     function.imgArr = [NSMutableArray arrayWithObjects:@"", @"", nil];
     
-    UIButton *backBtn = [[UIButton alloc] init];
-    backBtn.frame = CGRectMake(kHRMarginX, CGRectGetMaxY(function.frame) + 10, kWIDTH - 2 * kHRMarginX, 40);
-    [backBtn setCornerRadius:5];
-    backBtn.backgroundColor = [UIColor whiteColor];
-    [backBtn addTarget:self action:@selector(backBtnDidClick) forControlEvents:UIControlEventTouchUpInside];
-    [scView addSubview:backBtn];
-    [backBtn setTitle:@"dismiss" forState:UIControlStateNormal];
-    [backBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 }
 
-- (void)backBtnDidClick {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 
 - (NSArray *)bannarArr {
     if (_bannarArr == nil) {

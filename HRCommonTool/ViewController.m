@@ -126,11 +126,7 @@
     switch (sender.tag) {
         case 1://跳转功能视图
         {
-            [[HRProgressHub sharedInstance] showTextMsg:@"你怎么还是这么调皮"];
-            BMKShowMapPage *page = [[BMKShowMapPage alloc] init];
-            page.title = @"地图";
-//            [self.navigationController pushViewController:page animated:YES];
-            [self presentViewController:page animated:YES completion:nil];
+            [self jumpMapOperate];
         }
             break;
         case 2:
@@ -143,21 +139,25 @@
             break;
     }
 }
+#pragma mark -- 跳转地图
+- (void)jumpMapOperate {
 
+    [HCRouter router:@"mapLocation" viewController:self animated:YES];
+}
+#pragma mark -- 跳转功能视图
 - (void)jumpFunctionView {
-    HRFunctionViewController *function = [[HRFunctionViewController alloc] init];
-    [self presentViewController:function animated:YES completion:nil];
+    
+    [HCRouter router:@"safeFunction" viewController:self animated:YES];
 }
 
 - (void)jumpVideoView {
-    HRVideoPlayerViewController *videoVc = [[HRVideoPlayerViewController alloc] init];
-    [self presentViewController:videoVc animated:YES completion:nil];
+    
+    [HCRouter router:@"videoPlayer" viewController:self animated:YES];
 }
 
 - (void)addAlertViewOperate:(UIButton *)sender {
     [[HRProgressHub sharedInstance] showTextMsg:@"hfshaiufshihfshaiufshihfshaiufshihfshaiufshiihfshaiufshihfshaiufshihfshaiufshi"];
 
-//    [self uploadFileWithPic:@"image/jpeg"];
     if (sender.tag == 1) {
         [self uploadFileWithPic:@"image/jpg"];
     } else {

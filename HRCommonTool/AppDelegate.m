@@ -10,6 +10,8 @@
 #import <BMKLocationkit/BMKLocationComponent.h>
 #import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
 #import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+#import "HRNavigationViewController.h"
+#import "ViewController.h"
 
 #define kMapKey @"Ph8STcL296wlYjU1piBBthiNobykrBHS"
 
@@ -45,6 +47,14 @@
     if (!result) {
         NSLog(@"启动引擎失败");
     }
+    [HBRouter loadConfigPlist:nil];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *base = [[ViewController alloc] init];
+    HRNavigationViewController *nav = [[HRNavigationViewController alloc] initWithRootViewController:base];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 /**

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		702495B0228CFEAE00BA01E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495AF228CFEAE00BA01E0 /* AppDelegate.m */; };
 		702495B3228CFEAE00BA01E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495B2228CFEAE00BA01E0 /* ViewController.m */; };
-		702495B6228CFEAE00BA01E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702495B4228CFEAE00BA01E0 /* Main.storyboard */; };
 		702495B8228CFEB000BA01E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702495B7228CFEB000BA01E0 /* Assets.xcassets */; };
 		702495BB228CFEB000BA01E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */; };
 		702495BE228CFEB000BA01E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702495BD228CFEB000BA01E0 /* main.m */; };
@@ -63,6 +62,8 @@
 		CE8081FF239E39F400DF64EE /* HBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081F8239E39F400DF64EE /* HBRouter.m */; };
 		CE808200239E39F400DF64EE /* HCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8081F9239E39F400DF64EE /* HCRouter.m */; };
 		CE808203239E3A1B00DF64EE /* HRNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE808201239E3A1A00DF64EE /* HRNetworkTool.m */; };
+		CE808207239E3CAB00DF64EE /* HRTestDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = CE808206239E3CAB00DF64EE /* HRTestDemo1.m */; };
+		CE80820B239E3E7000DF64EE /* HRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80820A239E3E7000DF64EE /* HRNavigationViewController.m */; };
 		CE8264E2239A3415008A533C /* HRFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E1239A3415008A533C /* HRFunctionViewController.m */; };
 		CE8264E5239A3937008A533C /* HRTopRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E3239A3937008A533C /* HRTopRotateView.m */; };
 		CE8264E8239A4976008A533C /* HRFunctionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8264E7239A4976008A533C /* HRFunctionItemView.m */; };
@@ -130,7 +131,6 @@
 		702495AF228CFEAE00BA01E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		702495B1228CFEAE00BA01E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		702495B2228CFEAE00BA01E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		702495B5228CFEAE00BA01E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		702495B7228CFEB000BA01E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702495BA228CFEB000BA01E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		702495BC228CFEB000BA01E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -234,6 +234,10 @@
 		CE8081F9239E39F400DF64EE /* HCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCRouter.m; sourceTree = "<group>"; };
 		CE808201239E3A1A00DF64EE /* HRNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRNetworkTool.m; sourceTree = "<group>"; };
 		CE808202239E3A1B00DF64EE /* HRNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRNetworkTool.h; sourceTree = "<group>"; };
+		CE808205239E3CAB00DF64EE /* HRTestDemo1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRTestDemo1.h; sourceTree = "<group>"; };
+		CE808206239E3CAB00DF64EE /* HRTestDemo1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRTestDemo1.m; sourceTree = "<group>"; };
+		CE808209239E3E7000DF64EE /* HRNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRNavigationViewController.h; sourceTree = "<group>"; };
+		CE80820A239E3E7000DF64EE /* HRNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRNavigationViewController.m; sourceTree = "<group>"; };
 		CE8264E0239A3415008A533C /* HRFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRFunctionViewController.h; sourceTree = "<group>"; };
 		CE8264E1239A3415008A533C /* HRFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRFunctionViewController.m; sourceTree = "<group>"; };
 		CE8264E3239A3937008A533C /* HRTopRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTopRotateView.m; sourceTree = "<group>"; };
@@ -376,6 +380,8 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CE808208239E3E5100DF64EE /* Base */,
+				CE808204239E3C7C00DF64EE /* Demo */,
 				CE8081E9239E396100DF64EE /* Public */,
 				CE90ABA4239E2C6100053407 /* MapModule */,
 				CE90ABA3239E213800053407 /* Source */,
@@ -390,7 +396,6 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
-				702495B4228CFEAE00BA01E0 /* Main.storyboard */,
 				702495B7228CFEB000BA01E0 /* Assets.xcassets */,
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
 				702495BC228CFEB000BA01E0 /* Info.plist */,
@@ -597,14 +602,32 @@
 			isa = PBXGroup;
 			children = (
 				CE8081F3239E39F400DF64EE /* HBRouter.h */,
-				CE8081F4239E39F400DF64EE /* UIResponder+HBRouter.h */,
+				CE8081F8239E39F400DF64EE /* HBRouter.m */,
 				CE8081F5239E39F400DF64EE /* HBRouter.plist */,
 				CE8081F6239E39F400DF64EE /* HCRouter.h */,
-				CE8081F7239E39F400DF64EE /* UIResponder+HBRouter.m */,
-				CE8081F8239E39F400DF64EE /* HBRouter.m */,
 				CE8081F9239E39F400DF64EE /* HCRouter.m */,
+				CE8081F4239E39F400DF64EE /* UIResponder+HBRouter.h */,
+				CE8081F7239E39F400DF64EE /* UIResponder+HBRouter.m */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		CE808204239E3C7C00DF64EE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CE808205239E3CAB00DF64EE /* HRTestDemo1.h */,
+				CE808206239E3CAB00DF64EE /* HRTestDemo1.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		CE808208239E3E5100DF64EE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE808209239E3E7000DF64EE /* HRNavigationViewController.h */,
+				CE80820A239E3E7000DF64EE /* HRNavigationViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		CE87A21622F44018008FC6FF /* YZXPieGraphView */ = {
@@ -885,7 +908,6 @@
 			files = (
 				702495BB228CFEB000BA01E0 /* LaunchScreen.storyboard in Resources */,
 				702495B8228CFEB000BA01E0 /* Assets.xcassets in Resources */,
-				702495B6228CFEAE00BA01E0 /* Main.storyboard in Resources */,
 				CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */,
 				CEBB8DAB234ED3D800D3C079 /* small.mp4 in Resources */,
 				70249650228CFFA900BA01E0 /* HMScanner.bundle in Resources */,
@@ -979,6 +1001,7 @@
 				CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */,
 				CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */,
 				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
+				CE808207239E3CAB00DF64EE /* HRTestDemo1.m in Sources */,
 				CE5CCC742394A9470030269D /* XLVideoPlayer.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+Extend.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
@@ -1021,6 +1044,7 @@
 				70249652228CFFA900BA01E0 /* HMScannerController.m in Sources */,
 				CE8081FB239E39F400DF64EE /* MBProgressHUD+Add.m in Sources */,
 				CECE5D23236BE0B0005BC497 /* HRSimpleTypeView.m in Sources */,
+				CE80820B239E3E7000DF64EE /* HRNavigationViewController.m in Sources */,
 				7024964E228CFFA900BA01E0 /* HMScannerViewController.m in Sources */,
 				70249609228CFF7900BA01E0 /* UIView+Radius.m in Sources */,
 				CEBB8DA2234EBECD00D3C079 /* AFURLSessionManager.m in Sources */,
@@ -1077,14 +1101,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		702495B4228CFEAE00BA01E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				702495B5228CFEAE00BA01E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

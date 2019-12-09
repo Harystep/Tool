@@ -21,6 +21,7 @@
 #import "MBProgressHUD+WJExtension.h"
 #import "MBProgressController.h"
 #import "HRNetworkTool.h"
+#import "HCRouter.h"
 
 
 #define kMarginX 10
