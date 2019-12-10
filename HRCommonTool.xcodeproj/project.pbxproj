@@ -104,6 +104,11 @@
 		CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */; };
 		CECF7CE9234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */; };
 		CECF7CEB234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */; };
+		CEE22A9C239F8052006D256B /* HRChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A92239F8052006D256B /* HRChart.m */; };
+		CEE22A9D239F8052006D256B /* HRPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A94239F8052006D256B /* HRPieItemsView.m */; };
+		CEE22A9E239F8052006D256B /* HRShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A96239F8052006D256B /* HRShowInfoView.m */; };
+		CEE22A9F239F8052006D256B /* HRPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A98239F8052006D256B /* HRPieChartView.m */; };
+		CEE22AA0239F8052006D256B /* HRPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A9B239F8052006D256B /* HRPieForeBGView.m */; };
 		E9D086660FC8B08648B713DF /* libPods-HRCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0BAAA92354811311BCD02 /* libPods-HRCommonTool.a */; };
 /* End PBXBuildFile section */
 
@@ -315,6 +320,16 @@
 		CECF7CE7234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRepairRecordSubInfoView.h; sourceTree = "<group>"; };
 		CECF7CE8234DDC5D00DA2A3B /* YHRepairRecordSubInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRepairRecordSubInfoView.m; sourceTree = "<group>"; };
 		CECF7CEA234DDC6D00DA2A3B /* YHRepairRecordSubInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHRepairRecordSubInfoView.xib; sourceTree = "<group>"; };
+		CEE22A92239F8052006D256B /* HRChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRChart.m; sourceTree = "<group>"; };
+		CEE22A93239F8052006D256B /* HRPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPieChartView.h; sourceTree = "<group>"; };
+		CEE22A94239F8052006D256B /* HRPieItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPieItemsView.m; sourceTree = "<group>"; };
+		CEE22A95239F8052006D256B /* HRPieForeBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPieForeBGView.h; sourceTree = "<group>"; };
+		CEE22A96239F8052006D256B /* HRShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRShowInfoView.m; sourceTree = "<group>"; };
+		CEE22A97239F8052006D256B /* HRPieItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPieItemsView.h; sourceTree = "<group>"; };
+		CEE22A98239F8052006D256B /* HRPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPieChartView.m; sourceTree = "<group>"; };
+		CEE22A99239F8052006D256B /* HRChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRChart.h; sourceTree = "<group>"; };
+		CEE22A9A239F8052006D256B /* HRShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRShowInfoView.h; sourceTree = "<group>"; };
+		CEE22A9B239F8052006D256B /* HRPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPieForeBGView.m; sourceTree = "<group>"; };
 		DD642F71EC5EAB0916E61A3A /* Pods-HRCommonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.release.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.release.xcconfig"; sourceTree = "<group>"; };
 		EFB65FA40862C3F1BD04CF6F /* Pods-HRCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.debug.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -569,6 +584,7 @@
 		CE8081E9239E396100DF64EE /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				CEE22A91239F8052006D256B /* HRPieChart */,
 				CE8081EA239E39F300DF64EE /* DecimalNumber */,
 				CE8081ED239E39F300DF64EE /* Progress */,
 				CE8081F2239E39F400DF64EE /* Router */,
@@ -783,6 +799,23 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		CEE22A91239F8052006D256B /* HRPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22A99239F8052006D256B /* HRChart.h */,
+				CEE22A92239F8052006D256B /* HRChart.m */,
+				CEE22A93239F8052006D256B /* HRPieChartView.h */,
+				CEE22A98239F8052006D256B /* HRPieChartView.m */,
+				CEE22A95239F8052006D256B /* HRPieForeBGView.h */,
+				CEE22A9B239F8052006D256B /* HRPieForeBGView.m */,
+				CEE22A97239F8052006D256B /* HRPieItemsView.h */,
+				CEE22A94239F8052006D256B /* HRPieItemsView.m */,
+				CEE22A9A239F8052006D256B /* HRShowInfoView.h */,
+				CEE22A96239F8052006D256B /* HRShowInfoView.m */,
+			);
+			path = HRPieChart;
+			sourceTree = "<group>";
+		};
 		CEEEC3082334921000C5FD4B /* Vender */ = {
 			isa = PBXGroup;
 			children = (
@@ -991,6 +1024,7 @@
 				70249607228CFF7900BA01E0 /* UIView+Extension.m in Sources */,
 				70249653228CFFA900BA01E0 /* WHSPhotoImageView.m in Sources */,
 				70249602228CFF7900BA01E0 /* UIButton+Button.m in Sources */,
+				CEE22A9F239F8052006D256B /* HRPieChartView.m in Sources */,
 				CE8264EE239A4C82008A533C /* HRSecuritySimpleView.m in Sources */,
 				CEBB8D97234EBECD00D3C079 /* UIProgressView+AFNetworking.m in Sources */,
 				70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */,
@@ -1002,6 +1036,7 @@
 				CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */,
 				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
 				CE808207239E3CAB00DF64EE /* HRTestDemo1.m in Sources */,
+				CEE22AA0239F8052006D256B /* HRPieForeBGView.m in Sources */,
 				CE5CCC742394A9470030269D /* XLVideoPlayer.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+Extend.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
@@ -1012,6 +1047,7 @@
 				CE8081FE239E39F400DF64EE /* UIResponder+HBRouter.m in Sources */,
 				CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
+				CEE22A9E239F8052006D256B /* HRShowInfoView.m in Sources */,
 				CE8264F1239A52DC008A533C /* HRFunctionSimpleViewCell.m in Sources */,
 				CE5CCC752394A9470030269D /* XLSlider.m in Sources */,
 				CE8081FA239E39F400DF64EE /* HCDecimalNumberTool.m in Sources */,
@@ -1019,6 +1055,7 @@
 				CEBB8D98234EBECD00D3C079 /* UIRefreshControl+AFNetworking.m in Sources */,
 				CE808200239E39F400DF64EE /* HCRouter.m in Sources */,
 				CEBB8D9C234EBECD00D3C079 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				CEE22A9C239F8052006D256B /* HRChart.m in Sources */,
 				70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */,
 				CE3504972371450000D1864A /* UIColor+ChangeColor.m in Sources */,
 				7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */,
@@ -1034,6 +1071,7 @@
 				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
 				CEC09AAF234C1C5F008E2FCE /* MBProgressHUD+WJExtension.m in Sources */,
 				70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */,
+				CEE22A9D239F8052006D256B /* HRPieItemsView.m in Sources */,
 				CEC09AB1234C1C5F008E2FCE /* WJColouredRibbonAnimation.m in Sources */,
 				70249603228CFF7900BA01E0 /* WHSNavItemView.m in Sources */,
 				CE8264E2239A3415008A533C /* HRFunctionViewController.m in Sources */,

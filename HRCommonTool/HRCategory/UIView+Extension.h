@@ -27,6 +27,11 @@
 /** 尺寸 */
 @property(nonatomic, assign)CGSize size;
 
+/**
+ Returns the view's view controller (may be nil).
+ */
+@property (nullable, nonatomic, readonly) UIViewController *viewController;
+
 
 - (UIView *)createViewOnTargetView:(UIView *)targetView withFrame:(CGRect)rect;
 

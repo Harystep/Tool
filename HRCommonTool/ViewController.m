@@ -33,6 +33,7 @@
 #import "HRVideoPlayerViewController.h"
 #import "HRFunctionViewController.h"
 #import "BMKShowMapPage.h"
+#import "HRPieChartView.h"
 
 #define CompressionVideoPaht [NSHomeDirectory() stringByAppendingFormat:@"/Documents/CompressionVideoField"]
 
@@ -48,6 +49,8 @@
 @property (strong, nonatomic) YHRepairRecordCenterView *centerView;
 
 @property (strong, nonatomic) YHRepairRecordSubInfoView *subView;
+
+@property (strong, nonatomic) HRPieChartView *pieView;
 
 @end
 
@@ -78,6 +81,8 @@
     [self addButtonOperate];
     
     [self setButtonBorderColorOperate];
+    
+    [self addPieChartView];
 }
 #pragma mark -- 添加按钮
 - (void)addButtonOperate {
@@ -104,6 +109,19 @@
     [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [btn1 setTitle:@"低调一点 我先进了" forState:UIControlStateNormal];
     [btn1 setCornerRadius:20];
+}
+
+- (void)addPieChartView {
+    
+    [self.view addSubview:self.pieView];
+    self.pieView.hidden = NO;
+    self.pieView.valueArr = @[@"12", @"20", @"30"];
+    self.pieView.colorArr = @[[UIColor redColor], [UIColor purpleColor], [UIColor yellowColor]];
+    [self.pieView showAnimation];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.pieView.hidden = YES;
+    });
 }
 
 #pragma mark -- 添加阴影视图
@@ -502,6 +520,13 @@
         NSLog(@"请求失败：%@",error);
     }];
 
+}
+
+- (HRPieChartView *)pieView {
+    if (_pieView == nil) {
+        _pieView = [[HRPieChartView alloc] initWithFrame:CGRectMake((kWIDTH - 200)/2.0, 200, 200, 200)];
+    }
+    return _pieView;
 }
 
 @end
