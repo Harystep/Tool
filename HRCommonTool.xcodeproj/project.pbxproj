@@ -109,6 +109,11 @@
 		CEE22A9E239F8052006D256B /* HRShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A96239F8052006D256B /* HRShowInfoView.m */; };
 		CEE22A9F239F8052006D256B /* HRPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A98239F8052006D256B /* HRPieChartView.m */; };
 		CEE22AA0239F8052006D256B /* HRPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22A9B239F8052006D256B /* HRPieForeBGView.m */; };
+		CEE22AA223A09B38006D256B /* lottie.js in Resources */ = {isa = PBXBuildFile; fileRef = CEE22AA123A09B38006D256B /* lottie.js */; };
+		CEE22AA623A0BBB8006D256B /* YHMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AA523A0BBB8006D256B /* YHMyViewController.m */; };
+		CEE22AAD23A0BF21006D256B /* YHMySimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AAC23A0BF21006D256B /* YHMySimpleCell.m */; };
+		CEE22AB023A0BF33006D256B /* YHMySimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AAF23A0BF33006D256B /* YHMySimpleModel.m */; };
+		CEE22AB323A0DE68006D256B /* YHSimpleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AB223A0DE68006D256B /* YHSimpleDemoViewController.m */; };
 		E9D086660FC8B08648B713DF /* libPods-HRCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0BAAA92354811311BCD02 /* libPods-HRCommonTool.a */; };
 /* End PBXBuildFile section */
 
@@ -330,6 +335,15 @@
 		CEE22A99239F8052006D256B /* HRChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRChart.h; sourceTree = "<group>"; };
 		CEE22A9A239F8052006D256B /* HRShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRShowInfoView.h; sourceTree = "<group>"; };
 		CEE22A9B239F8052006D256B /* HRPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPieForeBGView.m; sourceTree = "<group>"; };
+		CEE22AA123A09B38006D256B /* lottie.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lottie.js; sourceTree = "<group>"; };
+		CEE22AA423A0BBB8006D256B /* YHMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMyViewController.h; sourceTree = "<group>"; };
+		CEE22AA523A0BBB8006D256B /* YHMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMyViewController.m; sourceTree = "<group>"; };
+		CEE22AAB23A0BF21006D256B /* YHMySimpleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMySimpleCell.h; sourceTree = "<group>"; };
+		CEE22AAC23A0BF21006D256B /* YHMySimpleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMySimpleCell.m; sourceTree = "<group>"; };
+		CEE22AAE23A0BF33006D256B /* YHMySimpleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMySimpleModel.h; sourceTree = "<group>"; };
+		CEE22AAF23A0BF33006D256B /* YHMySimpleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMySimpleModel.m; sourceTree = "<group>"; };
+		CEE22AB123A0DE68006D256B /* YHSimpleDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHSimpleDemoViewController.h; sourceTree = "<group>"; };
+		CEE22AB223A0DE68006D256B /* YHSimpleDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSimpleDemoViewController.m; sourceTree = "<group>"; };
 		DD642F71EC5EAB0916E61A3A /* Pods-HRCommonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.release.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.release.xcconfig"; sourceTree = "<group>"; };
 		EFB65FA40862C3F1BD04CF6F /* Pods-HRCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.debug.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -395,6 +409,7 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CEE22AA323A0BB9A006D256B /* My */,
 				CE808208239E3E5100DF64EE /* Base */,
 				CE808204239E3C7C00DF64EE /* Demo */,
 				CE8081E9239E396100DF64EE /* Public */,
@@ -411,6 +426,7 @@
 				702495AF228CFEAE00BA01E0 /* AppDelegate.m */,
 				702495B1228CFEAE00BA01E0 /* ViewController.h */,
 				702495B2228CFEAE00BA01E0 /* ViewController.m */,
+				CEE22AA123A09B38006D256B /* lottie.js */,
 				702495B7228CFEB000BA01E0 /* Assets.xcassets */,
 				702495B9228CFEB000BA01E0 /* LaunchScreen.storyboard */,
 				702495BC228CFEB000BA01E0 /* Info.plist */,
@@ -816,6 +832,45 @@
 			path = HRPieChart;
 			sourceTree = "<group>";
 		};
+		CEE22AA323A0BB9A006D256B /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22AAA23A0BEF5006D256B /* Model */,
+				CEE22AA823A0BEE7006D256B /* View */,
+				CEE22AA723A0BEDF006D256B /* Controller */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CEE22AA723A0BEDF006D256B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22AA423A0BBB8006D256B /* YHMyViewController.h */,
+				CEE22AA523A0BBB8006D256B /* YHMyViewController.m */,
+				CEE22AB123A0DE68006D256B /* YHSimpleDemoViewController.h */,
+				CEE22AB223A0DE68006D256B /* YHSimpleDemoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEE22AA823A0BEE7006D256B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22AAB23A0BF21006D256B /* YHMySimpleCell.h */,
+				CEE22AAC23A0BF21006D256B /* YHMySimpleCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEE22AAA23A0BEF5006D256B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22AAE23A0BF33006D256B /* YHMySimpleModel.h */,
+				CEE22AAF23A0BF33006D256B /* YHMySimpleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CEEEC3082334921000C5FD4B /* Vender */ = {
 			isa = PBXGroup;
 			children = (
@@ -940,6 +995,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				702495BB228CFEB000BA01E0 /* LaunchScreen.storyboard in Resources */,
+				CEE22AA223A09B38006D256B /* lottie.js in Resources */,
 				702495B8228CFEB000BA01E0 /* Assets.xcassets in Resources */,
 				CEC09AB2234C1C5F008E2FCE /* MBProgressExtension.bundle in Resources */,
 				CEBB8DAB234ED3D800D3C079 /* small.mp4 in Resources */,
@@ -1028,6 +1084,7 @@
 				CE8264EE239A4C82008A533C /* HRSecuritySimpleView.m in Sources */,
 				CEBB8D97234EBECD00D3C079 /* UIProgressView+AFNetworking.m in Sources */,
 				70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */,
+				CEE22AA623A0BBB8006D256B /* YHMyViewController.m in Sources */,
 				7024964A228CFFA900BA01E0 /* HRQRViewController.m in Sources */,
 				CEBB8D9B234EBECD00D3C079 /* UIButton+AFNetworking.m in Sources */,
 				7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */,
@@ -1043,8 +1100,10 @@
 				CE8264E5239A3937008A533C /* HRTopRotateView.m in Sources */,
 				CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */,
 				70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */,
+				CEE22AB023A0BF33006D256B /* YHMySimpleModel.m in Sources */,
 				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
 				CE8081FE239E39F400DF64EE /* UIResponder+HBRouter.m in Sources */,
+				CEE22AAD23A0BF21006D256B /* YHMySimpleCell.m in Sources */,
 				CEC09AB0234C1C5F008E2FCE /* MBProgressHUD.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				CEE22A9E239F8052006D256B /* HRShowInfoView.m in Sources */,
@@ -1063,6 +1122,7 @@
 				CEBB8DA5234EBECD00D3C079 /* AFSecurityPolicy.m in Sources */,
 				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
 				CEBB8D9A234EBECD00D3C079 /* UIImageView+AFNetworking.m in Sources */,
+				CEE22AB323A0DE68006D256B /* YHSimpleDemoViewController.m in Sources */,
 				70249654228CFFA900BA01E0 /* DBCommonString.m in Sources */,
 				CEBB8DA4234EBECD00D3C079 /* AFNetworkReachabilityManager.m in Sources */,
 				CEBB8DA3234EBECD00D3C079 /* AFURLRequestSerialization.m in Sources */,

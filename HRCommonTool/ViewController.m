@@ -34,13 +34,15 @@
 #import "HRFunctionViewController.h"
 #import "BMKShowMapPage.h"
 #import "HRPieChartView.h"
+#import <WebKit/WebKit.h>
+#import "YHMyViewController.h"
 
 #define CompressionVideoPaht [NSHomeDirectory() stringByAppendingFormat:@"/Documents/CompressionVideoField"]
 
 #define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 
-@interface ViewController ()
+@interface ViewController () <WKUIDelegate, WKNavigationDelegate>
 
 @property (strong, nonatomic) YZXPieGraphView *pieGraphView;
 
@@ -51,6 +53,8 @@
 @property (strong, nonatomic) YHRepairRecordSubInfoView *subView;
 
 @property (strong, nonatomic) HRPieChartView *pieView;
+
+@property (strong, nonatomic) WKWebView *webView;
 
 @end
 
@@ -82,7 +86,26 @@
     
     [self setButtonBorderColorOperate];
     
-    [self addPieChartView];
+//    [self addPieChartView];
+    
+    [self addMyOperate];
+
+}
+#pragma mark -- 添加动画
+- (void)addAminateOperate {
+    //需要调用的文件为bundle.js
+    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(50, 200, 200, 200)];
+    self.webView.backgroundColor = kColorHex(@"#ffffff");
+    self.webView.navigationDelegate = self;
+    [self.webView loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"lottie.js" ofType:nil]]]];
+    [self.view addSubview:self.webView];
+}
+//WKWebView代理方法    generatorBrainKey()为需要调用的js方法
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+//    [webView evaluateJavaScript:@"generatorBrainKey()" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
+//        NSLog(@"%@",result);
+//        NSLog(@"%@",error);
+//    }];
 }
 #pragma mark -- 添加按钮
 - (void)addButtonOperate {
@@ -96,6 +119,20 @@
     [btn setCornerRadius:5];
     [self.view addSubview:btn];
 }
+
+#pragma mark -- 添加按钮
+- (void)addMyOperate {
+    HREntenseButton *btn = [[HREntenseButton alloc] init];
+    btn.tag = 3;
+    btn.frame = CGRectMake(kHRMarginX, 300, kWIDTH - kHRMarginX * 2, 50);
+    btn.backgroundColor = [UIColor whiteColor];
+    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitle:@"我又回来啦··" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setCornerRadius:5];
+    [self.view addSubview:btn];
+}
+
 #pragma mark -- 添加按钮边框颜色
 - (void)setButtonBorderColorOperate {
     HREntenseButton *btn1 = [[HREntenseButton alloc] init];
@@ -143,20 +180,27 @@
 - (void)click:(UIButton *)sender {
     switch (sender.tag) {
         case 1://跳转功能视图
-        {
             [self jumpMapOperate];
-        }
+        
             break;
         case 2:
-        {
             [self jumpFunctionView];
-        }
+            
+            break;
+        case 3:
+            [self jumpMyFunctionView];
+            
             break;
             
         default:
             break;
     }
 }
+
+- (void)jumpMyFunctionView{
+    [HCRouter router:@"myModule" viewController:self animated:YES];
+}
+
 #pragma mark -- 跳转地图
 - (void)jumpMapOperate {
 

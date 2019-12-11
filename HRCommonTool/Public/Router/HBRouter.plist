@@ -8,5 +8,9 @@
 	<string>HRVideoPlayerViewController</string>
 	<key>mapLocation</key>
 	<string>BMKShowMapPage</string>
+	<key>myModule</key>
+	<string>YHMyViewController</string>
+	<key>simpleDemo</key>
+	<string>YHSimpleDemoViewController</string>
 </dict>
 </plist>
