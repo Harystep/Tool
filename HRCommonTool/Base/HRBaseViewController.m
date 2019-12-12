@@ -26,7 +26,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 40, 40); // icon_v2_black_left
-    [btn setImage:[UIImage imageNamed:@"icon_back-black"] forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"icon_back"] forState:UIControlStateNormal];
     btn.titleLabel.font = [UIFont systemFontOfSize:14];
     [btn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentCenter];
     [btn addTarget:self action:@selector(backOperate) forControlEvents:UIControlEventTouchUpInside];
