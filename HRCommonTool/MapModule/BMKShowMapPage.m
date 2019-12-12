@@ -255,7 +255,7 @@
 #pragma mark - Lazy loading
 - (BMKMapView *)mapView {
     if (!_mapView) {
-        _mapView = [[BMKMapView alloc] initWithFrame:CGRectMake(0, kHeight_SegMentBackgroud, KScreenWidth, KScreenHeight - kViewTopHeight - kHeight_SegMentBackgroud - kHeight_BottomControlView - KiPhoneXSafeAreaDValue)];
+        _mapView = [[BMKMapView alloc] initWithFrame:CGRectMake(0, kHeight_SegMentBackgroud, kScreenWidth, kScreenHeight - kViewTopHeight - kHeight_SegMentBackgroud - kHeight_BottomControlView - KiPhoneXSafeAreaDValue)];
         _mapView.zoomLevel = 20;//地图等级，数字越大越清晰
         _mapView.userTrackingMode = BMKUserTrackingModeNone;
         _mapView.delegate = self;

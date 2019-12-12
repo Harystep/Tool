@@ -11,6 +11,6 @@
 	<key>myModule</key>
 	<string>YHMyViewController</string>
 	<key>simpleDemo</key>
-	<string>YHSimpleDemoViewController</string>
+	<string>HRBaseDemoController</string>
 </dict>
 </plist>

@@ -45,11 +45,11 @@
     [self.iconIv setCornerRadius:self.iconIv.height / 2.0];
     self.titleL = [self createLabelOnTargetView:self.contentView withFrame:CGRectMake(CGRectGetMaxX(self.iconIv.frame) + 10, 10, 200, 30)];
     [self.titleL setLabelTextColor:kColorHex(@"#333333") text:@"" withFont:kMarcoWidth(16.0)];
-    self.arrowIv = [self createImageViewOnTargetView:self.contentView withFrame:CGRectMake(KScreenWidth - kHRMarginX - 9, (50 - 16) / 2.0, 8, 12)];
+    self.arrowIv = [self createImageViewOnTargetView:self.contentView withFrame:CGRectMake(kScreenWidth - kHRMarginX - 9, (50 - 16) / 2.0, 8, 12)];
     self.arrowIv.contentMode = UIViewContentModeCenter;
     self.arrowIv.alpha = 0.7;
     
-    UIView *sepView = [self createViewOnTargetView:self.contentView withFrame:CGRectMake(kHRMarginX, 49, KScreenWidth - 2 * kHRMarginX, 1)];
+    UIView *sepView = [self createViewOnTargetView:self.contentView withFrame:CGRectMake(kHRMarginX, 49, kScreenWidth - 2 * kHRMarginX, 1)];
     sepView.backgroundColor = kColorHex(@"#f6f6f6");
 }
 

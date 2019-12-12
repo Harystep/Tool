@@ -9,7 +9,6 @@
 #import "YHMyViewController.h"
 #import "YHMySimpleCell.h"
 #import "YHMySimpleModel.h"
-#import "YHSimpleDemoViewController.h"
 
 @interface YHMyViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -33,7 +32,7 @@
     
     self.view.backgroundColor = [UIColor orangeColor];
     
-    UITableView *tbView = [[UITableView alloc] initWithFrame:CGRectMake(0, 200, KScreenWidth, KScreenHeight) style:UITableViewStyleGrouped];
+    UITableView *tbView = [[UITableView alloc] initWithFrame:CGRectMake(0, 200, kScreenWidth, kScreenHeight) style:UITableViewStyleGrouped];
     tbView.delegate = self;
     tbView.dataSource = self;
     tbView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -77,7 +76,7 @@
     return nil;
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, KScreenWidth, 10)];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 10)];
     view.backgroundColor = kColorHex(@"#f6f6f6");
     return view;
 }
