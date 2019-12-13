@@ -24,7 +24,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"{%@:<%p>} title:%@ name:%@ age:%tu", self.class, self, self.title, self.name, self.age];
+    return [NSString stringWithFormat:@"{%@:<%p>} title:%@\n name:%@\n age:%tu", self.class, self, self.title, self.name, self.age];
 }
 
 @end

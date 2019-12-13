@@ -98,6 +98,8 @@
 		CEE22AAD23A0BF21006D256B /* YHMySimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AAC23A0BF21006D256B /* YHMySimpleCell.m */; };
 		CEE22AB023A0BF33006D256B /* YHMySimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AAF23A0BF33006D256B /* YHMySimpleModel.m */; };
 		CEE22AB323A0DE68006D256B /* YHSimpleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AB223A0DE68006D256B /* YHSimpleDemoViewController.m */; };
+		CEFADD7723A3229E00ECE114 /* HRMJExtensionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFADD7623A3229E00ECE114 /* HRMJExtensionController.m */; };
+		CEFADD7A23A322B700ECE114 /* HRExtensionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFADD7923A322B700ECE114 /* HRExtensionModel.m */; };
 		E9D086660FC8B08648B713DF /* libPods-HRCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0BAAA92354811311BCD02 /* libPods-HRCommonTool.a */; };
 /* End PBXBuildFile section */
 
@@ -294,6 +296,10 @@
 		CEE22AAF23A0BF33006D256B /* YHMySimpleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMySimpleModel.m; sourceTree = "<group>"; };
 		CEE22AB123A0DE68006D256B /* YHSimpleDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHSimpleDemoViewController.h; sourceTree = "<group>"; };
 		CEE22AB223A0DE68006D256B /* YHSimpleDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSimpleDemoViewController.m; sourceTree = "<group>"; };
+		CEFADD7523A3229E00ECE114 /* HRMJExtensionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRMJExtensionController.h; sourceTree = "<group>"; };
+		CEFADD7623A3229E00ECE114 /* HRMJExtensionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMJExtensionController.m; sourceTree = "<group>"; };
+		CEFADD7823A322B700ECE114 /* HRExtensionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRExtensionModel.h; sourceTree = "<group>"; };
+		CEFADD7923A322B700ECE114 /* HRExtensionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRExtensionModel.m; sourceTree = "<group>"; };
 		DD642F71EC5EAB0916E61A3A /* Pods-HRCommonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.release.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.release.xcconfig"; sourceTree = "<group>"; };
 		EFB65FA40862C3F1BD04CF6F /* Pods-HRCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.debug.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -359,6 +365,7 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CEFADD7223A321C100ECE114 /* MJExtensionDemo */,
 				CEE22AA323A0BB9A006D256B /* My */,
 				CE808208239E3E5100DF64EE /* Base */,
 				CE808204239E3C7C00DF64EE /* Demo */,
@@ -803,6 +810,33 @@
 			path = Vender;
 			sourceTree = "<group>";
 		};
+		CEFADD7223A321C100ECE114 /* MJExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEFADD7423A3221900ECE114 /* Model */,
+				CEFADD7323A3220E00ECE114 /* Controller */,
+			);
+			path = MJExtensionDemo;
+			sourceTree = "<group>";
+		};
+		CEFADD7323A3220E00ECE114 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEFADD7523A3229E00ECE114 /* HRMJExtensionController.h */,
+				CEFADD7623A3229E00ECE114 /* HRMJExtensionController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEFADD7423A3221900ECE114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFADD7823A322B700ECE114 /* HRExtensionModel.h */,
+				CEFADD7923A322B700ECE114 /* HRExtensionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E523DEB80BC6ED7E623E1BD9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1007,10 +1041,12 @@
 				CE8264EE239A4C82008A533C /* HRSecuritySimpleView.m in Sources */,
 				CE1C1E1423A218A400D4222F /* HRBaseDataModel.m in Sources */,
 				70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */,
+				CEFADD7723A3229E00ECE114 /* HRMJExtensionController.m in Sources */,
 				CEE22AA623A0BBB8006D256B /* YHMyViewController.m in Sources */,
 				7024964A228CFFA900BA01E0 /* HRQRViewController.m in Sources */,
 				7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */,
 				CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */,
+				CEFADD7A23A322B700ECE114 /* HRExtensionModel.m in Sources */,
 				CE87A21922F44018008FC6FF /* YZXPieGraphView.m in Sources */,
 				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
 				CE808207239E3CAB00DF64EE /* HRBaseDemoController.m in Sources */,

@@ -12,5 +12,7 @@
 	<string>YHMyViewController</string>
 	<key>simpleDemo</key>
 	<string>HRBaseDemoController</string>
+	<key>mjextensionDemo</key>
+	<string>HRMJExtensionController</string>
 </dict>
 </plist>

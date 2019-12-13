@@ -38,7 +38,9 @@
     cell.dataModel = self.dataArr[indexPath.section][indexPath.row];
     return cell;
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [HCRouter router:@"mjextensionDemo" viewController:self animated:YES];
+}
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 50;
 }
