@@ -4,19 +4,19 @@
 /**
  按钮点击回调
  */
-typedef void (^BtTouch)(UIButton * button);
+typedef void (^CustomTouch)(UIButton * button);
 
 @interface UIButton (Button)
 
 /**
  按钮点击回调
  */
-@property (nonatomic,copy)BtTouch touchBlock;
+@property (nonatomic,copy)CustomTouch touchBlock;
 
 /**
  按钮添加点击事件
  */
--(void)addActionWith:(BtTouch)touchClock;
+-(void)addActionWith:(CustomTouch)touchClock;
 /**
  按钮圆角
  */
@@ -25,5 +25,7 @@ typedef void (^BtTouch)(UIButton * button);
 - (void)setLayerBorderWidthWithColor:(CGFloat)width withColor:(UIColor *)color;
 
 - (void)setBtnTitleChangeSizeWithImage;
+
+- (void)setButtonTextColor:(UIColor *)color text:(NSString *)text withFont:(CGFloat)font;
 
 @end

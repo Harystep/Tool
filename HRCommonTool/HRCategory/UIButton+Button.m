@@ -10,23 +10,23 @@ static const void *blockKey = &blockKey;
 @dynamic touchBlock;
 
 //set 用Runtime 强制给类目添加属性
--(void)setTouchBlock:(BtTouch)touchBlock{
+-(void)setTouchBlock:(CustomTouch)touchBlock{
     objc_setAssociatedObject(self, blockKey, touchBlock, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 //get
--(BtTouch)touchBlock{
+-(CustomTouch)touchBlock{
     return objc_getAssociatedObject(self, blockKey);
 }
 
--(void)addActionWith:(BtTouch)touchClock{
+-(void)addActionWith:(CustomTouch)touchClock{
     self.touchBlock = touchClock;
     if (!self.touchBlock) {
         return;
     }
-    [self addTarget:self action:@selector(BtClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
 }
 
--(void)BtClick:(UIButton*)button{
+-(void)btnClick:(UIButton*)button{
     if (self.touchBlock) {
         self.touchBlock(button);
     }
@@ -47,6 +47,14 @@ static const void *blockKey = &blockKey;
 - (void)setBtnTitleChangeSizeWithImage {
     self.titleEdgeInsets = UIEdgeInsetsMake(0, -(self.imageView.width), 0, (self.imageView.width));
     self.imageEdgeInsets = UIEdgeInsetsMake(0, (self.titleLabel.width) + 2, 0, -(self.titleLabel.width));
+}
+
+- (void)setButtonTextColor:(UIColor *)color text:(NSString *)text withFont:(CGFloat)font {
+    self.titleLabel.font = kFontSize(font);
+    if (text != nil) {
+        [self setTitle:text forState:UIControlStateNormal];
+    }
+    [self setTitleColor:color forState:UIControlStateNormal];
 }
 
 @end

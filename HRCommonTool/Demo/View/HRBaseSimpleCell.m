@@ -17,6 +17,8 @@
 
 @property (strong, nonatomic) UILabel *ageL;
 
+@property (strong, nonatomic) NSMutableArray *titleArr;
+
 @end
 
 @implementation HRBaseSimpleCell
@@ -50,23 +52,14 @@
     UIView *sepV = [self createViewOnTargetView:self.contentView withFrame:CGRectMake(0, 49, kScreenWidth, 1)];
     sepV.backgroundColor = kColorHex(@"#f6f6f6");
     
-    UIButton *clickBtn1 = [self createButtonOnTargetView:self.contentView withFrame:CGRectMake(CGRectGetMaxX(self.nameL.frame) + 20, 10, 40, 30)];
-    [clickBtn1 setTitle:@"操作" forState:UIControlStateNormal];
-    [clickBtn1 setTitleColor:kColorHex(@"#ffffff") forState:UIControlStateNormal];
-    clickBtn1.backgroundColor = kColorHex(@"#FF7513");
-    clickBtn1.tag = 1;
-    [clickBtn1 addTarget:self action:@selector(clickBtnClick:) forControlEvents:UIControlEventTouchUpInside];
-    [clickBtn1 setCornerRadius:3];
-    clickBtn1.titleLabel.font = kFontSize(13);
-    
-    UIButton *clickBtn2 = [self createButtonOnTargetView:self.contentView withFrame:CGRectMake(CGRectGetMaxX(clickBtn1.frame) + 20, 10, 40, 30)];
-    [clickBtn2 setTitle:@"跳转" forState:UIControlStateNormal];
-    [clickBtn2 setTitleColor:kColorHex(@"#ffffff") forState:UIControlStateNormal];
-    clickBtn2.backgroundColor = kColorHex(@"#FF7513");
-    clickBtn2.tag = 2;
-    [clickBtn2 addTarget:self action:@selector(clickBtnClick:) forControlEvents:UIControlEventTouchUpInside];
-    [clickBtn2 setCornerRadius:3];
-    clickBtn2.titleLabel.font = kFontSize(13);
+    for (int i = 0; i < 2; i ++) {
+        UIButton *clickBtn1 = [self createButtonOnTargetView:self.contentView withFrame:CGRectMake(CGRectGetMaxX(self.nameL.frame) + 20 + (40 + 20) * i, 10, 40, 30)];
+        clickBtn1.backgroundColor = kColorHex(@"#FF7513");
+        clickBtn1.tag = i + 1;
+        [clickBtn1 addTarget:self action:@selector(clickBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+        [clickBtn1 setCornerRadius:3];
+        [clickBtn1 setButtonTextColor:kColorHex(@"#ffffff") text:self.titleArr[i] withFont:13];
+    }
 }
 
 - (void)clickBtnClick:(UIButton *)sender {
@@ -92,6 +85,14 @@
     self.titleL.text = dataModel.title;
     self.nameL.text = dataModel.title;
     self.ageL.text = [NSString stringWithFormat:@"%tu岁", dataModel.age];
+}
+
+- (NSMutableArray *)titleArr {
+    if (_titleArr == nil) {
+        _titleArr = [NSMutableArray arrayWithObjects:@"操作", @"跳转", nil];
+        
+    }
+    return _titleArr;
 }
 
 @end

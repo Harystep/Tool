@@ -32,6 +32,7 @@
 #import "UITableView+CellIdentifiers.h"
 #import "UIResponder+HBRouter.h"
 #import "HRProgressHub.h"
+#import "UIButton+Button.h"
 
 #define kMarginX 10
 #define kMarginY 15
