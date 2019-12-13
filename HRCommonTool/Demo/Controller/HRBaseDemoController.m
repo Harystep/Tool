@@ -59,6 +59,21 @@
     view.backgroundColor = kColorHex(@"#f6f6f6");
     return view;
 }
+#pragma mark -- 响应路由方法
+- (void)routerWithEventName:(NSString *)eventName userInfo:(NSDictionary *)userInfo block:(void (^)(id _Nonnull))block {
+    NSLog(@"点击回调");
+    [[HRProgressHub sharedInstance] showTextMsg:@"我又回来啦111"];
+    block(@"12313");
+}
+
+- (void)routerWithEventName:(NSString *)eventName userInfo:(NSDictionary *)userInfo {
+    NSLog(@"点击操作");
+    [[HRProgressHub sharedInstance] showTextMsg:@"点击操作"];
+}
+
+- (void)routerWithEventName:(NSString *)eventName {
+    NSLog(@"点击 你想干啥");
+}
 
 - (void)setSubViews {
     self.backBtn.hidden = NO;

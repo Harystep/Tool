@@ -49,6 +49,42 @@
     
     UIView *sepV = [self createViewOnTargetView:self.contentView withFrame:CGRectMake(0, 49, kScreenWidth, 1)];
     sepV.backgroundColor = kColorHex(@"#f6f6f6");
+    
+    UIButton *clickBtn1 = [self createButtonOnTargetView:self.contentView withFrame:CGRectMake(CGRectGetMaxX(self.nameL.frame) + 20, 10, 40, 30)];
+    [clickBtn1 setTitle:@"操作" forState:UIControlStateNormal];
+    [clickBtn1 setTitleColor:kColorHex(@"#ffffff") forState:UIControlStateNormal];
+    clickBtn1.backgroundColor = kColorHex(@"#FF7513");
+    clickBtn1.tag = 1;
+    [clickBtn1 addTarget:self action:@selector(clickBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [clickBtn1 setCornerRadius:3];
+    clickBtn1.titleLabel.font = kFontSize(13);
+    
+    UIButton *clickBtn2 = [self createButtonOnTargetView:self.contentView withFrame:CGRectMake(CGRectGetMaxX(clickBtn1.frame) + 20, 10, 40, 30)];
+    [clickBtn2 setTitle:@"跳转" forState:UIControlStateNormal];
+    [clickBtn2 setTitleColor:kColorHex(@"#ffffff") forState:UIControlStateNormal];
+    clickBtn2.backgroundColor = kColorHex(@"#FF7513");
+    clickBtn2.tag = 2;
+    [clickBtn2 addTarget:self action:@selector(clickBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [clickBtn2 setCornerRadius:3];
+    clickBtn2.titleLabel.font = kFontSize(13);
+}
+
+- (void)clickBtnClick:(UIButton *)sender {
+    switch (sender.tag) {
+        case 1://点击操作
+//            [sender routerWithEventName:@"" userInfo:@{}];
+            [sender routerWithEventName:@"" userInfo:@{} block:^(id  _Nonnull result) {//需要回调的操作
+                NSLog(@"欢迎回来:%@", result);
+            }];
+            break;
+        case 2://点击跳转页面
+            [HCRouter router:@"Demo1" viewController:self.viewController];
+//            [HCRouter router:@"" params:@{} viewController:self.viewController];//需要传参跳转
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)setDataModel:(HRBaseModel *)dataModel {

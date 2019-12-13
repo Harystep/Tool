@@ -55,6 +55,7 @@
 
 - (void)testMappingExtensionDemo {
     NSDictionary *dict = @{
+                           @"title":@"hfksfk",
                            @"id" : @"20",
                            @"description" : @"kids",
                            @"name" : @{

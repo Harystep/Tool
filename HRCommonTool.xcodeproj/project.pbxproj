@@ -100,6 +100,7 @@
 		CEE22AB323A0DE68006D256B /* YHSimpleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AB223A0DE68006D256B /* YHSimpleDemoViewController.m */; };
 		CEFADD7723A3229E00ECE114 /* HRMJExtensionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFADD7623A3229E00ECE114 /* HRMJExtensionController.m */; };
 		CEFADD7A23A322B700ECE114 /* HRExtensionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFADD7923A322B700ECE114 /* HRExtensionModel.m */; };
+		CEFADD7E23A35FC900ECE114 /* HRDemo1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFADD7D23A35FC900ECE114 /* HRDemo1Controller.m */; };
 		E9D086660FC8B08648B713DF /* libPods-HRCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0BAAA92354811311BCD02 /* libPods-HRCommonTool.a */; };
 /* End PBXBuildFile section */
 
@@ -300,6 +301,8 @@
 		CEFADD7623A3229E00ECE114 /* HRMJExtensionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMJExtensionController.m; sourceTree = "<group>"; };
 		CEFADD7823A322B700ECE114 /* HRExtensionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRExtensionModel.h; sourceTree = "<group>"; };
 		CEFADD7923A322B700ECE114 /* HRExtensionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRExtensionModel.m; sourceTree = "<group>"; };
+		CEFADD7C23A35FC900ECE114 /* HRDemo1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRDemo1Controller.h; sourceTree = "<group>"; };
+		CEFADD7D23A35FC900ECE114 /* HRDemo1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRDemo1Controller.m; sourceTree = "<group>"; };
 		DD642F71EC5EAB0916E61A3A /* Pods-HRCommonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.release.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.release.xcconfig"; sourceTree = "<group>"; };
 		EFB65FA40862C3F1BD04CF6F /* Pods-HRCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRCommonTool.debug.xcconfig"; path = "Target Support Files/Pods-HRCommonTool/Pods-HRCommonTool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -538,6 +541,8 @@
 			children = (
 				CE808205239E3CAB00DF64EE /* HRBaseDemoController.h */,
 				CE808206239E3CAB00DF64EE /* HRBaseDemoController.m */,
+				CEFADD7C23A35FC900ECE114 /* HRDemo1Controller.h */,
+				CEFADD7D23A35FC900ECE114 /* HRDemo1Controller.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1063,6 +1068,7 @@
 				CEE22AAD23A0BF21006D256B /* YHMySimpleCell.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				CEE22A9E239F8052006D256B /* HRShowInfoView.m in Sources */,
+				CEFADD7E23A35FC900ECE114 /* HRDemo1Controller.m in Sources */,
 				CE1C1E1A23A218FC00D4222F /* HRBaseSimpleCell.m in Sources */,
 				CE8264F1239A52DC008A533C /* HRFunctionSimpleViewCell.m in Sources */,
 				CE5CCC752394A9470030269D /* XLSlider.m in Sources */,

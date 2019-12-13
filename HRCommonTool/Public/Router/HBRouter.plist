@@ -14,5 +14,7 @@
 	<string>HRBaseDemoController</string>
 	<key>mjextensionDemo</key>
 	<string>HRMJExtensionController</string>
+	<key>Demo1</key>
+	<string>HRDemo1Controller</string>
 </dict>
 </plist>

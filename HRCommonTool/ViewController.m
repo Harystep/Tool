@@ -25,7 +25,6 @@
 #import <AVFoundation/AVFoundation.h>
 #import "HREntenseButton.h"
 #import "YZXPieGraphView.h"
-#import "HRProgressHub.h"
 #import "YHRepairRecordSubInfoView.h"
 #import "YHRepairRecordCenterView.h"
 #import "AFNetworking.h"
