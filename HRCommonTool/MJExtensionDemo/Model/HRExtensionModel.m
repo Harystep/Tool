@@ -10,7 +10,6 @@
 
 @implementation HRExtensionModel
 
-// 在.m文件里面添加
 + (NSDictionary *)mj_objectClassInArray {
     return @{
              @"names" : @"HRNameModel",
@@ -53,7 +52,6 @@
 
 @implementation HRMapExtensionModel
 
-// 在.m文件里面添加
 + (NSDictionary *)mj_replacedKeyFromPropertyName {
     return @{
              @"ID" : @"id",
