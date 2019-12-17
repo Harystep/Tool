@@ -92,10 +92,10 @@
     //发起网络请求
     [self.dataModel requestDate:@{} withResultData:^(NSInteger status, id  _Nullable subValue) {
         NSLog(@"%@", subValue);
-        [weakSelf.tbView.mj_header endRefreshing];
         [weakSelf.dataArr removeAllObjects];
         [weakSelf.dataArr addObject:subValue];
         dispatch_async(dispatch_get_main_queue(), ^{
+            [weakSelf.tbView.mj_header endRefreshing];
             [weakSelf.tbView reloadData];
         });
         
@@ -106,9 +106,9 @@
     __weakSelf(weakSelf);
     [self.dataModel requestMoreDate:@{} withResultData:^(NSInteger status, id  _Nullable subValue) {
         NSLog(@"%@", subValue);
-        [weakSelf.tbView.mj_footer endRefreshing];
         [weakSelf.dataArr addObject:subValue];
         dispatch_async(dispatch_get_main_queue(), ^{
+            [weakSelf.tbView.mj_footer endRefreshing];
             [weakSelf.tbView reloadData];
         });
         
