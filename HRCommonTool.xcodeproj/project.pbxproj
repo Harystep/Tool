@@ -85,6 +85,7 @@
 		CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */; };
 		CEC7404B23B98CC000B37191 /* HRCustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7404723B98CBF00B37191 /* HRCustomField.m */; };
 		CEC7404C23B98CC000B37191 /* HRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7404A23B98CC000B37191 /* HRTextField.m */; };
+		CEC7404F23B9A8A500B37191 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7404D23B9A8A500B37191 /* Utils.m */; };
 		CECE5D23236BE0B0005BC497 /* HRSimpleTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE5D22236BE0B0005BC497 /* HRSimpleTypeView.m */; };
 		CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE3234DCCB000DA2A3B /* YHRepairRecordCenterView.m */; };
 		CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */; };
@@ -276,6 +277,8 @@
 		CEC7404823B98CBF00B37191 /* HRCustomField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCustomField.h; sourceTree = "<group>"; };
 		CEC7404923B98CC000B37191 /* HRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRTextField.h; sourceTree = "<group>"; };
 		CEC7404A23B98CC000B37191 /* HRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTextField.m; sourceTree = "<group>"; };
+		CEC7404D23B9A8A500B37191 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		CEC7404E23B9A8A500B37191 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		CECE5D21236BE0B0005BC497 /* HRSimpleTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRSimpleTypeView.h; sourceTree = "<group>"; };
 		CECE5D22236BE0B0005BC497 /* HRSimpleTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRSimpleTypeView.m; sourceTree = "<group>"; };
 		CECF7CE2234DCCB000DA2A3B /* YHRepairRecordCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRepairRecordCenterView.h; sourceTree = "<group>"; };
@@ -450,6 +453,8 @@
 		7024960F228CFFA900BA01E0 /* ToolView */ = {
 			isa = PBXGroup;
 			children = (
+				CEC7404E23B9A8A500B37191 /* Utils.h */,
+				CEC7404D23B9A8A500B37191 /* Utils.m */,
 				70249641228CFFA900BA01E0 /* BRBaseView.h */,
 				7024963A228CFFA900BA01E0 /* BRBaseView.m */,
 				70249618228CFFA900BA01E0 /* BRStringPickerView.h */,
@@ -1066,6 +1071,7 @@
 				70249659228CFFA900BA01E0 /* HRCreatQRView.m in Sources */,
 				CE808207239E3CAB00DF64EE /* HRBaseDemoController.m in Sources */,
 				CEE22AA0239F8052006D256B /* HRPieForeBGView.m in Sources */,
+				CEC7404F23B9A8A500B37191 /* Utils.m in Sources */,
 				CE5CCC742394A9470030269D /* XLVideoPlayer.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+Extend.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
