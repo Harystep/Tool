@@ -83,6 +83,8 @@
 		CEBB8DAB234ED3D800D3C079 /* small.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DAA234ED3D800D3C079 /* small.mp4 */; };
 		CEBB8DEC234F193E00D3C079 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8DEB234F193E00D3C079 /* 123.jpg */; };
 		CEC09AB8234C27AA008E2FCE /* HRProgressHub.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */; };
+		CEC7404B23B98CC000B37191 /* HRCustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7404723B98CBF00B37191 /* HRCustomField.m */; };
+		CEC7404C23B98CC000B37191 /* HRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7404A23B98CC000B37191 /* HRTextField.m */; };
 		CECE5D23236BE0B0005BC497 /* HRSimpleTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE5D22236BE0B0005BC497 /* HRSimpleTypeView.m */; };
 		CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF7CE3234DCCB000DA2A3B /* YHRepairRecordCenterView.m */; };
 		CECF7CE6234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF7CE5234DCCBD00DA2A3B /* YHRepairRecordCenterView.xib */; };
@@ -270,6 +272,10 @@
 		CEBB8DEB234F193E00D3C079 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
 		CEC09AB6234C27AA008E2FCE /* HRProgressHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRProgressHub.h; sourceTree = "<group>"; };
 		CEC09AB7234C27AA008E2FCE /* HRProgressHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRProgressHub.m; sourceTree = "<group>"; };
+		CEC7404723B98CBF00B37191 /* HRCustomField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCustomField.m; sourceTree = "<group>"; };
+		CEC7404823B98CBF00B37191 /* HRCustomField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCustomField.h; sourceTree = "<group>"; };
+		CEC7404923B98CC000B37191 /* HRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRTextField.h; sourceTree = "<group>"; };
+		CEC7404A23B98CC000B37191 /* HRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTextField.m; sourceTree = "<group>"; };
 		CECE5D21236BE0B0005BC497 /* HRSimpleTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRSimpleTypeView.h; sourceTree = "<group>"; };
 		CECE5D22236BE0B0005BC497 /* HRSimpleTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRSimpleTypeView.m; sourceTree = "<group>"; };
 		CECF7CE2234DCCB000DA2A3B /* YHRepairRecordCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRepairRecordCenterView.h; sourceTree = "<group>"; };
@@ -726,6 +732,10 @@
 		CECE5D1E236BE03D005BC497 /* TypeView */ = {
 			isa = PBXGroup;
 			children = (
+				CEC7404823B98CBF00B37191 /* HRCustomField.h */,
+				CEC7404723B98CBF00B37191 /* HRCustomField.m */,
+				CEC7404923B98CC000B37191 /* HRTextField.h */,
+				CEC7404A23B98CC000B37191 /* HRTextField.m */,
 				CECE5D21236BE0B0005BC497 /* HRSimpleTypeView.h */,
 				CECE5D22236BE0B0005BC497 /* HRSimpleTypeView.m */,
 			);
@@ -1077,6 +1087,7 @@
 				CE808200239E39F400DF64EE /* HCRouter.m in Sources */,
 				CEE22A9C239F8052006D256B /* HRChart.m in Sources */,
 				70249649228CFFA900BA01E0 /* WHSBaseNavigationController.m in Sources */,
+				CEC7404B23B98CC000B37191 /* HRCustomField.m in Sources */,
 				7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */,
 				7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */,
 				CEE22AB323A0DE68006D256B /* YHSimpleDemoViewController.m in Sources */,
@@ -1110,6 +1121,7 @@
 				CE8081E6239E327000DF64EE /* BMKShowMapPage.m in Sources */,
 				CE1C1E1E23A219C400D4222F /* UITableView+CellIdentifiers.m in Sources */,
 				CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */,
+				CEC7404C23B98CC000B37191 /* HRTextField.m in Sources */,
 				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,
 				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
 				702495B0228CFEAE00BA01E0 /* AppDelegate.m in Sources */,
