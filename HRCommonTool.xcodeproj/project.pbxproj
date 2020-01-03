@@ -47,6 +47,17 @@
 		7024965A228CFFA900BA01E0 /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963A228CFFA900BA01E0 /* BRBaseView.m */; };
 		7024965B228CFFA900BA01E0 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7024963D228CFFA900BA01E0 /* BRStringPickerView.m */; };
 		7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70249640228CFFA900BA01E0 /* DBTipView.m */; };
+		CE177CFC23BEE03900F17039 /* HRChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CE423BEE03800F17039 /* HRChart.m */; };
+		CE177CFD23BEE03900F17039 /* HRPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CE623BEE03800F17039 /* HRPieItemsView.m */; };
+		CE177CFE23BEE03900F17039 /* HRShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CE823BEE03800F17039 /* HRShowInfoView.m */; };
+		CE177CFF23BEE03900F17039 /* HRPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CEA23BEE03800F17039 /* HRPieChartView.m */; };
+		CE177D0023BEE03900F17039 /* HRPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CED23BEE03800F17039 /* HRPieForeBGView.m */; };
+		CE177D0123BEE03900F17039 /* HBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CEF23BEE03800F17039 /* HBBarChartView.m */; };
+		CE177D0223BEE03900F17039 /* HBCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CF023BEE03800F17039 /* HBCharts.m */; };
+		CE177D0323BEE03900F17039 /* HBPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CF223BEE03800F17039 /* HBPieChartView.m */; };
+		CE177D0423BEE03900F17039 /* HCPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CF523BEE03800F17039 /* HCPieChartView.m */; };
+		CE177D0523BEE03900F17039 /* HBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CF723BEE03800F17039 /* HBLineChartView.m */; };
+		CE177D0623BEE03900F17039 /* HCDecimalNumberTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE177CFA23BEE03800F17039 /* HCDecimalNumberTool.m */; };
 		CE1C1E0723A1DDE500D4222F /* HRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C1E0523A1DDE300D4222F /* HRBaseViewController.m */; };
 		CE1C1E0A23A1DE7F00D4222F /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C1E0923A1DE7E00D4222F /* UIViewController+Extend.m */; };
 		CE1C1E1423A218A400D4222F /* HRBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C1E1323A218A400D4222F /* HRBaseDataModel.m */; };
@@ -208,6 +219,28 @@
 		70249640228CFFA900BA01E0 /* DBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTipView.m; sourceTree = "<group>"; };
 		70249641228CFFA900BA01E0 /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		70249642228CFFA900BA01E0 /* HRCreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCreatQRView.h; sourceTree = "<group>"; };
+		CE177CE423BEE03800F17039 /* HRChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRChart.m; sourceTree = "<group>"; };
+		CE177CE523BEE03800F17039 /* HRPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPieChartView.h; sourceTree = "<group>"; };
+		CE177CE623BEE03800F17039 /* HRPieItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPieItemsView.m; sourceTree = "<group>"; };
+		CE177CE723BEE03800F17039 /* HRPieForeBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPieForeBGView.h; sourceTree = "<group>"; };
+		CE177CE823BEE03800F17039 /* HRShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRShowInfoView.m; sourceTree = "<group>"; };
+		CE177CE923BEE03800F17039 /* HRPieItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPieItemsView.h; sourceTree = "<group>"; };
+		CE177CEA23BEE03800F17039 /* HRPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPieChartView.m; sourceTree = "<group>"; };
+		CE177CEB23BEE03800F17039 /* HRChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRChart.h; sourceTree = "<group>"; };
+		CE177CEC23BEE03800F17039 /* HRShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRShowInfoView.h; sourceTree = "<group>"; };
+		CE177CED23BEE03800F17039 /* HRPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPieForeBGView.m; sourceTree = "<group>"; };
+		CE177CEF23BEE03800F17039 /* HBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBarChartView.m; sourceTree = "<group>"; };
+		CE177CF023BEE03800F17039 /* HBCharts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCharts.m; sourceTree = "<group>"; };
+		CE177CF123BEE03800F17039 /* HCPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPieChartView.h; sourceTree = "<group>"; };
+		CE177CF223BEE03800F17039 /* HBPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPieChartView.m; sourceTree = "<group>"; };
+		CE177CF323BEE03800F17039 /* HBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLineChartView.h; sourceTree = "<group>"; };
+		CE177CF423BEE03800F17039 /* HBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBarChartView.h; sourceTree = "<group>"; };
+		CE177CF523BEE03800F17039 /* HCPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPieChartView.m; sourceTree = "<group>"; };
+		CE177CF623BEE03800F17039 /* HBCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCharts.h; sourceTree = "<group>"; };
+		CE177CF723BEE03800F17039 /* HBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLineChartView.m; sourceTree = "<group>"; };
+		CE177CF823BEE03800F17039 /* HBPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPieChartView.h; sourceTree = "<group>"; };
+		CE177CFA23BEE03800F17039 /* HCDecimalNumberTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDecimalNumberTool.m; sourceTree = "<group>"; };
+		CE177CFB23BEE03800F17039 /* HCDecimalNumberTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDecimalNumberTool.h; sourceTree = "<group>"; };
 		CE1C1E0523A1DDE300D4222F /* HRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBaseViewController.m; sourceTree = "<group>"; };
 		CE1C1E0623A1DDE400D4222F /* HRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBaseViewController.h; sourceTree = "<group>"; };
 		CE1C1E0823A1DE7E00D4222F /* UIViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
@@ -380,6 +413,7 @@
 		702495AD228CFEAE00BA01E0 /* HRCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				CE177CE223BEE03800F17039 /* ChartTool */,
 				CEFADD7223A321C100ECE114 /* MJExtensionDemo */,
 				CEE22AA323A0BB9A006D256B /* My */,
 				CE808208239E3E5100DF64EE /* Base */,
@@ -550,6 +584,59 @@
 				70249638228CFFA900BA01E0 /* NSUtil.h */,
 			);
 			path = HRPictureCompression;
+			sourceTree = "<group>";
+		};
+		CE177CE223BEE03800F17039 /* ChartTool */ = {
+			isa = PBXGroup;
+			children = (
+				CE177CE323BEE03800F17039 /* HRPieChart */,
+				CE177CEE23BEE03800F17039 /* Charts */,
+				CE177CF923BEE03800F17039 /* DecimalNumber */,
+			);
+			path = ChartTool;
+			sourceTree = "<group>";
+		};
+		CE177CE323BEE03800F17039 /* HRPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				CE177CE423BEE03800F17039 /* HRChart.m */,
+				CE177CE523BEE03800F17039 /* HRPieChartView.h */,
+				CE177CE623BEE03800F17039 /* HRPieItemsView.m */,
+				CE177CE723BEE03800F17039 /* HRPieForeBGView.h */,
+				CE177CE823BEE03800F17039 /* HRShowInfoView.m */,
+				CE177CE923BEE03800F17039 /* HRPieItemsView.h */,
+				CE177CEA23BEE03800F17039 /* HRPieChartView.m */,
+				CE177CEB23BEE03800F17039 /* HRChart.h */,
+				CE177CEC23BEE03800F17039 /* HRShowInfoView.h */,
+				CE177CED23BEE03800F17039 /* HRPieForeBGView.m */,
+			);
+			path = HRPieChart;
+			sourceTree = "<group>";
+		};
+		CE177CEE23BEE03800F17039 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				CE177CEF23BEE03800F17039 /* HBBarChartView.m */,
+				CE177CF023BEE03800F17039 /* HBCharts.m */,
+				CE177CF123BEE03800F17039 /* HCPieChartView.h */,
+				CE177CF223BEE03800F17039 /* HBPieChartView.m */,
+				CE177CF323BEE03800F17039 /* HBLineChartView.h */,
+				CE177CF423BEE03800F17039 /* HBBarChartView.h */,
+				CE177CF523BEE03800F17039 /* HCPieChartView.m */,
+				CE177CF623BEE03800F17039 /* HBCharts.h */,
+				CE177CF723BEE03800F17039 /* HBLineChartView.m */,
+				CE177CF823BEE03800F17039 /* HBPieChartView.h */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		CE177CF923BEE03800F17039 /* DecimalNumber */ = {
+			isa = PBXGroup;
+			children = (
+				CE177CFA23BEE03800F17039 /* HCDecimalNumberTool.m */,
+				CE177CFB23BEE03800F17039 /* HCDecimalNumberTool.h */,
+			);
+			path = DecimalNumber;
 			sourceTree = "<group>";
 		};
 		CE1C1E0E23A214A400D4222F /* Controller */ = {
@@ -1066,8 +1153,11 @@
 				CE8264EE239A4C82008A533C /* HRSecuritySimpleView.m in Sources */,
 				CE1C1E1423A218A400D4222F /* HRBaseDataModel.m in Sources */,
 				70249651228CFFA900BA01E0 /* HMScanerCardViewController.m in Sources */,
+				CE177CFC23BEE03900F17039 /* HRChart.m in Sources */,
 				CEFADD7723A3229E00ECE114 /* HRMJExtensionController.m in Sources */,
+				CE177D0223BEE03900F17039 /* HBCharts.m in Sources */,
 				CEE22AA623A0BBB8006D256B /* YHMyViewController.m in Sources */,
+				CE177D0023BEE03900F17039 /* HRPieForeBGView.m in Sources */,
 				7024964A228CFFA900BA01E0 /* HRQRViewController.m in Sources */,
 				7024965C228CFFA900BA01E0 /* DBTipView.m in Sources */,
 				CEAC99C822F047F6003DBFE3 /* HREntenseButton.m in Sources */,
@@ -1079,16 +1169,20 @@
 				CEC7404F23B9A8A500B37191 /* Utils.m in Sources */,
 				CE5CCC742394A9470030269D /* XLVideoPlayer.m in Sources */,
 				70249606228CFF7900BA01E0 /* UILabel+Extend.m in Sources */,
+				CE177CFD23BEE03900F17039 /* HRPieItemsView.m in Sources */,
 				70249645228CFFA900BA01E0 /* UIView+directionBorder.m in Sources */,
+				CE177D0123BEE03900F17039 /* HBBarChartView.m in Sources */,
 				CE8264E5239A3937008A533C /* HRTopRotateView.m in Sources */,
 				CECF7CE4234DCCB000DA2A3B /* YHRepairRecordCenterView.m in Sources */,
 				70249647228CFFA900BA01E0 /* NewPagedFlowView.m in Sources */,
 				CEE22AB023A0BF33006D256B /* YHMySimpleModel.m in Sources */,
 				70249655228CFFA900BA01E0 /* NSUtil.m in Sources */,
 				CE8081FE239E39F400DF64EE /* UIResponder+HBRouter.m in Sources */,
+				CE177D0523BEE03900F17039 /* HBLineChartView.m in Sources */,
 				CEE22AAD23A0BF21006D256B /* YHMySimpleCell.m in Sources */,
 				70249604228CFF7900BA01E0 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				CEE22A9E239F8052006D256B /* HRShowInfoView.m in Sources */,
+				CE177D0423BEE03900F17039 /* HCPieChartView.m in Sources */,
 				CEFADD7E23A35FC900ECE114 /* HRDemo1Controller.m in Sources */,
 				CE1C1E1A23A218FC00D4222F /* HRBaseSimpleCell.m in Sources */,
 				CE8264F1239A52DC008A533C /* HRFunctionSimpleViewCell.m in Sources */,
@@ -1106,7 +1200,10 @@
 				7024964D228CFFA900BA01E0 /* HMScannerMaskView.m in Sources */,
 				7024964F228CFFA900BA01E0 /* HMScanner.m in Sources */,
 				70249600228CFF7900BA01E0 /* UIColor+ChangeColor.m in Sources */,
+				CE177CFE23BEE03900F17039 /* HRShowInfoView.m in Sources */,
 				CEE22A9D239F8052006D256B /* HRPieItemsView.m in Sources */,
+				CE177CFF23BEE03900F17039 /* HRPieChartView.m in Sources */,
+				CE177D0323BEE03900F17039 /* HBPieChartView.m in Sources */,
 				CE1C1E1723A218DF00D4222F /* HRBaseModel.m in Sources */,
 				70249603228CFF7900BA01E0 /* WHSNavItemView.m in Sources */,
 				CE8264E2239A3415008A533C /* HRFunctionViewController.m in Sources */,
@@ -1133,6 +1230,7 @@
 				CE8081E6239E327000DF64EE /* BMKShowMapPage.m in Sources */,
 				CE1C1E1E23A219C400D4222F /* UITableView+CellIdentifiers.m in Sources */,
 				CE5CCC792394A9BC0030269D /* HRVideoPlayerViewController.m in Sources */,
+				CE177D0623BEE03900F17039 /* HCDecimalNumberTool.m in Sources */,
 				CEC7404C23B98CC000B37191 /* HRTextField.m in Sources */,
 				CEAC99C122F0211E003DBFE3 /* HRCommonUtils.m in Sources */,
 				7024964C228CFFA900BA01E0 /* HMScannerBorder.m in Sources */,
@@ -1312,7 +1410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1342,7 +1440,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HRCommonTool/PrefixHeader.pch;
 				INFOPLIST_FILE = HRCommonTool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
